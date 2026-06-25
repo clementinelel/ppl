@@ -74,10 +74,7 @@
     "answers": ["118-137 MHz", "88-108 MHz", "200-300 MHz", "500-600 MHz"],
     "correct": 0,
     "explanation": "La bande aviation VHF est 118–137 MHz."
-  }
-]
-
-[
+    },
   {
     "category": "Météo",
     "question": "Que signifie TAF ?",
