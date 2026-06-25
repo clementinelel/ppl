@@ -1,0 +1,78 @@
+[
+  {
+    "category": "Météo",
+    "question": "Que signifie QNH ?",
+    "answers": [
+      "Pression ramenée au niveau de la mer",
+      "Pression standard",
+      "Température extérieure",
+      "Altitude densité"
+    ],
+    "correct": 0,
+    "explanation": "Le QNH est la pression ramenée au niveau de la mer."
+  },
+  {
+    "category": "Météo",
+    "question": "Que signifie QFE ?",
+    "answers": [
+      "Pression au niveau de la mer",
+      "Pression à l'aérodrome",
+      "Altitude standard",
+      "Température ISA"
+    ],
+    "correct": 1,
+    "explanation": "Le QFE est la pression mesurée à l'aérodrome."
+  },
+  {
+    "category": "Météo",
+    "question": "Un METAR est :",
+    "answers": [
+      "Une prévision météo",
+      "Une observation météo",
+      "Un plan de vol",
+      "Une carte des vents"
+    ],
+    "correct": 1,
+    "explanation": "Le METAR est une observation météorologique."
+  },
+  {
+    "category": "Navigation",
+    "question": "Une piste 09 correspond à :",
+    "answers": ["090°", "180°", "270°", "360°"],
+    "correct": 0,
+    "explanation": "Le numéro de piste correspond au cap magnétique."
+  },
+  {
+    "category": "Navigation",
+    "question": "Les lignes isogoniques représentent :",
+    "answers": [
+      "Température",
+      "Déclinaison magnétique",
+      "Altitude",
+      "Pression"
+    ],
+    "correct": 1,
+    "explanation": "Elles relient les points de même déclinaison magnétique."
+  },
+  {
+    "category": "Altimétrie",
+    "question": "La pression standard est :",
+    "answers": ["1013 hPa", "1000 hPa", "980 hPa", "1020 hPa"],
+    "correct": 0,
+    "explanation": "La pression standard est 1013 hPa."
+  },
+  {
+    "category": "Espaces aériens",
+    "question": "La classe G est :",
+    "answers": ["Contrôlée", "Non contrôlée", "Militaire", "Interdite"],
+    "correct": 1,
+    "explanation": "La classe G est un espace non contrôlé."
+  },
+  {
+    "category": "Radio",
+    "question": "La bande VHF aviation est :",
+    "answers": ["118-137 MHz", "88-108 MHz", "200-300 MHz", "500-600 MHz"],
+    "correct": 0,
+    "explanation": "La bande aviation VHF est 118–137 MHz."
+  }
+]

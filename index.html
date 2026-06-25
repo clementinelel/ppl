@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz PPL</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f4f6f9;
+    margin:0;
+    padding:20px;
+}
+
+.container{max-width:850px;margin:auto;}
+
+h1{text-align:center;}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.menu{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+select,button{
+    padding:12px;
+    font-size:16px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{cursor:pointer;}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+.progress{
+    height:18px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+
+.progress-bar{
+    height:100%;
+    width:0%;
+    background:#4CAF50;
+    transition:0.3s;
+}
+
+.question{
+    font-size:1.3rem;
+    margin-bottom:20px;
+}
+
+.answer{
+    width:100%;
+    padding:12px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:8px;
+    text-align:left;
+    background:#e9edf3;
+    cursor:pointer;
+}
+
+.answer:hover{background:#d8e0eb;}
+
+.correct{background:#4CAF50!important;color:white;}
+.wrong{background:#e74c3c!important;color:white;}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>✈️ Quiz PPL</h1>
+
+<div class="card">
+
+<div class="menu">
+    <select id="category"></select>
+    <button id="startBtn">Commencer</button>
+</div>
+
+<div class="topbar">
+    <div id="score">Score : 0</div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar" id="progress"></div>
+</div>
+
+<div id="question">Chargement...</div>
+<div id="answers"></div>
+
+</div>
+</div>
+
+<script>
+let questions = [];
+let quiz = [];
+let index = 0;
+let score = 0;
+
+/* 🔥 IMPORTANT : fetch + init propre */
+fetch("./questions.json")
+.then(r => r.json())
+.then(data => {
+    questions = data;
+    setupCategories();   // <-- IMPORTANT
+})
+.catch(err => {
+    document.getElementById("question").textContent =
+        "Erreur chargement JSON";
+    console.error(err);
+});
+
+function setupCategories(){
+
+    const select = document.getElementById("category");
+
+    // 🔥 RESET obligatoire (sinon bug GitHub reload)
+    select.innerHTML = "";
+
+    const cats = [...new Set(questions.map(q => q.category))];
+
+    // option "all"
+    const all = document.createElement("option");
+    all.value = "all";
+    all.textContent = "Toutes les catégories";
+    select.appendChild(all);
+
+    // catégories
+    cats.forEach(cat => {
+        const opt = document.createElement("option");
+        opt.value = cat;
+        opt.textContent = cat;
+        select.appendChild(opt);
+    });
+
+    document.getElementById("startBtn").onclick = startQuiz;
+}
+
+function startQuiz(){
+
+    const cat = document.getElementById("category").value;
+
+    quiz = (cat === "all")
+        ? [...questions]
+        : questions.filter(q => q.category === cat);
+
+    quiz = quiz.sort(() => Math.random() - 0.5);
+
+    index = 0;
+    score = 0;
+
+    showQuestion();
+}
+
+function showQuestion(){
+
+    if(index >= quiz.length){
+        document.getElementById("question").innerHTML =
+            `🎉 Terminé ! Score : ${score}/${quiz.length}`;
+
+        document.getElementById("answers").innerHTML = "";
+        return;
+    }
+
+    const q = quiz[index];
+
+    document.getElementById("question").textContent = q.question;
+
+    const answersDiv = document.getElementById("answers");
+    answersDiv.innerHTML = "";
+
+    q.answers.forEach((a,i)=>{
+
+        const btn = document.createElement("button");
+        btn.className = "answer";
+        btn.textContent = a;
+
+        btn.onclick = () => {
+
+            if(i === q.correct){
+                score++;
+                btn.classList.add("correct");
+            } else {
+                btn.classList.add("wrong");
+            }
+
+            updateUI();
+
+            setTimeout(()=>{
+                index++;
+                showQuestion();
+            }, 700);
+        };
+
+        answersDiv.appendChild(btn);
+    });
+
+    updateUI();
+}
+
+function updateUI(){
+    document.getElementById("score").textContent =
+        `Score : ${score}/${quiz.length}`;
+
+    document.getElementById("progress").style.width =
+        (index / quiz.length) * 100 + "%";
+}
+</script>
+
+</body>
+</html>
