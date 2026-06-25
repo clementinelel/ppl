@@ -76,3 +76,306 @@
     "explanation": "La bande aviation VHF est 118–137 MHz."
   }
 ]
+
+[
+  {
+    "category": "Météo",
+    "question": "Que signifie TAF ?",
+    "answers": [
+      "Observation météo",
+      "Prévision météorologique d'aérodrome",
+      "Carte des vents",
+      "Avis de turbulence"
+    ],
+    "correct": 1,
+    "explanation": "Le TAF est une prévision météorologique pour un aérodrome."
+  },
+  {
+    "category": "Météo",
+    "question": "Un cumulonimbus est associé à :",
+    "answers": [
+      "Un temps calme",
+      "Des orages",
+      "Du brouillard",
+      "Une visibilité parfaite"
+    ],
+    "correct": 1,
+    "explanation": "Les cumulonimbus sont les nuages typiques des orages."
+  },
+  {
+    "category": "Météo",
+    "question": "Le brouillard est défini par une visibilité inférieure à :",
+    "answers": [
+      "1 km",
+      "5 km",
+      "10 km",
+      "500 m"
+    ],
+    "correct": 0,
+    "explanation": "On parle généralement de brouillard lorsque la visibilité est inférieure à 1 km."
+  },
+  {
+    "category": "Météo",
+    "question": "Une isobare relie les points de :",
+    "answers": [
+      "Même altitude",
+      "Même température",
+      "Même pression",
+      "Même humidité"
+    ],
+    "correct": 2,
+    "explanation": "Une isobare relie les points de même pression atmosphérique."
+  },
+  {
+    "category": "Météo",
+    "question": "Le vent est nommé selon :",
+    "answers": [
+      "Sa destination",
+      "Son origine",
+      "Sa vitesse",
+      "Son altitude"
+    ],
+    "correct": 1,
+    "explanation": "Le vent est désigné par la direction d'où il vient."
+  },
+  {
+    "category": "Altimétrie",
+    "question": "Avec le QNH réglé correctement, l'altimètre indique :",
+    "answers": [
+      "La hauteur sol",
+      "L'altitude par rapport au niveau de la mer",
+      "Le niveau de vol",
+      "La vitesse verticale"
+    ],
+    "correct": 1,
+    "explanation": "Le QNH permet d'obtenir l'altitude par rapport au niveau moyen de la mer."
+  },
+  {
+    "category": "Altimétrie",
+    "question": "Avec 1013 hPa réglé, l'altimètre indique :",
+    "answers": [
+      "La hauteur",
+      "Le niveau de vol",
+      "L'altitude terrain",
+      "La pente de montée"
+    ],
+    "correct": 1,
+    "explanation": "Avec la pression standard réglée, l'altimètre indique un niveau de vol."
+  },
+  {
+    "category": "Altimétrie",
+    "question": "Une baisse de pression non corrigée fait :",
+    "answers": [
+      "Surestimer l'altitude",
+      "Sous-estimer l'altitude",
+      "Augmenter la vitesse",
+      "Diminuer la température"
+    ],
+    "correct": 0,
+    "explanation": "L'altimètre indiquera une altitude plus élevée que l'altitude réelle."
+  },
+  {
+    "category": "Navigation",
+    "question": "Une piste 18 est orientée vers :",
+    "answers": [
+      "090°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correct": 1,
+    "explanation": "Le numéro 18 correspond à un cap magnétique d'environ 180°."
+  },
+  {
+    "category": "Navigation",
+    "question": "Une piste 36 est orientée vers :",
+    "answers": [
+      "360°",
+      "180°",
+      "090°",
+      "270°"
+    ],
+    "correct": 0,
+    "explanation": "La piste 36 correspond à un cap d'environ 360°."
+  },
+  {
+    "category": "Navigation",
+    "question": "La déclinaison magnétique est l'angle entre :",
+    "answers": [
+      "Nord vrai et nord magnétique",
+      "Nord magnétique et sud magnétique",
+      "Cap et route",
+      "Route et dérive"
+    ],
+    "correct": 0,
+    "explanation": "La déclinaison magnétique est l'écart entre le nord vrai et le nord magnétique."
+  },
+  {
+    "category": "Navigation",
+    "question": "Le GPS fournit principalement :",
+    "answers": [
+      "Une position",
+      "La pression atmosphérique",
+      "Le carburant restant",
+      "La température moteur"
+    ],
+    "correct": 0,
+    "explanation": "Le GPS permet notamment de déterminer la position."
+  },
+  {
+    "category": "Radio",
+    "question": "Que signifie le terme 'Roger' ?",
+    "answers": [
+      "Répétez",
+      "Message reçu",
+      "Urgence",
+      "Annulation"
+    ],
+    "correct": 1,
+    "explanation": "Roger signifie que le message a été reçu."
+  },
+  {
+    "category": "Radio",
+    "question": "Le mot 'Wilco' signifie :",
+    "answers": [
+      "Je répète",
+      "Je vais exécuter",
+      "Je ne comprends pas",
+      "Message reçu uniquement"
+    ],
+    "correct": 1,
+    "explanation": "Wilco signifie 'Will comply', je vais exécuter l'instruction."
+  },
+  {
+    "category": "Radio",
+    "question": "La fréquence de détresse aéronautique VHF est :",
+    "answers": [
+      "121.500 MHz",
+      "118.000 MHz",
+      "123.450 MHz",
+      "130.000 MHz"
+    ],
+    "correct": 0,
+    "explanation": "121.500 MHz est la fréquence internationale de détresse."
+  },
+  {
+    "category": "Espaces aériens",
+    "question": "La classe A est généralement réservée :",
+    "answers": [
+      "Au trafic IFR",
+      "Aux planeurs",
+      "Aux ULM uniquement",
+      "Aux vols VFR uniquement"
+    ],
+    "correct": 0,
+    "explanation": "La classe A est normalement réservée aux vols IFR."
+  },
+  {
+    "category": "Espaces aériens",
+    "question": "Une zone P est :",
+    "answers": [
+      "Dangereuse",
+      "Réglementée",
+      "Interdite",
+      "Militaire uniquement"
+    ],
+    "correct": 2,
+    "explanation": "Une zone P est une zone interdite."
+  },
+  {
+    "category": "Espaces aériens",
+    "question": "Une zone D est :",
+    "answers": [
+      "Dangereuse",
+      "Interdite",
+      "Contrôlée",
+      "Réservée IFR"
+    ],
+    "correct": 0,
+    "explanation": "Une zone D est une zone dangereuse."
+  },
+  {
+    "category": "Facteurs humains",
+    "question": "L'hypoxie est causée par :",
+    "answers": [
+      "Un manque d'oxygène",
+      "Un excès de chaleur",
+      "Une déshydratation",
+      "Un manque de carburant"
+    ],
+    "correct": 0,
+    "explanation": "L'hypoxie correspond à un manque d'oxygène disponible pour l'organisme."
+  },
+  {
+    "category": "Facteurs humains",
+    "question": "La fatigue peut :",
+    "answers": [
+      "Améliorer la vigilance",
+      "Réduire les performances",
+      "Augmenter la précision",
+      "Réduire la consommation"
+    ],
+    "correct": 1,
+    "explanation": "La fatigue réduit les performances et la vigilance du pilote."
+  },
+  {
+    "category": "Performances",
+    "question": "Une température élevée a tendance à :",
+    "answers": [
+      "Améliorer les performances",
+      "Réduire les performances",
+      "Ne rien changer",
+      "Augmenter la portance uniquement"
+    ],
+    "correct": 1,
+    "explanation": "L'air moins dense réduit généralement les performances de l'avion."
+  },
+  {
+    "category": "Performances",
+    "question": "Une masse plus élevée entraîne généralement :",
+    "answers": [
+      "Une distance de décollage plus courte",
+      "Une distance de décollage plus longue",
+      "Aucun effet",
+      "Une vitesse de décrochage plus faible"
+    ],
+    "correct": 1,
+    "explanation": "Plus l'avion est lourd, plus la distance de décollage augmente."
+  },
+  {
+    "category": "Aérodynamique",
+    "question": "Le décrochage survient lorsque :",
+    "answers": [
+      "La vitesse est trop élevée",
+      "L'angle d'attaque est trop grand",
+      "Le moteur s'arrête",
+      "Le train est sorti"
+    ],
+    "correct": 1,
+    "explanation": "Le décrochage est provoqué par un angle d'attaque excessif."
+  },
+  {
+    "category": "Aérodynamique",
+    "question": "La portance est principalement produite par :",
+    "answers": [
+      "Les roues",
+      "Les ailes",
+      "Le moteur",
+      "La dérive"
+    ],
+    "correct": 1,
+    "explanation": "Les ailes génèrent la majeure partie de la portance."
+  },
+  {
+    "category": "Aérodynamique",
+    "question": "Les ailerons contrôlent :",
+    "answers": [
+      "Le lacet",
+      "Le roulis",
+      "Le tangage",
+      "La puissance"
+    ],
+    "correct": 1,
+    "explanation": "Les ailerons permettent le contrôle du roulis."
+  }
+]
