@@ -35,6 +35,33 @@ h1{
     box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
+/* ===== TABS ===== */
+.tabs {
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+}
+
+.tab-btn {
+    padding:12px 24px;
+    border:none;
+    border-radius:8px;
+    font-size:1rem;
+    cursor:pointer;
+    background:#e9edf3;
+    transition:0.3s;
+}
+
+.tab-btn:hover {
+    background:#d8e0eb;
+}
+
+.tab-btn.active {
+    background:#4CAF50;
+    color:white;
+}
+
 /* ===== MENU RESPONSIVE ===== */
 .menu{
     display:flex;
@@ -152,6 +179,64 @@ h1{
     color:#856404;
 }
 
+/* ===== REVISION CARDS ===== */
+.revision-card {
+    background:#f8f9fa;
+    border-radius:10px;
+    padding:18px 20px;
+    margin-bottom:12px;
+    border-left:4px solid #4CAF50;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.revision-card:hover {
+    background:#eef1f5;
+    transform:translateX(5px);
+}
+
+.revision-card h3 {
+    margin:0 0 6px 0;
+    font-size:1.1rem;
+    color:#2c3e50;
+}
+
+.revision-card p {
+    margin:0;
+    color:#555;
+    font-size:0.95rem;
+    line-height:1.5;
+}
+
+.revision-card .tag {
+    display:inline-block;
+    background:#4CAF50;
+    color:white;
+    font-size:0.7rem;
+    padding:2px 10px;
+    border-radius:12px;
+    margin-top:8px;
+}
+
+.cat-filter-btn {
+    padding:8px 16px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    background:#e9edf3;
+    transition:0.3s;
+    font-size:0.85rem;
+}
+
+.cat-filter-btn:hover {
+    background:#d8e0eb;
+}
+
+.cat-filter-btn.active {
+    background:#4CAF50;
+    color:white;
+}
+
 /* ===== RESPONSIVE SMALL SCREENS ===== */
 @media (max-width: 500px){
     body{
@@ -200,11 +285,13 @@ h1{
 <div class="container">
 
 <h1>✈️ Quiz PPL</h1>
+
 <!-- Boutons de navigation -->
 <div class="tabs">
     <button class="tab-btn active" data-tab="quiz">📝 Quiz</button>
     <button class="tab-btn" data-tab="revision">📚 Fiches de révision</button>
 </div>
+
 <div class="card">
 
     <!-- MENU QUIZ -->
@@ -233,35 +320,13 @@ h1{
 
     <!-- SECTION FICHES DE RÉVISION -->
     <div id="revisionSection" style="display:none;">
-        <div style="display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap;">
-            <button id="allCatBtn" class="cat-filter-btn active" data-cat="all">Toutes</button>
+        <div style="display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap;" id="filterContainer">
+            <button class="cat-filter-btn active" data-cat="all">Toutes</button>
         </div>
-        <div id="revisionCards"></div>
+        <div id="revisionCards">
+            <p style="text-align:center;color:#888;padding:40px 0;">Chargement des fiches...</p>
+        </div>
     </div>
-
-</div>
-
-<div class="menu">
-    <select id="category"></select>
-    <button id="startBtn">Commencer</button>
-</div>
-
-<div class="topbar">
-    <div id="score">Score : 0</div>
-</div>
-
-<div class="progress">
-    <div class="progress-bar" id="progress"></div>
-</div>
-
-<div id="question">Chargement...</div>
-<div id="answers"></div>
-
-<!-- Zone pour l'explication -->
-<div class="explanation-box" id="explanationBox">
-    <strong>✅ Bonne réponse :</strong> <span id="correctAnswerText"></span><br>
-    <strong>📖 Explication :</strong> <span id="explanationText"></span>
-</div>
 
 </div>
 </div>
@@ -272,19 +337,42 @@ let quiz = [];
 let index = 0;
 let score = 0;
 let isAnswered = false;
+let revisionData = {};
 
-fetch("./questions.json")
-.then(r => r.json())
-.then(data => {
-    questions = data;
+// ===== CHARGEMENT DES DONNÉES =====
+Promise.all([
+    fetch("./questions.json").then(r => r.json()),
+    fetch("./revisions.json").then(r => r.json()).catch(() => ({}))
+])
+.then(([questionsData, revisionsData]) => {
+    questions = questionsData;
+    revisionData = revisionsData;
     setupCategories();
+    setupRevisionFilters();
+    renderRevisionCards('all');
 })
 .catch(err => {
-    document.getElementById("question").textContent =
-        "Erreur chargement JSON";
+    document.getElementById("question").textContent = "Erreur chargement JSON";
     console.error(err);
 });
 
+// ===== ONGLETS =====
+document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.onclick = function() {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+
+        const tab = this.dataset.tab;
+        document.getElementById('quizSection').style.display = tab === 'quiz' ? 'block' : 'none';
+        document.getElementById('revisionSection').style.display = tab === 'revision' ? 'block' : 'none';
+
+        if (tab === 'revision') {
+            renderRevisionCards(getActiveCategory());
+        }
+    };
+});
+
+// ===== SETUP CATEGORIES (Quiz) =====
 function setupCategories(){
     const select = document.getElementById("category");
     select.innerHTML = "";
@@ -306,6 +394,78 @@ function setupCategories(){
     document.getElementById("startBtn").onclick = startQuiz;
 }
 
+// ===== SETUP FILTRES (Révision) =====
+function setupRevisionFilters() {
+    const container = document.getElementById('filterContainer');
+    const cats = Object.keys(revisionData);
+
+    // Garder le bouton "Toutes"
+    container.innerHTML = '';
+    const allBtn = document.createElement('button');
+    allBtn.className = 'cat-filter-btn active';
+    allBtn.dataset.cat = 'all';
+    allBtn.textContent = 'Toutes';
+    allBtn.onclick = function() { filterRevision('all', this); };
+    container.appendChild(allBtn);
+
+    cats.forEach(cat => {
+        const btn = document.createElement('button');
+        btn.className = 'cat-filter-btn';
+        btn.dataset.cat = cat;
+        btn.textContent = cat;
+        btn.onclick = function() { filterRevision(cat, this); };
+        container.appendChild(btn);
+    });
+}
+
+// ===== FILTRER LES FICHES =====
+function filterRevision(cat, activeBtn) {
+    document.querySelectorAll('.cat-filter-btn').forEach(b => b.classList.remove('active'));
+    if (activeBtn) activeBtn.classList.add('active');
+    renderRevisionCards(cat);
+}
+
+function getActiveCategory() {
+    const active = document.querySelector('.cat-filter-btn.active');
+    return active ? active.dataset.cat : 'all';
+}
+
+// ===== AFFICHER LES FICHES =====
+function renderRevisionCards(category) {
+    const container = document.getElementById('revisionCards');
+    container.innerHTML = '';
+
+    let cards = [];
+    if (category === 'all') {
+        Object.keys(revisionData).forEach(cat => {
+            revisionData[cat].forEach(item => {
+                cards.push({ ...item, category: cat });
+            });
+        });
+    } else {
+        if (revisionData[category]) {
+            cards = revisionData[category].map(item => ({ ...item, category }));
+        }
+    }
+
+    if (cards.length === 0) {
+        container.innerHTML = '<p style="text-align:center;color:#888;padding:40px 0;">Aucune fiche de révision pour cette catégorie.</p>';
+        return;
+    }
+
+    cards.forEach(card => {
+        const div = document.createElement('div');
+        div.className = 'revision-card';
+        div.innerHTML = `
+            <h3>📌 ${card.titre}</h3>
+            <p>${card.contenu}</p>
+            <span class="tag">${card.category}</span>
+        `;
+        container.appendChild(div);
+    });
+}
+
+// ===== QUIZ =====
 function startQuiz(){
     const cat = document.getElementById("category").value;
 
@@ -322,7 +482,6 @@ function startQuiz(){
 }
 
 function showQuestion(){
-    // Cacher l'explication
     const explanationBox = document.getElementById("explanationBox");
     explanationBox.classList.remove("show");
     isAnswered = false;
@@ -330,13 +489,11 @@ function showQuestion(){
     if(index >= quiz.length){
         document.getElementById("question").innerHTML =
             `🎉 Terminé ! Score : ${score}/${quiz.length}`;
-
         document.getElementById("answers").innerHTML = "";
         return;
     }
 
     const q = quiz[index];
-
     document.getElementById("question").textContent = q.question;
 
     const answersDiv = document.getElementById("answers");
@@ -349,12 +506,10 @@ function showQuestion(){
         btn.dataset.index = i;
 
         btn.onclick = () => {
-            if (isAnswered) return; // Empêche de répondre plusieurs fois
+            if (isAnswered) return;
             isAnswered = true;
 
             const isCorrect = (i === q.correct);
-
-            // Colorer toutes les réponses
             const allBtns = answersDiv.querySelectorAll(".answer");
             allBtns.forEach((b, idx) => {
                 b.disabled = true;
@@ -369,16 +524,13 @@ function showQuestion(){
                 score++;
             }
 
-            // Afficher l'explication
             showExplanation(q, i);
-
             updateUI();
 
-            // Passer à la question suivante après un délai plus long pour lire l'explication
             setTimeout(() => {
                 index++;
                 showQuestion();
-            }, 10000);
+            }, 3000);
         };
 
         answersDiv.appendChild(btn);
@@ -392,26 +544,19 @@ function showExplanation(q, selectedIndex){
     const correctAnswerText = document.getElementById("correctAnswerText");
     const explanationText = document.getElementById("explanationText");
 
-    // Récupérer le texte de la bonne réponse
     const correctAnswer = q.answers[q.correct];
-
-    // Vérifier si la réponse sélectionnée est correcte
     const isCorrect = (selectedIndex === q.correct);
 
     if (isCorrect) {
-        // Si correct : message vert
         explanationBox.style.borderLeftColor = "#28a745";
         explanationBox.style.background = "#d4edda";
-        correctAnswerText.textContent = correctAnswer;
-        explanationText.textContent = q.explanation;
     } else {
-        // Si faux : message orange/jaune avec la bonne réponse mise en évidence
         explanationBox.style.borderLeftColor = "#ffc107";
         explanationBox.style.background = "#fff3cd";
-        correctAnswerText.textContent = correctAnswer;
-        explanationText.textContent = q.explanation;
     }
 
+    correctAnswerText.textContent = correctAnswer;
+    explanationText.textContent = q.explanation;
     explanationBox.classList.add("show");
 }
 
