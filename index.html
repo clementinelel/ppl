@@ -6,46 +6,82 @@
 <title>Quiz PPL</title>
 
 <style>
-body{
-    font-family: Arial;
-    background:#f4f6f9;
-    margin:0;
-    padding:20px;
+* {
+    box-sizing: border-box;
 }
 
-.container{max-width:850px;margin:auto;}
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+    padding:15px;
+}
 
-h1{text-align:center;}
+.container{
+    max-width:850px;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+    font-size:1.8rem;
+    word-break:break-word;
+}
 
 .card{
     background:white;
-    padding:25px;
+    padding:20px;
     border-radius:12px;
     box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
+/* ===== MENU RESPONSIVE ===== */
 .menu{
     display:flex;
+    flex-wrap:wrap;          /* Permet le retour à la ligne */
     gap:10px;
     margin-bottom:20px;
+    align-items:center;
 }
 
-select,button{
+.menu select{
+    flex:1 1 200px;          /* Prend la place disponible */
+    min-width:150px;
     padding:12px;
     font-size:16px;
     border-radius:8px;
     border:1px solid #ccc;
+    background:white;
 }
 
-button{cursor:pointer;}
+.menu button{
+    flex:0 0 auto;           /* Ne s'étire pas */
+    padding:12px 24px;
+    font-size:16px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    cursor:pointer;
+    white-space:nowrap;      /* Empêche le texte de couper */
+}
 
+.menu button:hover{
+    background:#43a047;
+}
+
+/* ===== TOPBAR ===== */
 .topbar{
     display:flex;
     justify-content:space-between;
     margin-bottom:10px;
     font-weight:bold;
+    flex-wrap:wrap;
+    gap:5px;
 }
 
+/* ===== PROGRESS ===== */
 .progress{
     height:18px;
     background:#ddd;
@@ -61,26 +97,82 @@ button{cursor:pointer;}
     transition:0.3s;
 }
 
+/* ===== QUESTION ===== */
 .question{
-    font-size:1.3rem;
+    font-size:1.2rem;
     margin-bottom:20px;
+    word-break:break-word;
+    line-height:1.5;
 }
 
+/* ===== ANSWERS ===== */
 .answer{
     width:100%;
-    padding:12px;
+    padding:12px 16px;
     margin-bottom:10px;
     border:none;
     border-radius:8px;
     text-align:left;
     background:#e9edf3;
     cursor:pointer;
+    font-size:1rem;
+    word-break:break-word;
 }
 
-.answer:hover{background:#d8e0eb;}
+.answer:hover{
+    background:#d8e0eb;
+}
 
-.correct{background:#4CAF50!important;color:white;}
-.wrong{background:#e74c3c!important;color:white;}
+.correct{
+    background:#4CAF50!important;
+    color:white;
+}
+
+.wrong{
+    background:#e74c3c!important;
+    color:white;
+}
+
+/* ===== RESPONSIVE SMALL SCREENS ===== */
+@media (max-width: 500px){
+    body{
+        padding:10px;
+    }
+
+    .card{
+        padding:15px;
+    }
+
+    h1{
+        font-size:1.4rem;
+    }
+
+    .menu select{
+        flex:1 1 100%;
+        min-width:unset;
+    }
+
+    .menu button{
+        flex:1 1 100%;
+        width:100%;
+        text-align:center;
+        padding:14px;
+        white-space:normal;
+    }
+
+    .question{
+        font-size:1.1rem;
+    }
+
+    .answer{
+        padding:14px 16px;
+        font-size:0.95rem;
+    }
+
+    .topbar{
+        font-size:0.9rem;
+    }
+}
 </style>
 </head>
 
@@ -117,12 +209,11 @@ let quiz = [];
 let index = 0;
 let score = 0;
 
-/* 🔥 IMPORTANT : fetch + init propre */
 fetch("./questions.json")
 .then(r => r.json())
 .then(data => {
     questions = data;
-    setupCategories();   // <-- IMPORTANT
+    setupCategories();
 })
 .catch(err => {
     document.getElementById("question").textContent =
@@ -131,21 +222,16 @@ fetch("./questions.json")
 });
 
 function setupCategories(){
-
     const select = document.getElementById("category");
-
-    // 🔥 RESET obligatoire (sinon bug GitHub reload)
     select.innerHTML = "";
 
     const cats = [...new Set(questions.map(q => q.category))];
 
-    // option "all"
     const all = document.createElement("option");
     all.value = "all";
     all.textContent = "Toutes les catégories";
     select.appendChild(all);
 
-    // catégories
     cats.forEach(cat => {
         const opt = document.createElement("option");
         opt.value = cat;
@@ -157,7 +243,6 @@ function setupCategories(){
 }
 
 function startQuiz(){
-
     const cat = document.getElementById("category").value;
 
     quiz = (cat === "all")
@@ -173,7 +258,6 @@ function startQuiz(){
 }
 
 function showQuestion(){
-
     if(index >= quiz.length){
         document.getElementById("question").innerHTML =
             `🎉 Terminé ! Score : ${score}/${quiz.length}`;
@@ -190,13 +274,11 @@ function showQuestion(){
     answersDiv.innerHTML = "";
 
     q.answers.forEach((a,i)=>{
-
         const btn = document.createElement("button");
         btn.className = "answer";
         btn.textContent = a;
 
         btn.onclick = () => {
-
             if(i === q.correct){
                 score++;
                 btn.classList.add("correct");
