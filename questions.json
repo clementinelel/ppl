@@ -49,8 +49,7 @@
       "Température",
       "Déclinaison magnétique",
       "Altitude",
-      "Pression"
-    ],
+      "Pression"],
     "correct": 1,
     "explanation": "Elles relient les points de même déclinaison magnétique."
   },
@@ -374,5 +373,1349 @@
     ],
     "correct": 1,
     "explanation": "Les ailerons permettent le contrôle du roulis."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Laquelle des lois suivantes n'a pas été découverte par Isaac Newton ?",
+    "answers": [
+      "Inertie",
+      "Accélération et décélération",
+      "Action-Réaction",
+      "Effet Venturi"
+    ],
+    "correct": 3,
+    "explanation": "L'effet Venturi a été découvert par le physicien italien Giovanni Battista Venturi, pas par Newton. Les trois autres sont les lois de Newton."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "L'énoncé suivant représente quelle loi de Newton ? 'Un corps en mouvement tend à demeurer en mouvement.'",
+    "answers": [
+      "Inertie",
+      "Effet Venturi",
+      "Accélération et décélération",
+      "Action-Réaction"
+    ],
+    "correct": 0,
+    "explanation": "Il s'agit de la première loi de Newton, aussi appelée principe d'inertie. Un corps conserve son état de mouvement ou de repos tant qu'aucune force extérieure ne s'applique."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Selon le théorème de Bernoulli, dans un système fermé, lorsque l'on augmente la vélocité, la pression :",
+    "answers": [
+      "diminue.",
+      "reste constante.",
+      "augmente.",
+      "augmente de façon égale et opposée."
+    ],
+    "correct": 0,
+    "explanation": "Le théorème de Bernoulli énonce que dans un écoulement fluide, une augmentation de vitesse s'accompagne d'une diminution de pression. C'est le principe fondamental qui explique la portance des ailes."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel exemple ci-dessous représente la troisième loi de Newton (Action-Réaction) ?",
+    "answers": [
+      "Une hélice qui permet de faire avancer un avion.",
+      "Une fusée au décollage.",
+      "La déflexion de l'air vers le bas sur l'aile.",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "Tous ces exemples illustrent le principe d'action-réaction : l'hélice pousse l'air vers l'arrière (action) et l'avion avance (réaction), la fusée expulse des gaz vers le bas (action) et monte (réaction), l'aile dévie l'air vers le bas (action) et génère une portance vers le haut (réaction)."
+  },
+{
+    "category": "Mécanique de vol",
+    "question": "La portance agit :",
+    "answers": [
+      "perpendiculairement à la corde de l'aile.",
+      "parallèlement au vent relatif.",
+      "toujours parallèlement au poids.",
+      "perpendiculairement au vent relatif."
+    ],
+    "correct": 3,
+    "explanation": "La portance est la force aérodynamique qui agit perpendiculairement au vent relatif. Elle est générée par la différence de pression entre l'extrados et l'intrados de l'aile."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "L'angle d'attaque est :",
+    "answers": [
+      "l'angle entre la corde de l'aile et l'axe longitudinal.",
+      "l'angle entre la cambrure et le vent relatif.",
+      "l'angle entre la corde de l'aile et le sol.",
+      "l'angle entre la corde de l'aile et le vent relatif."
+    ],
+    "correct": 3,
+    "explanation": "L'angle d'attaque (α) est l'angle formé par la corde de l'aile et la direction du vent relatif. C'est un paramètre fondamental en aérodynamique qui détermine la portance générée."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Que se passe-t-il avec la portance lorsque l'angle d'attaque augmente ?",
+    "answers": [
+      "La portance diminue avec l'angle d'attaque dû à la perte de vitesse.",
+      "La portance diminue avec l'augmentation de l'angle d'attaque jusqu'à ce que l'angle de décrochage soit atteint.",
+      "La portance augmente avec l'augmentation de l'angle d'attaque jusqu'à ce que l'angle d'attaque critique soit atteint.",
+      "La portance augmente tant que l'angle d'attaque augmente."
+    ],
+    "correct": 2,
+    "explanation": "La portance augmente proportionnellement avec l'angle d'attaque jusqu'à atteindre l'angle d'attaque critique (généralement entre 15° et 18°). Au-delà, le décrochage survient et la portance chute brutalement."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Que se passe-t-il avec la portance lorsque l'angle d'attaque augmente ? (bis)",
+    "answers": [
+      "La portance diminue avec l'angle d'attaque dû à la perte de vitesse.",
+      "La portance augmente avec l'augmentation de l'angle d'attaque jusqu'à ce que l'angle d'attaque critique soit atteint.",
+      "La portance augmente tant que l'angle d'attaque augmente.",
+      "La portance diminue avec l'augmentation de l'angle d'attaque jusqu'à ce que l'angle de décrochage soit atteint."
+    ],
+    "correct": 1,
+    "explanation": "La portance augmente avec l'angle d'attaque jusqu'à l'angle critique. C'est la même réponse que la question précédente, avec un ordre des réponses différent."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Laquelle des définitions suivantes définit le centre de poussée ?",
+    "answers": [
+      "Résultante des forces de poids qui s'exercent sur un corps.",
+      "Résultante des forces de traction ou de poussée qui s'exercent sur un profil.",
+      "Transition entre l'écoulement d'air laminaire et turbulent.",
+      "Résultante des forces de portance qui s'exercent sur un profil."
+    ],
+    "correct": 3,
+    "explanation": "Le centre de poussée (ou centre de pression) est le point d'application de la résultante des forces aérodynamiques (portance + traînée) qui s'exercent sur un profil. C'est le point où l'on peut considérer que toutes les forces aérodynamiques s'appliquent."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Un profil aérodynamique est :",
+    "answers": [
+      "Élément conçu pour créer une réaction aérodynamique lors de son déplacement dans un fluide.",
+      "Élément conçu afin de diminuer le poids apparent de l'avion en vol.",
+      "Élément aérodynamique qui ne génère aucune traînée de forme.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 0,
+    "explanation": "Un profil aérodynamique est un élément dont la forme est spécialement étudiée pour créer une réaction aérodynamique (portance et/ou traînée) lors de son déplacement dans un fluide comme l'air."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "La partie la plus épaisse d'un profil laminaire se trouve à ________ .",
+    "answers": [
+      "25% de corde de l'aile.",
+      "50% de l'envergure de l'aile.",
+      "50% de corde de l'aile.",
+      "75% de corde de l'aile."
+    ],
+    "correct": 2,
+    "explanation": "Contrairement aux profils conventionnels où l'épaisseur maximale se situe vers 25-30% de la corde, les profils laminaires ont leur épaisseur maximale située vers 50% de la corde. Cela permet de maintenir un écoulement laminaire sur une plus grande partie de l'aile."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Comment sont créés les tourbillons de bout d'aile qui causent la traînée induite ?",
+    "answers": [
+      "La différence de pression entre l'intrados et l'extrados de l'aile.",
+      "Le passage de l'écoulement laminaire à l'écoulement turbulent sur l'extrados de l'aile.",
+      "L'effet de Venturi qui crée une basse pression sur le dessous de l'aile.",
+      "Réponses A et C."
+    ],
+    "correct": 0,
+    "explanation": "Les tourbillons de bout d'aile sont créés par la différence de pression entre l'intrados (haute pression) et l'extrados (basse pression). En bout d'aile, l'air sous pression de l'intrados contourne l'extrémité de l'aile pour rejoindre la zone de basse pression de l'extrados, créant ainsi un tourbillon."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel est l'angle d'attaque critique moyen d'une aile ?",
+    "answers": [
+      "10°",
+      "15°",
+      "17°",
+      "Entre 10° et 18° selon le profil."
+    ],
+    "correct": 3,
+    "explanation": "L'angle d'attaque critique varie généralement entre 10° et 18° selon la forme du profil aérodynamique, le nombre de Reynolds et d'autres paramètres. Il n'existe pas de valeur unique, chaque profil a son propre angle critique."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "L'angle d'incidence d'une aile est :",
+    "answers": [
+      "Angle formé entre la corde de l'aile et le vent relatif.",
+      "Angle formé par la corde de l'aile et l'axe de référence du fuselage.",
+      "Angle formé entre la corde de l'aile et le sol.",
+      "Angle entre l'envergure de l'aile et l'axe latéral de l'avion."
+    ],
+    "correct": 1,
+    "explanation": "L'angle d'incidence est l'angle fixe entre la corde de l'aile et l'axe longitudinal de référence du fuselage. Contrairement à l'angle d'attaque qui varie en vol, l'angle d'incidence est une caractéristique de construction de l'avion."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "La majorité de la portance de l'aile est créée par la basse pression sur le dessus de l'aile ?",
+    "answers": [
+      "Vrai",
+      "Faux"
+    ],
+    "correct": 0,
+    "explanation": "Vrai. La portance est principalement générée par la dépression (basse pression) créée sur l'extrados (dessus) de l'aile. L'effet de succion sur le dessus de l'aile contribue à environ 60-70% de la portance totale, contre 30-40% pour la surpression sur l'intrados."
+  },
+
+  {
+    "category": "Mécanique de vol",
+    "question": "Afin de créer la traction, l'hélice déplace _______ à une vitesse _______ .",
+    "answers": [
+      "grande masse d'air, relativement grande.",
+      "petite masse d'air, relativement grande.",
+      "petite masse d'air, relativement faible.",
+      "grande masse d'air, relativement lente."
+    ],
+    "correct": 1,
+    "explanation": "Pour créer de la traction, une hélice déplace une petite masse d'air à une vitesse relativement grande. C'est le principe de la propulsion par réaction : en accélérant une petite quantité d'air à grande vitesse, on génère une force de traction importante."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel est l'avantage d'une hélice avec un petit pas ?",
+    "answers": [
+      "Réduit l'effet de couple de l'hélice.",
+      "Bonne performance en croisière et en descente.",
+      "Bonne performance au décollage et en montée.",
+      "Augmente la course au décollage et augmente le taux de montée."
+    ],
+    "correct": 2,
+    "explanation": "Un petit pas d'hélice (pas fin) permet une meilleure accélération et de meilleures performances au décollage et en montée. En revanche, il limite la vitesse de croisière car l'avance par tour est plus faible. C'est un compromis entre performance en montée et vitesse de croisière."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Pourquoi l'hélice est-elle tordue afin d'avoir un angle plus grand à l'emplanture et un petit angle à son extrémité ?",
+    "answers": [
+      "Afin de développer une traction égale sur toute la longueur de l'hélice.",
+      "Éviter la sur-vitesse de l'extrémité de la pale de l'hélice.",
+      "Diminuer l'effet de traction asymétrique.",
+      "Afin de développer plus de traction sur la portion la plus solide de l'hélice."
+    ],
+    "correct": 0,
+    "explanation": "L'hélice est tordue pour que chaque section de la pale travaille au même angle d'attaque optimal. L'extrémité de la pale se déplace plus vite que l'emplanture, donc l'angle doit être plus petit à l'extrémité pour éviter le décrochage et développer une traction uniforme sur toute la longueur de la pale."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Dans le cas d'une hélice qui tourne dans le sens horaire, lorsque l'on augmente la puissance, l'avion effectuera un mouvement de lacet vers la ________ causé par _______ .",
+    "answers": [
+      "gauche, l'effet de couple.",
+      "gauche, le souffle de l'hélice.",
+      "droite, l'effet de couple.",
+      "Réponses A et B."
+    ],
+    "correct": 0,
+    "explanation": "Avec une hélice tournant dans le sens horaire (vue du cockpit), l'effet de couple fait tourner l'avion vers la gauche. C'est une conséquence de la troisième loi de Newton : l'hélice tourne dans un sens et l'avion a tendance à tourner dans le sens opposé."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Lors d'une montée pleine puissance, l'avion sera entraîné vers la gauche. Quel effet de l'hélice cause ce changement de direction ?",
+    "answers": [
+      "Traction asymétrique",
+      "Souffle de l'hélice",
+      "Effet de couple",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "En montée pleine puissance, plusieurs effets de l'hélice contribuent au lacet vers la gauche : l'effet de couple (réaction au sens de rotation), le souffle de l'hélice qui frappe la dérive, et la traction asymétrique (la pale descendante produit plus de traction que la pale montante)."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Pour quelle raison peut-on placer l'hélice en drapeau sur certains avions ?",
+    "answers": [
+      "Augmenter la vitesse de rotation de l'hélice.",
+      "Réduire la traînée de l'hélice en cas de panne.",
+      "Augmenter le pas de l'hélice lors du vol en croisière.",
+      "Placer l'hélice avant l'inversion du pas."
+    ],
+    "correct": 1,
+    "explanation": "Le mise en drapeau (feathering) consiste à orienter les pales de l'hélice parallèlement au vent relatif. Cette manœuvre est utilisée en cas de panne moteur pour réduire considérablement la traînée générée par une hélice immobile, améliorant ainsi les performances de vol en planeur."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel instrument indique la puissance du moteur sur un avion équipé d'une hélice à pas variable ?",
+    "answers": [
+      "Le tachymètre (RPM).",
+      "L'indicateur de pression d'huile.",
+      "Indicateur de pression d'admission.",
+      "L'anémomètre."
+    ],
+    "correct": 2,
+    "explanation": "Sur un avion à hélice à pas variable, le tachymètre (RPM) indique la vitesse de rotation, mais la puissance réelle est mesurée par l'indicateur de pression d'admission (manifold pressure). C'est la combinaison du régime moteur et de la pression d'admission qui donne la puissance effective."
+  },
+
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel est le nom de la partie avant de l'aile ?",
+    "answers": [
+      "Emplanture",
+      "Bord de fuite",
+      "Bord d'attaque",
+      "Cambrure"
+    ],
+    "correct": 2,
+    "explanation": "Le bord d'attaque est la partie avant de l'aile, celle qui rencontre en premier le vent relatif. C'est la zone où l'écoulement d'air se sépare pour passer sur l'extrados et l'intrados."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Comment appelle-t-on la courbe moyenne de l'aile entre l'avant et l'arrière de l'aile ?",
+    "answers": [
+      "Cambrure moyenne",
+      "Corde moyenne",
+      "Extrados de l'aile",
+      "Allongement moyen"
+    ],
+    "correct": 0,
+    "explanation": "La cambrure moyenne (ou ligne moyenne) est la courbe qui relie les points situés à mi-chemin entre l'extrados et l'intrados de l'aile, de l'avant vers l'arrière. Elle définit la courbure générale du profil aérodynamique."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Lequel des avions suivants possède le plus grand allongement ?",
+    "answers": [
+      "Envergure de 32 pieds et corde de 3 pieds.",
+      "Envergure de 50 pieds et corde de 2 pieds.",
+      "Envergure de 40 pieds et corde de 3 pieds.",
+      "Envergure de 70 pieds et corde de 6 pieds."
+    ],
+    "correct": 1,
+    "explanation": "L'allongement est le rapport entre l'envergure et la corde moyenne (E/C). Calculs : A) 32/3 = 10,67 ; B) 50/2 = 25 ; C) 40/3 = 13,33 ; D) 70/6 = 11,67. L'avion B possède donc le plus grand allongement, ce qui lui confère une meilleure efficacité aérodynamique."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel est l'avantage d'un profil d'aile conventionnel ?",
+    "answers": [
+      "Bonne performance à basse vitesse.",
+      "Profil conçu pour le vol inversé.",
+      "Profil conçu pour le vol acrobatique.",
+      "Bonne performance à haute vitesse."
+    ],
+    "correct": 0,
+    "explanation": "Les profils conventionnels (asymétriques) offrent de bonnes performances à basse vitesse. Ils génèrent une portance importante à faible vitesse grâce à leur cambrure, ce qui les rend adaptés aux avions d'école et de tourisme. Ils ne conviennent pas au vol inversé contrairement aux profils symétriques."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Les volets sont conçus pour :",
+    "answers": [
+      "réduire la portance et la traînée de l'avion.",
+      "augmenter la portance et réduire la traînée.",
+      "augmenter la portance et la traînée de l'avion.",
+      "réduire la portance et augmenter la traînée de l'avion."
+    ],
+    "correct": 2,
+    "explanation": "Les volets augmentent à la fois la portance et la traînée de l'avion. En augmentant la cambrure de l'aile, ils permettent de voler à plus faible vitesse (décollage et atterrissage) mais au prix d'une augmentation significative de la traînée."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel avantage procure le gauchissement de l'aile ?",
+    "answers": [
+      "Conserver le contrôle des ailerons le plus longtemps possible.",
+      "Augmenter la stabilité latérale.",
+      "Permet de reculer le point de transition et garder l'écoulement laminaire.",
+      "Toutes ces réponses."
+    ],
+    "correct": 0,
+    "explanation": "Le gauchissement (ou wash-out) consiste à réduire l'angle d'incidence vers l'extrémité de l'aile. Cela permet de conserver le contrôle des ailerons le plus longtemps possible en retardant le décrochage au niveau des extrémités, ce qui maintient l'efficacité des ailerons même à faible vitesse."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Lequel des énoncés suivants n'est pas une caractéristique de l'angle de dièdre ?",
+    "answers": [
+      "Il peut être positif ou négatif.",
+      "Augmente la stabilité latérale.",
+      "Augmente les performances à basse vitesse.",
+      "Augmente la maniabilité de l'avion."
+    ],
+    "correct": 2,
+    "explanation": "L'angle de dièdre n'augmente pas les performances à basse vitesse. Ses principales caractéristiques sont : il peut être positif ou négatif (anhydre), il augmente la stabilité latérale, et il réduit généralement la maniabilité (contrairement à ce qui est indiqué dans l'option D qui est également fausse, mais l'option C est celle qui n'est PAS une caractéristique du dièdre)."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Comment se nomme la tendance initiale de l'avion à reprendre sa position d'origine lorsqu'il s'en est écarté ?",
+    "answers": [
+      "Stabilité statique",
+      "Stabilité neutre",
+      "Instabilité",
+      "Stabilité dynamique"
+    ],
+    "correct": 0,
+    "explanation": "La stabilité statique est la tendance initiale d'un avion à revenir à sa position d'origine après avoir été perturbé. Si l'avion a tendance à revenir vers sa position initiale, on parle de stabilité statique positive."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel type de stabilité est décrit dans l'exemple suivant ? Après avoir cabré l'avion, le pilote relâche la pression sur les contrôles et le nez redescend. L'avion effectue ensuite une série d'oscillations qui s'accentuent avec le temps.",
+    "answers": [
+      "Stabilité statique positive et stabilité dynamique positive.",
+      "Stabilité statique positive et stabilité dynamique négative.",
+      "Stabilité statique négative et stabilité dynamique négative.",
+      "Stabilité statique négative et stabilité dynamique positive."
+    ],
+    "correct": 1,
+    "explanation": "Le nez qui redescend après avoir relâché les commandes indique une stabilité statique positive (tendance à revenir vers la position d'origine). En revanche, les oscillations qui s'accentuent avec le temps indiquent une stabilité dynamique négative (les perturbations s'amplifient)."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "La stabilité en tangage est la stabilité autour de l'axe _______ .",
+    "answers": [
+      "vertical",
+      "latéral",
+      "longitudinale",
+      "horizontal"
+    ],
+    "correct": 2,
+    "explanation": "La stabilité en tangage est la stabilité autour de l'axe longitudinal (axe de roulis). Le tangage correspond au mouvement de cabrage et de piqué autour de cet axe qui traverse l'avion d'avant en arrière."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "La stabilité en roulis est la stabilité sur l'axe _______ .",
+    "answers": [
+      "longitudinale",
+      "horizontal",
+      "vertical",
+      "latéral"
+    ],
+    "correct": 3,
+    "explanation": "La stabilité en roulis est la stabilité autour de l'axe latéral (axe de tangage). Le roulis correspond au mouvement de rotation autour de l'axe qui traverse l'avion d'une aile à l'autre."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Qu'est-ce qui permet d'augmenter la stabilité latérale d'un aéronef ?",
+    "answers": [
+      "Ailes en flèche",
+      "Angle de dièdre",
+      "Effet de quille",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "Tous ces éléments contribuent à la stabilité latérale : les ailes en flèche (effet de dièdre aérodynamique), l'angle de dièdre (inclinaison des ailes vers le haut), et l'effet de quille (surface latérale du fuselage qui agit comme une dérive)."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel est l'effet du chargement lorsque le centre de gravité se trouve à l'arrière du centre de poussée (centrage arrière) ?",
+    "answers": [
+      "Diminue les performances de l'avion.",
+      "Rend l'avion très stable.",
+      "Rend l'avion instable.",
+      "Aucun impact sur la stabilité."
+    ],
+    "correct": 2,
+    "explanation": "Un centrage arrière (CG derrière le centre de poussée) rend l'avion instable. Le centre de gravité se trouve trop en arrière, ce qui réduit le bras de levier du plan horizontal et peut rendre l'avion difficile à contrôler, voire dangereux, avec une tendance au décrochage en profondeur."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel est l'objectif premier de la dérive sur un aéronef ?",
+    "answers": [
+      "Augmenter la stabilité longitudinale.",
+      "Augmenter la stabilité verticale.",
+      "Augmenter la stabilité directionnelle.",
+      "Augmenter la stabilité latérale."
+    ],
+    "correct": 2,
+    "explanation": "La dérive (ou empennage vertical) a pour objectif premier d'augmenter la stabilité directionnelle autour de l'axe vertical. Elle agit comme une quille qui maintient l'avion aligné avec la direction du vol et permet le contrôle en lacet via le gouvernail."
+  },
+
+    {
+    "category": "Mécanique de vol",
+    "question": "La gouverne permettant d'effectuer un mouvement de tangage se nomme ?",
+    "answers": [
+      "Compensateur",
+      "Stabilisateur",
+      "Gouvernail de profondeur",
+      "Gouvernail de direction"
+    ],
+    "correct": 2,
+    "explanation": "Le gouvernail de profondeur (ou elevator en anglais) est la gouverne située sur l'empennage horizontal qui permet de contrôler le tangage de l'avion. En se déplaçant vers le haut ou vers le bas, il modifie la portance de l'empennage et fait cabrer ou piquer l'avion."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Le gouvernail de direction permet d'effectuer un mouvement de _______ .",
+    "answers": [
+      "tangage",
+      "roulis",
+      "lacet",
+      "d'inclinaison"
+    ],
+    "correct": 2,
+    "explanation": "Le gouvernail de direction (ou rudder) est la gouverne située sur l'empennage vertical. Il permet de contrôler le mouvement de lacet, c'est-à-dire la rotation de l'avion autour de son axe vertical."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quel mouvement secondaire sera créé lors d'un mouvement de lacet ?",
+    "answers": [
+      "glissade",
+      "dérapage",
+      "tangage",
+      "roulis"
+    ],
+    "correct": 3,
+    "explanation": "Lors d'un mouvement de lacet, l'avion va également subir un mouvement de roulis. En effet, la gouverne de direction n'est pas alignée avec le centre de gravité, ce qui crée un effet de couple qui fait incliner l'avion, phénomène connu sous le nom de couplage lacet-roulis."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Quelle est la cause principale du lacet inverse ?",
+    "answers": [
+      "l'effet de couple du moteur",
+      "l'aileron qui descend génère plus de traînée",
+      "l'aileron qui monte génère plus de traînée",
+      "le gauchissement de l'aile"
+    ],
+    "correct": 1,
+    "explanation": "Le lacet inverse (ou adverse yaw) est causé par l'aileron qui descend. En effet, l'aileron qui s'abaisse augmente la cambrure de l'aile, ce qui augmente la portance mais aussi la traînée induite. Cette augmentation de traînée fait pivoter l'avion dans la direction opposée au virage souhaité."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Comment peut-on diminuer l'effet du lacet inverse en virage ?",
+    "answers": [
+      "Compensateurs d'ailerons",
+      "Ailerons différentiels",
+      "Équilibrage des gouvernes",
+      "Réponses A et C"
+    ],
+    "correct": 1,
+    "explanation": "Les ailerons différentiels sont conçus pour que l'aileron qui monte se déplace davantage que l'aileron qui descend. Cela permet de réduire la traînée générée par l'aileron descendant, diminuant ainsi l'effet de lacet inverse. Les compensateurs et l'équilibrage n'agissent pas sur ce phénomène."
+  },
+  {
+    "category": "Mécanique de vol",
+    "question": "Un pilote a besoin de tirer constamment sur les contrôles afin de maintenir l'altitude et il souhaite se servir du compensateur. Dans quelle position devra-t-il placer le compensateur afin d'éliminer la pression sur les contrôles ?",
+    "answers": [
+      "il doit centrer le chargement",
+      "placer le compensateur au neutre",
+      "abaisser le compensateur",
+      "monter le compensateur"
+    ],
+    "correct": 2,
+    "explanation": "Si le pilote doit tirer constamment sur le manche pour maintenir l'altitude, cela signifie que l'avion a tendance à piquer. Pour éliminer cette pression, il doit abaisser le compensateur (trim tab), ce qui aura pour effet de déporter la gouverne de profondeur vers le bas, allégeant ainsi la force que le pilote doit exercer sur le manche."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quel instrument est connecté à la prise statique et au tube de Pitot ?",
+    "answers": [
+      "Altimètre",
+      "Variomètre",
+      "Anémomètre",
+      "Toutes ces réponses."
+    ],
+    "correct": 2,
+    "explanation": "L'anémomètre est le seul instrument qui utilise à la fois la pression statique (prise statique) et la pression totale (tube de Pitot). Il mesure la pression dynamique (pression totale - pression statique) pour déterminer la vitesse indiquée de l'avion."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Pour quelle raison place-t-on normalement la prise de pression statique le long du fuselage de l'avion ?",
+    "answers": [
+      "Ne pas recevoir la pression dynamique.",
+      "Être à l'écart du souffle de l'hélice.",
+      "Afin de capter la pression dynamique le long du fuselage.",
+      "Capter la pression totale."
+    ],
+    "correct": 0,
+    "explanation": "La prise statique est placée le long du fuselage, dans une zone où l'écoulement d'air est le moins perturbé possible, afin de capter uniquement la pression atmosphérique ambiante (pression statique) et non la pression dynamique générée par le mouvement de l'avion. Elle est généralement située à un endroit où l'air est calme."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Pourquoi le tube de Pitot est habituellement équipé d'éléments chauffants (Pitot heat) ?",
+    "answers": [
+      "Éviter le givrage de la prise de pression statique.",
+      "Éviter le givrage de la prise de pression totale.",
+      "Retrouver une lecture sur le variomètre.",
+      "Vaporiser l'eau qui entre dans le tube de Pitot."
+    ],
+    "correct": 1,
+    "explanation": "Le tube de Pitot est équipé d'un système de chauffage pour éviter le givrage de la prise de pression totale. En vol, l'humidité présente dans l'air peut geler et obstruer le tube de Pitot, ce qui rendrait l'anémomètre inopérant. Le Pitot heat permet de maintenir le tube à une température suffisante pour empêcher la formation de glace."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Sur un avion monomoteur, pourquoi le tube de Pitot se trouve habituellement sur l'aile loin du fuselage ?",
+    "answers": [
+      "Ne pas être influencé par l'air turbulent le long du fuselage.",
+      "Capter l'écoulement d'air précisément sur l'aile à son.",
+      "Ne pas être placé dans le souffle de l'hélice.",
+      "Le tube Pitot peut être placé n'importe où tant qu'il fait face au vent relatif."
+    ],
+    "correct": 2,
+    "explanation": "Sur un avion monomoteur, le tube de Pitot est placé sur l'aile, loin du fuselage, pour éviter d'être dans le souffle de l'hélice. Le souffle de l'hélice est turbulent et ne représente pas la vitesse réelle de l'avion dans l'air. Le tube de Pitot doit être placé dans un écoulement d'air non perturbé pour mesurer correctement la pression totale."
+  },
+
+    {
+    "category": "Instruments de vol",
+    "question": "La pression _______ entre dans le boîtier de l'altimètre afin de permettre la compression ou la dilatation de la capsule anéroïde.",
+    "answers": [
+      "totale",
+      "standard",
+      "dynamique",
+      "statique"
+    ],
+    "correct": 3,
+    "explanation": "La pression statique entre dans le boîtier de l'altimètre. Cette pression atmosphérique ambiante agit sur la capsule anéroïde (étanche) qui se dilate ou se comprime en fonction des variations de pression. Le mouvement de la capsule est transmis aux aiguilles de l'instrument."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle est la pression à l'intérieur de la capsule anéroïde de l'altimètre ?",
+    "answers": [
+      "1013 hPa",
+      "29.92 poHg",
+      "Pression standard (ISA)",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "La capsule anéroïde de l'altimètre est scellée et contient une pression de référence, qui est la pression standard au niveau de la mer, soit 1013 hPa (ou 29.92 poHg). Cette pression est également la pression ISA (International Standard Atmosphere) au niveau zéro."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle altitude indique l'altimètre ci-dessous ?",
+    "answers": [
+      "5400 pieds",
+      "4500 pieds",
+      "14500 pieds",
+      "1450 pieds"
+    ],
+    "correct": 0,
+    "explanation": "Sur un altimètre à trois aiguilles, la grande aiguille indique les centaines de pieds (400), la petite aiguille indique les milliers de pieds (5) et la plus petite aiguille indique les dizaines de milliers de pieds (0). L'altitude indiquée est donc de 5400 pieds."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Laquelle des situations suivantes entraînera une sous-estimation de l'altimètre ?",
+    "answers": [
+      "Voler d'une région chaude vers une région froide.",
+      "Voler d'une haute vers une basse pression sans ajuster l'altimètre en route.",
+      "Voler dans une région plus chaude que le standard (15°C)",
+      "Voler dans une région plus froide que le standard (15°C)"
+    ],
+    "correct": 2,
+    "explanation": "Voler dans une région plus chaude que la température standard entraîne une sous-estimation de l'altitude. L'air chaud est moins dense, la pression diminue plus lentement avec l'altitude, donc l'altimètre indiquera une altitude inférieure à l'altitude réelle. Danger : on peut être plus près du sol que ce que l'instrument indique."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Concernant l'altimètre, laquelle des affirmations suivantes entraînera un risque pour le vol ?",
+    "answers": [
+      "Voler dans une région montagneuse au-dessus d'une vallée.",
+      "Voler dans une région beaucoup plus froide que le standard.",
+      "Voler d'une haute vers une basse pression sans ajuster l'altimètre en route.",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "Toutes ces situations présentent un risque. Voler en montagne peut créer des effets de vent et des turbulences. Voler dans une région plus froide que le standard fait sous-estimer l'altitude (on est plus bas que ce que l'altimètre indique). Voler d'une haute vers une basse pression sans ajuster l'altimètre fait également sous-estimer l'altitude."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quel effet aura un blocage complet du tube de Pitot sur la lecture de l'altimètre ?",
+    "answers": [
+      "L'altitude restera la même que celle à laquelle le blocage est survenu.",
+      "Une lecture correcte de l'altitude.",
+      "L'altimètre agira comme un anémomètre.",
+      "L'altimètre surestime l'altitude en descente."
+    ],
+    "correct": 1,
+    "explanation": "Un blocage du tube de Pitot n'affecte pas l'altimètre, car celui-ci ne dépend que de la pression statique. Le tube de Pitot est utilisé uniquement pour l'anémomètre (pression totale). L'altimètre continuera donc à indiquer correctement l'altitude, à condition que la prise statique ne soit pas obstruée."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Comment pourriez-vous détecter qu'il y a un blocage complet de la prise statique ?",
+    "answers": [
+      "L'altimètre agira comme un variomètre.",
+      "L'altimètre sous-estime les changements d'altitude.",
+      "L'altimètre n'indique aucune variation malgré les changements d'altitude.",
+      "L'altimètre indiquera zéro."
+    ],
+    "correct": 2,
+    "explanation": "Si la prise statique est complètement bloquée, la pression à l'intérieur du boîtier de l'altimètre reste constante. L'altimètre n'indiquera donc aucune variation, même si l'avion change d'altitude. C'est un signe clair de blocage de la prise statique."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "À quel moment l'altimètre indiquera-t-il l'altitude pression ?",
+    "answers": [
+      "L'altimètre indique toujours l'altitude pression.",
+      "Lorsque l'altimètre est réglé sur le calage altimétrique du moment.",
+      "Il est impossible d'afficher l'altitude pression sur l'altimètre, il faut la calculer manuellement.",
+      "Lorsque le calage altimétrique affiché est de 29.92 poHg."
+    ],
+    "correct": 3,
+    "explanation": "L'altimètre indique l'altitude pression (Pressure Altitude) lorsqu'il est réglé sur la pression standard 1013 hPa (ou 29.92 poHg). L'altitude pression est l'altitude dans l'atmosphère standard où la pression est égale à la pression locale. C'est la référence utilisée pour les niveaux de vol (Flight Levels)."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Vous êtes à l'aéroport de Québec (CYQB) où l'altitude au-dessus du niveau moyen de la mer (ASL) est de 244 pieds. Vous réglez l'altimètre sur le calage altimétrique du moment et votre instrument indique 300 pieds. Que devriez-vous faire ?",
+    "answers": [
+      "Ajuster la lecture de l'altimètre à 244 pieds.",
+      "Annuler le vol et faire vérifier l'instrument.",
+      "Utiliser la lecture de l'altitude du transpondeur.",
+      "L'erreur est acceptable (moins de 100 pieds)."
+    ],
+    "correct": 0,
+    "explanation": "L'erreur de 56 pieds (300 - 244) est significative. L'altimètre doit indiquer l'altitude exacte de l'aérodrome lorsque réglé sur le calage altimétrique local. Il faut donc ajuster l'altimètre pour qu'il indique 244 pieds en tournant la vis de calage. Une différence de plus de 50 pieds est généralement considérée comme inacceptable."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Comment pouvez-vous trouver le calage altimétrique lors d'un vol voyage de 150 milles nautiques ?",
+    "answers": [
+      "Contacter l'unité de contrôle de l'aérodrome le plus proche.",
+      "Écouter l'AWOS ou l'ATIS de l'aérodrome le plus proche.",
+      "Les vols de courte distance (moins de 200 milles) ne nécessitent pas de correction.",
+      "Réponses A et B."
+    ],
+    "correct": 3,
+    "explanation": "Pour obtenir le calage altimétrique en vol, on peut soit contacter l'unité de contrôle (tour de contrôle, centre de contrôle) soit écouter les broadcasts météo automatisés comme l'AWOS (Automated Weather Observing System) ou l'ATIS (Automatic Terminal Information Service) des aérodromes à proximité. Même pour des vols courts, il est important de maintenir un calage altimétrique à jour pour éviter les erreurs d'altitude."
+  },
+
+    {
+    "category": "Instruments de vol",
+    "question": "Quelle information est donnée par le variomètre ?",
+    "answers": [
+      "Le taux de montée en pieds/minute (FPM).",
+      "La vitesse verticale de l'avion.",
+      "Si l'avion maintient un vol en palier.",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "Le variomètre (ou VSI - Vertical Speed Indicator) indique le taux de montée ou de descente en pieds par minute (FPM). Il fournit donc la vitesse verticale de l'avion et permet de savoir si l'avion est en montée, en descente ou en palier. Toutes ces informations sont données par le variomètre."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Afin de donner une indication, le variomètre doit recevoir la pression _______ à l'intérieur de _______ .",
+    "answers": [
+      "statique, la capsule anéroïde et du boîtier de l'instrument.",
+      "totale, la capsule anéroïde et du boîtier de l'instrument.",
+      "statique, la capsule anéroïde.",
+      "totale, la capsule anéroïde."
+    ],
+    "correct": 0,
+    "explanation": "Le variomètre utilise la pression statique à la fois à l'intérieur de la capsule anéroïde (qui est étanche et emprisonne une pression de référence) et à l'intérieur du boîtier de l'instrument (qui reçoit la pression statique ambiante via une fuite calibrée). La différence entre ces deux pressions indique le taux de variation d'altitude."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Le variomètre peut avoir un retard de lecture allant jusqu'à _______ .",
+    "answers": [
+      "moins de 1 seconde",
+      "6 à 9 secondes",
+      "12 à 15 secondes",
+      "2 à 3 secondes"
+    ],
+    "correct": 1,
+    "explanation": "Le variomètre à capsule (VSI classique) peut avoir un retard de lecture de 6 à 9 secondes. Ce retard est dû au temps nécessaire pour que la pression dans le boîtier s'égalise à travers le tube capillaire calibré. Les variomètres instantanés (IVSI) utilisent des accéléromètres pour compenser ce retard."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle sera l'indication du variomètre si la prise de pression statique se bloque complètement ?",
+    "answers": [
+      "le variomètre indiquera zéro.",
+      "le variomètre surestimera en descente.",
+      "le variomètre surestimera en montée.",
+      "le variomètre sous-estimera en descente."
+    ],
+    "correct": 0,
+    "explanation": "Si la prise statique est complètement bloquée, la pression dans le boîtier du variomètre reste constante. Comme il n'y a plus de variation de pression, l'instrument indiquera zéro (vol en palier) quelle que soit la véritable situation de l'avion. C'est un des signes révélateurs d'un blocage de la prise statique."
+  },
+
+    {
+    "category": "Instruments de vol",
+    "question": "Plus on s'approche des pôles, plus la tête de l'aiguille de la boussole se penche vers _______ en suivant le champ magnétique terrestre.",
+    "answers": [
+      "le haut",
+      "le nord",
+      "le sol",
+      "le sud"
+    ],
+    "correct": 2,
+    "explanation": "Plus on s'approche des pôles magnétiques, plus les lignes de champ magnétique terrestre sont verticales. L'aiguille de la boussole, qui s'aligne sur ces lignes, a tendance à se pencher vers le bas (vers le sol). Ce phénomène est appelé l'inclinaison magnétique ou plongement."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle est la définition de la déclinaison magnétique ?",
+    "answers": [
+      "La différence entre l'indication du conservateur de cap et de la boussole.",
+      "La différence entre la route magnétique suivie et le cap magnétique de l'avion.",
+      "L'erreur causée par l'ensemble des pièces métalliques autour de la boussole.",
+      "La différence entre la direction vraie et la direction magnétique."
+    ],
+    "correct": 3,
+    "explanation": "La déclinaison magnétique est l'angle entre le nord vrai (géographique) et le nord magnétique. Cette différence varie selon la position géographique et est indiquée sur les cartes aéronautiques par des lignes isogoniques. Elle est essentielle pour convertir les caps vrais en caps magnétiques et vice-versa."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Vous volez sur un cap nord et vous décélérez soudainement. Quelle sera l'indication du compas magnétique ?",
+    "answers": [
+      "Indiquera un cap plus à l'ouest",
+      "Indiquera un cap plus au sud.",
+      "Indiquera un cap plus à l'est.",
+      "Il n'y aura pas de changement d'indication."
+    ],
+    "correct": 0,
+    "explanation": "Lors d'une décélération sur un cap nord, le compas magnétique indiquera un virage vers l'ouest. Ce phénomène est connu sous le nom d'erreur d'accélération/décélération (ANDS - Accelerate North, Decelerate South). En décélérant vers le nord, l'aiguille dévie vers l'ouest."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Lequel des changements de direction suivants entraînera la plus grande erreur au niveau du compas magnétique ?",
+    "answers": [
+      "Virage d'un cap 240° à un cap 280°.",
+      "Virage d'un cap 240° à un cap 320°.",
+      "Virage d'un cap 090° à un cap 060°.",
+      "Virage d'un cap 000° à un cap 030°."
+    ],
+    "correct": 3,
+    "explanation": "Les erreurs de compas sont maximales lorsque l'avion est sur des caps proches du nord ou du sud (erreur de virage). Un virage de 000° à 030° (30° de changement) se produit près du nord, où l'erreur de compas est la plus importante. Les autres options impliquent des caps plus proches de l'est ou de l'ouest où l'erreur est moindre."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Où peut-on trouver l'erreur de déviation du compas ?",
+    "answers": [
+      "Dans le POH de l'avion.",
+      "Directement sur la boussole de l'avion.",
+      "Sur la carte aéronautique de la région.",
+      "Sur le certificat de navigabilité."
+    ],
+    "correct": 1,
+    "explanation": "L'erreur de déviation du compas est causée par les champs magnétiques parasites présents dans l'avion (moteur, instruments, structure métallique...). Cette erreur est mesurée et enregistrée sur une carte de déviation (compass deviation card) qui est généralement placée directement sur ou à proximité de la boussole dans le cockpit."
+  },
+
+    {
+    "category": "Instruments de vol",
+    "question": "Quelles sont les deux propriétés d'un gyroscope ?",
+    "answers": [
+      "La précession et la force centripète.",
+      "Fixité dans l'espace et la précession.",
+      "La rigidité dans l'espace et la rotation.",
+      "L'inertie et l'accélération gyroscopique."
+    ],
+    "correct": 1,
+    "explanation": "Les deux propriétés fondamentales d'un gyroscope sont la fixité dans l'espace (ou rigidité gyroscopique) et la précession. La fixité dans l'espace signifie que l'axe de rotation du gyroscope reste fixe dans l'espace, quelle que soit l'orientation du support. La précession est la tendance du gyroscope à réagir à une force appliquée en se déplaçant à 90° dans le sens de rotation."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle méthode est utilisée afin de faire tourner un gyroscope ?",
+    "answers": [
+      "Système à Venturi.",
+      "Moteur électrique.",
+      "Pompe à succion.",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "Un gyroscope peut être entraîné de différentes manières : par un système à dépression (pompe à succion) qui aspire l'air à travers le gyroscope, par un moteur électrique, ou par un système à Venturi (utilisé sur certains avions anciens). Les avions modernes utilisent généralement des systèmes électriques ou à dépression."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quels sont les trois principaux instruments gyroscopiques ?",
+    "answers": [
+      "Conservateur de cap, horizon artificiel et l'ADF.",
+      "Coordonnateur de virage, conservateur de cap et horizon artificiel.",
+      "Conservateur de cap, horizon artificiel et variomètre.",
+      "Horizon artificiel, indicateur de virage et l'altimètre."
+    ],
+    "correct": 1,
+    "explanation": "Les trois principaux instruments gyroscopiques sont : l'horizon artificiel (indique l'assiette de l'avion), le conservateur de cap (indique la direction suivie) et le coordonnateur de virage (indique le taux de virage et la qualité du virage). Ces instruments utilisent tous un gyroscope pour fournir leurs indications."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quel phénomène est défini par l'affirmation suivante ? 'Lorsque l'on applique une force à un objet en rotation, cette force s'exercera à 90° dans le sens de la rotation peu importe la vitesse de rotation de l'objet.'",
+    "answers": [
+      "Le principe de rotation.",
+      "La fixité dans l'espace.",
+      "La précession gyroscopique.",
+      "L'inertie gyroscopique."
+    ],
+    "correct": 2,
+    "explanation": "Cette affirmation décrit la précession gyroscopique. Lorsqu'une force est appliquée à un gyroscope en rotation, la réaction se produit à 90° dans le sens de rotation, et non dans la direction de la force appliquée. C'est ce phénomène qui explique le comportement des instruments gyroscopiques et qui est utilisé dans leur conception."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quels sont les deux instruments généralement entraînés par succion ?",
+    "answers": [
+      "Horizon artificiel et conservateur de cap.",
+      "Conservateur de cap et coordonnateur de virage.",
+      "Horizon artificiel et indicateur de virage.",
+      "Indicateur de virage et coordonnateur de virage."
+    ],
+    "correct": 0,
+    "explanation": "Les deux instruments généralement entraînés par succion (dépression) sont l'horizon artificiel et le conservateur de cap. Le coordonnateur de virage et l'indicateur de virage sont généralement entraînés électriquement sur les avions modernes."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Le gyroscope de l'horizon artificiel est monté _______ et se sert du principe de _______ .",
+    "answers": [
+      "verticalement, précession gyroscopique.",
+      "verticalement, rigidité dans l'espace.",
+      "horizontalement, précession gyroscopique.",
+      "horizontalement, rigidité dans l'espace."
+    ],
+    "correct": 3,
+    "explanation": "Le gyroscope de l'horizon artificiel est monté horizontalement et utilise le principe de rigidité dans l'espace. L'axe du gyroscope reste vertical (pointant vers le centre de la Terre) grâce à sa rigidité, ce qui permet à l'instrument de fournir une référence d'assiette indépendante des mouvements de l'avion."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Le gyroscope du conservateur de cap est monté _______ et se sert du principe de _______ .",
+    "answers": [
+      "horizontalement, rigidité dans l'espace.",
+      "verticalement, rigidité dans l'espace.",
+      "verticalement, précession gyroscopique.",
+      "horizontalement, précession gyroscopique."
+    ],
+    "correct": 0,
+    "explanation": "Le gyroscope du conservateur de cap est monté horizontalement et utilise le principe de rigidité dans l'espace. L'axe du gyroscope reste fixe dans l'espace (pointant vers une direction de référence), ce qui permet de mesurer les changements de cap de l'avion par rapport à cette référence."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Le gyroscope du coordonnateur de virage est monté _______ et se sert du principe de _______ .",
+    "answers": [
+      "verticalement, rigidité dans l'espace.",
+      "horizontalement, précession gyroscopique.",
+      "verticalement, précession gyroscopique.",
+      "horizontalement, rigidité dans l'espace."
+    ],
+    "correct": 2,
+    "explanation": "Le gyroscope du coordonnateur de virage est monté verticalement (l'axe de rotation est horizontal, perpendiculaire à l'axe longitudinal de l'avion) et utilise le principe de précession gyroscopique. Lorsque l'avion tourne, la force appliquée au gyroscope provoque une précession qui déplace l'aiguille, indiquant le taux de virage."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Combien de temps pourrait prendre le gyroscope de l'horizon artificiel afin de se redresser et montrer une indication correcte ?",
+    "answers": [
+      "2 à 3 minutes.",
+      "6 à 9 secondes.",
+      "1 à 2 minutes.",
+      "Jusqu'à 5 minutes."
+    ],
+    "correct": 3,
+    "explanation": "L'horizon artificiel peut prendre jusqu'à 5 minutes pour se redresser complètement et fournir une indication correcte après sa mise en route. C'est pourquoi il est important de laisser les instruments gyroscopiques s'initialiser avant le décollage, particulièrement par temps froid où le temps de montée en régime est plus long."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Pourquoi faut-il ajuster le conservateur de cap tous les 15 minutes ?",
+    "answers": [
+      "Pour corriger l'erreur de l'instrument due à une vitesse de rotation trop basse du gyroscope.",
+      "Pour corriger les erreurs de précession et de rotation de la Terre.",
+      "Pour corriger l'erreur d'usure du gyroscope.",
+      "Pour corriger les erreurs de rigidité et de précession."
+    ],
+    "correct": 1,
+    "explanation": "Le conservateur de cap doit être ajusté environ toutes les 15 minutes pour corriger les erreurs dues à la précession gyroscopique (le gyroscope a tendance à dériver) et à la rotation de la Terre. Cette dérive, bien que faible, s'accumule avec le temps et nécessite un recalage régulier sur le compas magnétique."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Vous êtes en montée constante sur un cap 090° pour une altitude de 4500 pieds et vous remarquez une différence entre le conservateur de cap et le compas magnétique. Comment devriez-vous ajuster le conservateur de cap ?",
+    "answers": [
+      "Ajuster l'indication du compas magnétique par rapport au conservateur de cap.",
+      "Ajuster le cap du conservateur de cap par rapport au compas magnétique.",
+      "Il est impossible d'ajuster l'instrument en montée sur un cap 'est' ou 'ouest'.",
+      "Attendre de revenir en vol en palier afin d'ajuster le conservateur."
+    ],
+    "correct": 3,
+    "explanation": "Il est recommandé d'attendre d'être en vol en palier pour ajuster le conservateur de cap. En effet, les erreurs d'accélération et de décélération du compas magnétique sont importantes sur les caps est et ouest (erreurs de virage et d'accélération). Attendre le vol en palier permet d'obtenir une lecture plus fiable du compas magnétique pour le recalage."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle est la différence principale entre le coordonnateur de virage et l'indicateur de virage et d'inclinaison latéral ?",
+    "answers": [
+      "Seul l'affichage de l'instrument diffère entre les deux.",
+      "Le coordonnateur de virage permet de recevoir une indication de lacet et de roulis.",
+      "Seul le coordonnateur de virage permet de savoir si les forces en virage sont équilibrées (virage coordonné).",
+      "L'indicateur de virage et d'inclinaison latéral permet de recevoir une indication de lacet et de roulis."
+    ],
+    "correct": 0,
+    "explanation": "La différence principale entre le coordonnateur de virage (Turn Coordinator) et l'indicateur de virage et d'inclinaison latéral (Turn and Slip Indicator) est uniquement l'affichage. L'indicateur de virage utilise une aiguille tandis que le coordonnateur de virage utilise un mini-avion. Tous deux incluent le même inclinomètre à bille pour indiquer si le virage est coordonné."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Selon l'instrument ci-dessous, l'avion est en _______ vers la _______ .",
+    "answers": [
+      "glissade, gauche",
+      "dérapage, gauche",
+      "glissade, droite",
+      "dérapage, droite"
+    ],
+    "correct": 1,
+    "explanation": "Sur un coordonnateur de virage, lorsque la bille (inclinomètre) se déplace vers la gauche, l'avion est en dérapage vers la gauche. Un dérapage se produit lorsque la bille est du côté extérieur du virage (la force centrifuge est plus forte que la force centripète)."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Laquelle des réponses ci-dessous représente un virage à standard (taux 1) ?",
+    "answers": [
+      "Virage de 180° en 2 minutes",
+      "Virage de 150° en 50 secondes",
+      "Virage de 360° en 100 secondes",
+      "Virage de 360° en 1 minute"
+    ],
+    "correct": 0,
+    "explanation": "Un virage à taux standard (taux 1) est défini comme un virage de 180° en 1 minute (ou 360° en 2 minutes). La réponse A (180° en 2 minutes) correspond à un taux de virage de 90° par minute, ce qui est le taux standard (1/2 tour par minute). Les autres réponses ne correspondent pas à la définition du taux standard."
+  },
+
+    {
+    "category": "Instruments de vol",
+    "question": "Le principal avantage du système à injection de carburant est :",
+    "answers": [
+      "L'improbabilité de givrage au carburateur.",
+      "Un meilleur refroidissement du moteur.",
+      "L'économie de carburant.",
+      "Une plus grande puissance fournie au moteur."
+    ],
+    "correct": 0,
+    "explanation": "Le principal avantage du système à injection de carburant est l'improbabilité de givrage au carburateur. Contrairement aux moteurs à carburateur, le système d'injection n'a pas de venturi où le carburant se vaporise, ce qui élimine le risque de givrage du carburateur. L'injection permet également une meilleure répartition du carburant entre les cylindres."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "La pompe auxiliaire dans un moteur à injection est utilisée :",
+    "answers": [
+      "Pour le démarrage du moteur et en situation d'urgence.",
+      "Seulement au démarrage.",
+      "Pendant une urgence.",
+      "Pendant la durée du vol."
+    ],
+    "correct": 0,
+    "explanation": "La pompe auxiliaire (ou pompe de gavage) dans un moteur à injection est utilisée pour le démarrage du moteur et en situation d'urgence. Elle fournit une pression supplémentaire de carburant lors du démarrage et peut être activée en cas de panne de la pompe principale pour assurer la continuité de l'alimentation en carburant."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Le système de propulsion dont l'énergie est fournie par une turbine à gaz et dont la poussée principale est obtenue par la rotation d'une hélice multi-pales porte le nom de :",
+    "answers": [
+      "Système d'augmentation.",
+      "Carburateur.",
+      "Turbosoufflante.",
+      "Turbopropulseur."
+    ],
+    "correct": 3,
+    "explanation": "Le turbopropulseur est un système de propulsion où une turbine à gaz (turboréacteur) entraîne une hélice multi-pales via un réducteur de vitesse. La majeure partie de la poussée est fournie par l'hélice, contrairement au turboréacteur où la poussée est principalement produite par les gaz d'échappement."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelles sont les fonctions essentielles de l'huile au bon fonctionnement du moteur ?",
+    "answers": [
+      "Lubrification, refroidissement, étanchéité et nettoyage.",
+      "Meilleure combustion du moteur et refroidissement.",
+      "Refroidissement, lubrification et étanchéité.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 0,
+    "explanation": "Les fonctions essentielles de l'huile dans un moteur sont : la lubrification (réduire le frottement entre les pièces mobiles), le refroidissement (évacuer la chaleur), l'étanchéité (assurer l'étanchéité entre les pistons et les cylindres) et le nettoyage (transporter les impuretés vers le filtre à huile)."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quels sont les critères d'une bonne huile ?",
+    "answers": [
+      "Bonne viscosité, Point d'éclair faible, faible teneur en carbone et point d'écoulement bas.",
+      "Bonne viscosité, Point d'éclair faible, faible teneur en carbone et point d'écoulement élevé.",
+      "Bonne viscosité, Point d'éclair élevé, faible teneur en carbone et point d'écoulement élevé.",
+      "Bonne viscosité, Point d'éclair élevé, faible teneur en carbone et point d'écoulement bas."
+    ],
+    "correct": 3,
+    "explanation": "Les critères d'une bonne huile sont : une bonne viscosité (maintien de sa fluidité à différentes températures), un point d'éclair élevé (résistance à l'inflammation), une faible teneur en carbone (réduction des dépôts) et un point d'écoulement bas (capacité à circuler à basse température)."
+  },
+
+    {
+    "category": "Instruments de vol",
+    "question": "Quelle est la couleur de l'essence 100LL ?",
+    "answers": [
+      "Incolore",
+      "Vert",
+      "Bleu",
+      "Jaune paille"
+    ],
+    "correct": 2,
+    "explanation": "L'essence 100LL (Low Lead) est de couleur bleue. C'est la couleur caractéristique de ce carburant aviation, qui permet de le distinguer des autres grades. Le 100/130 était vert et le 80/87 était rouge. La coloration permet d'identifier rapidement le type de carburant."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "L'eau est le principal contaminant du carburant. Pour minimiser le risque de contamination, les réservoirs doivent être :",
+    "answers": [
+      "Vides après le dernier vol de la journée.",
+      "Remplis après le dernier vol de la journée.",
+      "Remplis à partir de bidons et de barils.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 1,
+    "explanation": "Pour minimiser le risque de contamination par l'eau, les réservoirs doivent être remplis après le dernier vol de la journée. Cela réduit l'espace d'air dans les réservoirs, limitant ainsi la condensation d'humidité qui peut se former et contaminer le carburant."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quel énoncé suivant est vrai concernant la ou les causes de la détonation ?",
+    "answers": [
+      "Toutes ces réponses.",
+      "Faible indice d'octane.",
+      "Température des têtes de cylindre trop élevée.",
+      "Un mélange excessivement pauvre."
+    ],
+    "correct": 0,
+    "explanation": "Toutes ces réponses sont des causes de détonation. Un faible indice d'octane rend le carburant plus susceptible de détoner, une température des têtes de cylindre trop élevée peut enflammer le mélange prématurément, et un mélange excessivement pauvre augmente la température de combustion, favorisant la détonation."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle est la cause du pré-allumage ?",
+    "answers": [
+      "Il est généralement causé par un point chaud dans la chambre de combustion souvent créé par un petit dépôt de carbone sur la bougie d'allumage.",
+      "Mélange trop pauvre.",
+      "Mélange trop riche.",
+      "Réponses A et C."
+    ],
+    "correct": 0,
+    "explanation": "Le pré-allumage est généralement causé par un point chaud dans la chambre de combustion, souvent créé par un petit dépôt de carbone sur la bougie d'allumage ou une autre surface chaude. Ce point chaud enflamme le mélange avant l'étincelle prévue, provoquant une combustion prématurée qui peut endommager le moteur."
+  },
+
+    {
+    "category": "Instruments de vol",
+    "question": "Quel(s) énoncé(s) est/sont vrais concernant le master ?",
+    "answers": [
+      "Il permet de contrôler l'accès aux courants de la batterie et de l'alternateur.",
+      "Il fournit le courant directement à la batterie.",
+      "Il fournit le courant nécessaire pour le démarrage.",
+      "B et C."
+    ],
+    "correct": 0,
+    "explanation": "Le master switch (interrupteur général) permet de contrôler l'accès aux courants de la batterie et de l'alternateur. Il coupe ou établit la connexion entre ces sources d'énergie et le circuit électrique de l'avion. Il ne fournit pas directement le courant à la batterie ni le courant de démarrage."
+  },
+  {
+    "category": "Instruments de vol",
+    "question": "Quelle est l'utilité de la batterie ?",
+    "answers": [
+      "Elle reçoit le courant en provenance de la génération et le redistribue aux équipements via les disjoncteurs.",
+      "Elle protège ceux-ci contre les survoltages et courts-circuits.",
+      "Elle fournit le courant nécessaire au démarrage et aux systèmes avant le démarrage.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 2,
+    "explanation": "La batterie a pour utilité de fournir le courant nécessaire au démarrage du moteur (via le démarreur) et d'alimenter les systèmes électriques avant que le moteur ne tourne et que l'alternateur ne prenne le relais. Elle sert également de réserve en cas de panne de l'alternateur."
+  },
+  {
+    "category": "Cellule",
+    "question": "Quel type de système est défini ci-dessous ? 'Un système utilisant un fluide sous pression afin d'effectuer un travail mécanique.'",
+    "answers": [
+      "À pression positive",
+      "Hydraulique",
+      "Mécanique",
+      "Au liquide"
+    ],
+    "correct": 1,
+    "explanation": "Un système hydraulique est un système qui utilise un fluide sous pression (généralement de l'huile) pour effectuer un travail mécanique. Ce principe est utilisé dans les avions pour actionner les trains d'atterrissage, les volets, les freins et d'autres commandes."
+  },
+  {
+    "category": "Cellule",
+    "question": "Lequel des contrôles suivants peut être animé par un système électrique ?",
+    "answers": [
+      "Volets",
+      "Compensateur",
+      "Modification du pas de l'hélice",
+      "Toutes ces réponses"
+    ],
+    "correct": 3,
+    "explanation": "Tous ces contrôles peuvent être animés par un système électrique. Les volets peuvent être actionnés électriquement, les compensateurs (trim tabs) peuvent être commandés par des moteurs électriques, et le pas de l'hélice peut être modifié électriquement sur certains avions équipés d'hélices à commande électrique."
+  },
+  {
+    "category": "Cellule",
+    "question": "Sur les petits avions de la catégorie générale, les commandes de vol sont habituellement entraînées par un système _______ .",
+    "answers": [
+      "mécanique",
+      "hydraulique",
+      "électrique",
+      "à compensateur"
+    ],
+    "correct": 0,
+    "explanation": "Sur les petits avions de la catégorie générale, les commandes de vol sont habituellement entraînées par un système mécanique (câbles, poulies, biellettes). Les systèmes hydrauliques et électriques sont généralement réservés aux avions plus gros et plus complexes."
+  },
+  {
+    "category": "Cellule",
+    "question": "L'arbre à came permet de _______ .",
+    "answers": [
+      "transmettre l'énergie de la combustion au vilebrequin.",
+      "compresser le mélange de carburant dans le cylindre.",
+      "faire tourner l'hélice grâce à l'énergie des pistons.",
+      "coordonner l'ouverture et la fermeture des soupapes."
+    ],
+    "correct": 3,
+    "explanation": "L'arbre à came (ou arbre à cames) a pour fonction de coordonner l'ouverture et la fermeture des soupapes d'admission et d'échappement. Il est entraîné par le vilebrequin et ses cames actionnent les culbuteurs ou les poussoirs qui commandent les soupapes."
+  },
+  {
+    "category": "Cellule",
+    "question": "Placez les 4 temps d'un moteur à combustion interne dans l'ordre. 1 - Combustion, 2 - Admission, 3 - Échappement, 4 - Compression.",
+    "answers": [
+      "2 - 1 - 4 - 3",
+      "2 - 4 - 1 - 3",
+      "1 - 3 - 4 - 2",
+      "4 - 2 - 1 - 3"
+    ],
+    "correct": 1,
+    "explanation": "L'ordre correct des 4 temps d'un moteur à combustion interne est : Admission (2), Compression (4), Combustion (1), Échappement (3). Cet ordre est mémorisé par l'acronyme 'ACCE' : Admission, Compression, Combustion, Échappement."
+  },
+  {
+    "category": "Cellule",
+    "question": "Lors de la phase de compression, la soupape d'admission est _______ et la soupape d'échappement est _______ .",
+    "answers": [
+      "fermée, fermée",
+      "fermée, ouverte",
+      "ouverte, fermée",
+      "ouverte, ouverte"
+    ],
+    "correct": 0,
+    "explanation": "Lors de la phase de compression, les deux soupapes (admission et échappement) sont fermées. Cela permet de comprimer le mélange air-carburant dans le cylindre, créant ainsi une pression et une température élevées avant l'allumage."
+  },
+  {
+    "category": "Cellule",
+    "question": "Lors de la phase d'admission, le piston _______ .",
+    "answers": [
+      "remonte",
+      "reste au point mort bas",
+      "descend",
+      "chevauche la soupape d'admission"
+    ],
+    "correct": 2,
+    "explanation": "Lors de la phase d'admission, le piston descend (de son point mort haut vers le point mort bas). Ce mouvement crée une dépression dans le cylindre qui aspire le mélange air-carburant par la soupape d'admission ouverte."
+  },
+  {
+    "category": "Cellule",
+    "question": "Laquelle des réponses ci-dessous ne représente pas un avantage du moteur à deux temps ?",
+    "answers": [
+      "peu de pièces en mouvement",
+      "consommation relativement faible",
+      "possibilité de surrégime",
+      "poids réduit"
+    ],
+    "correct": 1,
+    "explanation": "La consommation relativement faible n'est pas un avantage du moteur à deux temps. En réalité, les moteurs à deux temps sont généralement moins économes en carburant que les moteurs à quatre temps. Leurs avantages sont : peu de pièces en mouvement, possibilité de surrégime et poids réduit."
+  },
+  {
+    "category": "Cellule",
+    "question": "Dans un circuit à double allumage, chaque cylindre possède ________ alimenté(es) par _______ .",
+    "answers": [
+      "2 bougies, 2 magnétos",
+      "2 bougies, 4 magnétos",
+      "1 bougie, 2 magnétos",
+      "2 bougies, 1 magnéto"
+    ],
+    "correct": 0,
+    "explanation": "Dans un circuit à double allumage, chaque cylindre possède 2 bougies d'allumage, alimentées par 2 magnétos séparées. Chaque magnéto alimente une bougie par cylindre, assurant une redondance en cas de panne d'un système."
+  },
+  {
+    "category": "Cellule",
+    "question": "Lequel des choix suivants est faux au sujet des magnétos ?",
+    "answers": [
+      "Les magnétos sont entraînées par le moteur.",
+      "Les magnétos font partie du système électrique de l'avion.",
+      "Les magnétos génèrent le courant électrique pour l'allumage.",
+      "Deux magnétos sont utilisées pour plus de sécurité."
+    ],
+    "correct": 1,
+    "explanation": "L'affirmation 'Les magnétos font partie du système électrique de l'avion' est fausse. Les magnétos sont des systèmes d'allumage indépendants qui fonctionnent sans batterie. Elles sont entraînées mécaniquement par le moteur et génèrent leur propre courant pour l'allumage, indépendamment du système électrique de l'avion."
+  },
+  {
+    "category": "Cellule",
+    "question": "Dans un circuit à double allumage, si un magnéto tombe en panne, que se passera-t-il ?",
+    "answers": [
+      "Arrêt complet du moteur.",
+      "Le moteur continuera à fonctionner sans perte de régime.",
+      "Une légère perte de puissance du moteur.",
+      "Perte d'environ 50% de la puissance."
+    ],
+    "correct": 2,
+    "explanation": "Si un magnéto tombe en panne dans un circuit à double allumage, le moteur continuera à fonctionner mais avec une légère perte de puissance (environ 50 à 100 RPM). La sécurité est assurée par l'autre magnéto qui continue d'alimenter une bougie par cylindre."
+  },
+  {
+    "category": "Cellule",
+    "question": "Comment le turbocompresseur permet d'augmenter la puissance du moteur à haute altitude ?",
+    "answers": [
+      "Réchauffe l'air à haute altitude afin de le ramener à la température standard (15°C).",
+      "Utilisation des gaz d'échappement pour entraîner un compresseur afin d'augmenter la densité de l'air envoyé au moteur.",
+      "Augmente la vitesse d'admission du mélange air-essence vers le moteur.",
+      "Un compresseur entraîné par le moteur permet d'augmenter la densité de l'air envoyé au moteur."
+    ],
+    "correct": 1,
+    "explanation": "Le turbocompresseur utilise les gaz d'échappement pour entraîner une turbine qui fait tourner un compresseur. Ce compresseur comprime l'air avant son admission dans le moteur, augmentant ainsi sa densité. À haute altitude, où l'air est moins dense, cela permet de maintenir la puissance du moteur."
+  },
+  {
+    "category": "Cellule",
+    "question": "Quel moyen peut être utilisé pour refroidir le moteur ?",
+    "answers": [
+      "Liquide",
+      "Huile",
+      "Air",
+      "Toutes ces réponses"
+    ],
+    "correct": 3,
+    "explanation": "Tous ces moyens peuvent être utilisés pour refroidir le moteur : refroidissement par liquide (liquide de refroidissement circulant dans un circuit), refroidissement par huile (l'huile évacue la chaleur via un radiateur) et refroidissement par air (aliettes de refroidissement sur les cylindres)."
+  },
+  {
+    "category": "Cellule",
+    "question": "Pourquoi installe-t-on des volets de capot sur certains modèles d'avion ?",
+    "answers": [
+      "Permet de retenir l'air frais dans le capot moteur.",
+      "Permet une meilleure circulation de l'air autour du moteur.",
+      "Garde le moteur chaud en montée.",
+      "Réponses B et C."
+    ],
+    "correct": 3,
+    "explanation": "Les volets de capot (ou cowl flaps) permettent à la fois une meilleure circulation de l'air autour du moteur (en augmentant le flux d'air) et de garder le moteur chaud en montée (en réduisant le flux d'air). Ils permettent de réguler la température du moteur en vol."
+  },
+  {
+    "category": "Cellule",
+    "question": "Quel type de moteur est maintenant le plus utilisé en petite aviation ?",
+    "answers": [
+      "Moteur radial.",
+      "Moteur en 'V'.",
+      "Moteur horizontal et opposé.",
+      "Moteur en ligne."
+    ],
+    "correct": 2,
+    "explanation": "Le moteur horizontal et opposé (ou moteur à plat, boxer) est maintenant le type de moteur le plus utilisé en petite aviation. Des fabricants comme Lycoming et Continental produisent principalement ce type de moteur, qui offre un bon refroidissement par air et une forme compacte adaptée aux avions légers."
+  },
+
+    {
+    "category": "Cellule",
+    "question": "Quelle est la tâche principale du carburateur ?",
+    "answers": [
+      "Contrôler la température du mélange.",
+      "Contrôler le mélange air-essence.",
+      "Injecter l'essence dans le cylindre.",
+      "Compresser le mélange air-essence."
+    ],
+    "correct": 1,
+    "explanation": "La tâche principale du carburateur est de contrôler le mélange air-essence. Il dose la quantité de carburant en fonction de la quantité d'air aspirée par le moteur, créant ainsi un mélange combustible dans les proportions appropriées pour assurer une combustion efficace."
+  },
+  {
+    "category": "Cellule",
+    "question": "Quels sont les risques lorsque le mélange Air/Essence dans le carburateur est trop riche ?",
+    "answers": [
+      "Encrassement des bougies, ratés moteur et vibration.",
+      "Puissance non nominale, risques de surchauffe et gaspillage de carburant.",
+      "Gaspillage de carburant, encrassement des bougies et puissance non nominale.",
+      "Ratés moteur et vibration, perte de puissance et risques de surchauffe."
+    ],
+    "correct": 2,
+    "explanation": "Un mélange trop riche (trop d'essence par rapport à l'air) entraîne : un gaspillage de carburant (l'excès d'essence n'est pas brûlé), un encrassement des bougies (dépôts de carbone) et une puissance non nominale (le moteur ne délivre pas sa puissance maximale)."
+  },
+  {
+    "category": "Cellule",
+    "question": "Quels sont les risques lorsque le mélange Air/Essence dans le carburateur est trop pauvre ?",
+    "answers": [
+      "Ratés moteur et vibration, perte de puissance et risques de surchauffe.",
+      "Gaspillage de carburant, encrassement des bougies et puissance non nominale.",
+      "Encrassement des bougies, ratés moteur et vibration.",
+      "Puissance non nominale, risques de surchauffe et gaspillage de carburant."
+    ],
+    "correct": 0,
+    "explanation": "Un mélange trop pauvre (trop d'air par rapport à l'essence) entraîne : des ratés moteur et des vibrations (combustion irrégulière), une perte de puissance (moins d'énergie libérée) et des risques de surchauffe (la combustion est plus chaude, pouvant endommager le moteur)."
+  },
+  {
+    "category": "Cellule",
+    "question": "Quel est le meilleur ratio air/essence dans le carburateur pour obtenir la meilleure puissance ?",
+    "answers": [
+      "8:1",
+      "18:1",
+      "14:1",
+      "15:1"
+    ],
+    "correct": 3,
+    "explanation": "Le meilleur ratio air/essence pour obtenir la meilleure puissance est d'environ 15:1 (15 parts d'air pour 1 part d'essence). Le ratio stoechiométrique idéal pour une combustion complète est d'environ 14.7:1, mais le ratio pour la puissance maximale est légèrement plus riche, autour de 12-15:1."
+  },
+  {
+    "category": "Cellule",
+    "question": "Quel énoncé suivant est faux concernant les conditions les plus propices au givrage du carburateur ?",
+    "answers": [
+      "Humidité relativement élevée.",
+      "Température entre 5°C et -30°C.",
+      "Température près du point de rosée.",
+      "Lorsqu'il y a présence de nuages."
+    ],
+    "correct": 1,
+    "explanation": "L'énoncé 'Température entre 5°C et -30°C' est faux. La température la plus propice au givrage du carburateur se situe généralement entre -5°C et +15°C. En effet, la chute de pression dans le carburateur provoque un refroidissement supplémentaire qui peut faire givrer même à des températures positives."
+  },
+  {
+    "category": "Cellule",
+    "question": "Lorsque vous tirez le réchauffe carburateur, quel effet cela aura-t-il directement sur le mélange ?",
+    "answers": [
+      "Le mélange deviendra plus pauvre.",
+      "Le mélange deviendra plus riche.",
+      "Il aura aucun effet sur le mélange.",
+      "Si vous tirez le réchauffe carburateur avant de diminuer la puissance, il aura aucun effet."
+    ],
+    "correct": 0,
+    "explanation": "Lorsque vous tirez le réchauffe carburateur (carburetor heat), l'air chaud prélevé autour du moteur est moins dense que l'air froid. Cela a pour effet d'appauvrir le mélange (plus d'air chaud moins dense, donc moins d'oxygène pour la même quantité d'essence). C'est pourquoi il est recommandé d'enrichir légèrement le mélange lors de l'utilisation du réchauffe carburateur."
   }
 ]
+
+
+
