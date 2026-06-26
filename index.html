@@ -200,8 +200,46 @@ h1{
 <div class="container">
 
 <h1>✈️ Quiz PPL</h1>
-
+<!-- Boutons de navigation -->
+<div class="tabs">
+    <button class="tab-btn active" data-tab="quiz">📝 Quiz</button>
+    <button class="tab-btn" data-tab="revision">📚 Fiches de révision</button>
+</div>
 <div class="card">
+
+    <!-- MENU QUIZ -->
+    <div id="quizSection">
+        <div class="menu">
+            <select id="category"></select>
+            <button id="startBtn">Commencer</button>
+        </div>
+
+        <div class="topbar">
+            <div id="score">Score : 0</div>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" id="progress"></div>
+        </div>
+
+        <div id="question">Chargement...</div>
+        <div id="answers"></div>
+
+        <div class="explanation-box" id="explanationBox">
+            <strong>✅ Bonne réponse :</strong> <span id="correctAnswerText"></span><br>
+            <strong>📖 Explication :</strong> <span id="explanationText"></span>
+        </div>
+    </div>
+
+    <!-- SECTION FICHES DE RÉVISION -->
+    <div id="revisionSection" style="display:none;">
+        <div style="display:flex; gap:10px; margin-bottom:20px; flex-wrap:wrap;">
+            <button id="allCatBtn" class="cat-filter-btn active" data-cat="all">Toutes</button>
+        </div>
+        <div id="revisionCards"></div>
+    </div>
+
+</div>
 
 <div class="menu">
     <select id="category"></select>
