@@ -38,14 +38,14 @@ h1{
 /* ===== MENU RESPONSIVE ===== */
 .menu{
     display:flex;
-    flex-wrap:wrap;          /* Permet le retour à la ligne */
+    flex-wrap:wrap;
     gap:10px;
     margin-bottom:20px;
     align-items:center;
 }
 
 .menu select{
-    flex:1 1 200px;          /* Prend la place disponible */
+    flex:1 1 200px;
     min-width:150px;
     padding:12px;
     font-size:16px;
@@ -55,7 +55,7 @@ h1{
 }
 
 .menu button{
-    flex:0 0 auto;           /* Ne s'étire pas */
+    flex:0 0 auto;
     padding:12px 24px;
     font-size:16px;
     border-radius:8px;
@@ -64,14 +64,13 @@ h1{
     color:white;
     border:none;
     cursor:pointer;
-    white-space:nowrap;      /* Empêche le texte de couper */
+    white-space:nowrap;
 }
 
 .menu button:hover{
     background:#43a047;
 }
 
-/* ===== TOPBAR ===== */
 .topbar{
     display:flex;
     justify-content:space-between;
@@ -81,7 +80,6 @@ h1{
     gap:5px;
 }
 
-/* ===== PROGRESS ===== */
 .progress{
     height:18px;
     background:#ddd;
@@ -97,7 +95,6 @@ h1{
     transition:0.3s;
 }
 
-/* ===== QUESTION ===== */
 .question{
     font-size:1.2rem;
     margin-bottom:20px;
@@ -117,6 +114,7 @@ h1{
     cursor:pointer;
     font-size:1rem;
     word-break:break-word;
+    transition:0.2s;
 }
 
 .answer:hover{
@@ -131,6 +129,27 @@ h1{
 .wrong{
     background:#e74c3c!important;
     color:white;
+}
+
+/* ===== EXPLANATION TEXT ===== */
+.explanation-box{
+    margin-top:15px;
+    padding:15px 18px;
+    border-radius:8px;
+    background:#fff3cd;
+    border-left:5px solid #ffc107;
+    font-size:0.95rem;
+    line-height:1.5;
+    color:#333;
+    display:none;
+}
+
+.explanation-box.show{
+    display:block;
+}
+
+.explanation-box strong{
+    color:#856404;
 }
 
 /* ===== RESPONSIVE SMALL SCREENS ===== */
@@ -200,6 +219,12 @@ h1{
 <div id="question">Chargement...</div>
 <div id="answers"></div>
 
+<!-- Zone pour l'explication -->
+<div class="explanation-box" id="explanationBox">
+    <strong>✅ Bonne réponse :</strong> <span id="correctAnswerText"></span><br>
+    <strong>📖 Explication :</strong> <span id="explanationText"></span>
+</div>
+
 </div>
 </div>
 
@@ -208,6 +233,7 @@ let questions = [];
 let quiz = [];
 let index = 0;
 let score = 0;
+let isAnswered = false;
 
 fetch("./questions.json")
 .then(r => r.json())
@@ -258,6 +284,11 @@ function startQuiz(){
 }
 
 function showQuestion(){
+    // Cacher l'explication
+    const explanationBox = document.getElementById("explanationBox");
+    explanationBox.classList.remove("show");
+    isAnswered = false;
+
     if(index >= quiz.length){
         document.getElementById("question").innerHTML =
             `🎉 Terminé ! Score : ${score}/${quiz.length}`;
@@ -273,31 +304,77 @@ function showQuestion(){
     const answersDiv = document.getElementById("answers");
     answersDiv.innerHTML = "";
 
-    q.answers.forEach((a,i)=>{
+    q.answers.forEach((a, i) => {
         const btn = document.createElement("button");
         btn.className = "answer";
         btn.textContent = a;
+        btn.dataset.index = i;
 
         btn.onclick = () => {
-            if(i === q.correct){
+            if (isAnswered) return; // Empêche de répondre plusieurs fois
+            isAnswered = true;
+
+            const isCorrect = (i === q.correct);
+
+            // Colorer toutes les réponses
+            const allBtns = answersDiv.querySelectorAll(".answer");
+            allBtns.forEach((b, idx) => {
+                b.disabled = true;
+                if (idx === q.correct) {
+                    b.classList.add("correct");
+                } else if (idx === i && !isCorrect) {
+                    b.classList.add("wrong");
+                }
+            });
+
+            if (isCorrect) {
                 score++;
-                btn.classList.add("correct");
-            } else {
-                btn.classList.add("wrong");
             }
+
+            // Afficher l'explication
+            showExplanation(q, i);
 
             updateUI();
 
-            setTimeout(()=>{
+            // Passer à la question suivante après un délai plus long pour lire l'explication
+            setTimeout(() => {
                 index++;
                 showQuestion();
-            }, 700);
+            }, 3000);
         };
 
         answersDiv.appendChild(btn);
     });
 
     updateUI();
+}
+
+function showExplanation(q, selectedIndex){
+    const explanationBox = document.getElementById("explanationBox");
+    const correctAnswerText = document.getElementById("correctAnswerText");
+    const explanationText = document.getElementById("explanationText");
+
+    // Récupérer le texte de la bonne réponse
+    const correctAnswer = q.answers[q.correct];
+
+    // Vérifier si la réponse sélectionnée est correcte
+    const isCorrect = (selectedIndex === q.correct);
+
+    if (isCorrect) {
+        // Si correct : message vert
+        explanationBox.style.borderLeftColor = "#28a745";
+        explanationBox.style.background = "#d4edda";
+        correctAnswerText.textContent = correctAnswer;
+        explanationText.textContent = q.explanation;
+    } else {
+        // Si faux : message orange/jaune avec la bonne réponse mise en évidence
+        explanationBox.style.borderLeftColor = "#ffc107";
+        explanationBox.style.background = "#fff3cd";
+        correctAnswerText.textContent = correctAnswer;
+        explanationText.textContent = q.explanation;
+    }
+
+    explanationBox.classList.add("show");
 }
 
 function updateUI(){
