@@ -1,379 +1,5 @@
 [
-  {
-    "category": "Météo",
-    "question": "Que signifie QNH ?",
-    "answers": [
-      "Pression ramenée au niveau de la mer",
-      "Pression standard",
-      "Température extérieure",
-      "Altitude densité"
-    ],
-    "correct": 0,
-    "explanation": "Le QNH est la pression ramenée au niveau de la mer."
-  },
-  {
-    "category": "Météo",
-    "question": "Que signifie QFE ?",
-    "answers": [ 
-      "Pression au niveau de la mer",
-      "Pression à l'aérodrome",
-      "Altitude standard",
-      "Température ISA"
-    ],
-    "correct": 1,
-    "explanation": "Le QFE est la pression mesurée à l'aérodrome."
-  },
-  {
-    "category": "Météo",
-    "question": "Un METAR est :",
-    "answers": [
-      "Une prévision météo",
-      "Une observation météo",
-      "Un plan de vol",
-      "Une carte des vents"
-    ],
-    "correct": 1,
-    "explanation": "Le METAR est une observation météorologique."
-  },
-  {
-    "category": "Navigation",
-    "question": "Une piste 09 correspond à :",
-    "answers": ["090°", "180°", "270°", "360°"],
-    "correct": 0,
-    "explanation": "Le numéro de piste correspond au cap magnétique."
-  },
-  {
-    "category": "Navigation",
-    "question": "Les lignes isogoniques représentent :",
-    "answers": [
-      "Température",
-      "Déclinaison magnétique",
-      "Altitude",
-      "Pression"],
-    "correct": 1,
-    "explanation": "Elles relient les points de même déclinaison magnétique."
-  },
-  {
-    "category": "Altimétrie",
-    "question": "La pression standard est :",
-    "answers": ["1013 hPa", "1000 hPa", "980 hPa", "1020 hPa"],
-    "correct": 0,
-    "explanation": "La pression standard est 1013 hPa."
-  },
-  {
-    "category": "Espaces aériens",
-    "question": "La classe G est :",
-    "answers": ["Contrôlée", "Non contrôlée", "Militaire", "Interdite"],
-    "correct": 1,
-    "explanation": "La classe G est un espace non contrôlé."
-  },
-  {
-    "category": "Radio",
-    "question": "La bande VHF aviation est :",
-    "answers": ["118-137 MHz", "88-108 MHz", "200-300 MHz", "500-600 MHz"],
-    "correct": 0,
-    "explanation": "La bande aviation VHF est 118–137 MHz."
-    },
-  {
-    "category": "Météo",
-    "question": "Que signifie TAF ?",
-    "answers": [
-      "Observation météo",
-      "Prévision météorologique d'aérodrome",
-      "Carte des vents",
-      "Avis de turbulence"
-    ],
-    "correct": 1,
-    "explanation": "Le TAF est une prévision météorologique pour un aérodrome."
-  },
-  {
-    "category": "Météo",
-    "question": "Un cumulonimbus est associé à :",
-    "answers": [
-      "Un temps calme",
-      "Des orages",
-      "Du brouillard",
-      "Une visibilité parfaite"
-    ],
-    "correct": 1,
-    "explanation": "Les cumulonimbus sont les nuages typiques des orages."
-  },
-  {
-    "category": "Météo",
-    "question": "Le brouillard est défini par une visibilité inférieure à :",
-    "answers": [
-      "1 km",
-      "5 km",
-      "10 km",
-      "500 m"
-    ],
-    "correct": 0,
-    "explanation": "On parle généralement de brouillard lorsque la visibilité est inférieure à 1 km."
-  },
-  {
-    "category": "Météo",
-    "question": "Une isobare relie les points de :",
-    "answers": [
-      "Même altitude",
-      "Même température",
-      "Même pression",
-      "Même humidité"
-    ],
-    "correct": 2,
-    "explanation": "Une isobare relie les points de même pression atmosphérique."
-  },
-  {
-    "category": "Météo",
-    "question": "Le vent est nommé selon :",
-    "answers": [
-      "Sa destination",
-      "Son origine",
-      "Sa vitesse",
-      "Son altitude"
-    ],
-    "correct": 1,
-    "explanation": "Le vent est désigné par la direction d'où il vient."
-  },
-  {
-    "category": "Altimétrie",
-    "question": "Avec le QNH réglé correctement, l'altimètre indique :",
-    "answers": [
-      "La hauteur sol",
-      "L'altitude par rapport au niveau de la mer",
-      "Le niveau de vol",
-      "La vitesse verticale"
-    ],
-    "correct": 1,
-    "explanation": "Le QNH permet d'obtenir l'altitude par rapport au niveau moyen de la mer."
-  },
-  {
-    "category": "Altimétrie",
-    "question": "Avec 1013 hPa réglé, l'altimètre indique :",
-    "answers": [
-      "La hauteur",
-      "Le niveau de vol",
-      "L'altitude terrain",
-      "La pente de montée"
-    ],
-    "correct": 1,
-    "explanation": "Avec la pression standard réglée, l'altimètre indique un niveau de vol."
-  },
-  {
-    "category": "Altimétrie",
-    "question": "Une baisse de pression non corrigée fait :",
-    "answers": [
-      "Surestimer l'altitude",
-      "Sous-estimer l'altitude",
-      "Augmenter la vitesse",
-      "Diminuer la température"
-    ],
-    "correct": 0,
-    "explanation": "L'altimètre indiquera une altitude plus élevée que l'altitude réelle."
-  },
-  {
-    "category": "Navigation",
-    "question": "Une piste 18 est orientée vers :",
-    "answers": [
-      "090°",
-      "180°",
-      "270°",
-      "360°"
-    ],
-    "correct": 1,
-    "explanation": "Le numéro 18 correspond à un cap magnétique d'environ 180°."
-  },
-  {
-    "category": "Navigation",
-    "question": "Une piste 36 est orientée vers :",
-    "answers": [
-      "360°",
-      "180°",
-      "090°",
-      "270°"
-    ],
-    "correct": 0,
-    "explanation": "La piste 36 correspond à un cap d'environ 360°."
-  },
-  {
-    "category": "Navigation",
-    "question": "La déclinaison magnétique est l'angle entre :",
-    "answers": [
-      "Nord vrai et nord magnétique",
-      "Nord magnétique et sud magnétique",
-      "Cap et route",
-      "Route et dérive"
-    ],
-    "correct": 0,
-    "explanation": "La déclinaison magnétique est l'écart entre le nord vrai et le nord magnétique."
-  },
-  {
-    "category": "Navigation",
-    "question": "Le GPS fournit principalement :",
-    "answers": [
-      "Une position",
-      "La pression atmosphérique",
-      "Le carburant restant",
-      "La température moteur"
-    ],
-    "correct": 0,
-    "explanation": "Le GPS permet notamment de déterminer la position."
-  },
-  {
-    "category": "Radio",
-    "question": "Que signifie le terme 'Roger' ?",
-    "answers": [
-      "Répétez",
-      "Message reçu",
-      "Urgence",
-      "Annulation"
-    ],
-    "correct": 1,
-    "explanation": "Roger signifie que le message a été reçu."
-  },
-  {
-    "category": "Radio",
-    "question": "Le mot 'Wilco' signifie :",
-    "answers": [
-      "Je répète",
-      "Je vais exécuter",
-      "Je ne comprends pas",
-      "Message reçu uniquement"
-    ],
-    "correct": 1,
-    "explanation": "Wilco signifie 'Will comply', je vais exécuter l'instruction."
-  },
-  {
-    "category": "Radio",
-    "question": "La fréquence de détresse aéronautique VHF est :",
-    "answers": [
-      "121.500 MHz",
-      "118.000 MHz",
-      "123.450 MHz",
-      "130.000 MHz"
-    ],
-    "correct": 0,
-    "explanation": "121.500 MHz est la fréquence internationale de détresse."
-  },
-  {
-    "category": "Espaces aériens",
-    "question": "La classe A est généralement réservée :",
-    "answers": [
-      "Au trafic IFR",
-      "Aux planeurs",
-      "Aux ULM uniquement",
-      "Aux vols VFR uniquement"
-    ],
-    "correct": 0,
-    "explanation": "La classe A est normalement réservée aux vols IFR."
-  },
-  {
-    "category": "Espaces aériens",
-    "question": "Une zone P est :",
-    "answers": [
-      "Dangereuse",
-      "Réglementée",
-      "Interdite",
-      "Militaire uniquement"
-    ],
-    "correct": 2,
-    "explanation": "Une zone P est une zone interdite."
-  },
-  {
-    "category": "Espaces aériens",
-    "question": "Une zone D est :",
-    "answers": [
-      "Dangereuse",
-      "Interdite",
-      "Contrôlée",
-      "Réservée IFR"
-    ],
-    "correct": 0,
-    "explanation": "Une zone D est une zone dangereuse."
-  },
-  {
-    "category": "Facteurs humains",
-    "question": "L'hypoxie est causée par :",
-    "answers": [
-      "Un manque d'oxygène",
-      "Un excès de chaleur",
-      "Une déshydratation",
-      "Un manque de carburant"
-    ],
-    "correct": 0,
-    "explanation": "L'hypoxie correspond à un manque d'oxygène disponible pour l'organisme."
-  },
-  {
-    "category": "Facteurs humains",
-    "question": "La fatigue peut :",
-    "answers": [
-      "Améliorer la vigilance",
-      "Réduire les performances",
-      "Augmenter la précision",
-      "Réduire la consommation"
-    ],
-    "correct": 1,
-    "explanation": "La fatigue réduit les performances et la vigilance du pilote."
-  },
-  {
-    "category": "Performances",
-    "question": "Une température élevée a tendance à :",
-    "answers": [
-      "Améliorer les performances",
-      "Réduire les performances",
-      "Ne rien changer",
-      "Augmenter la portance uniquement"
-    ],
-    "correct": 1,
-    "explanation": "L'air moins dense réduit généralement les performances de l'avion."
-  },
-  {
-    "category": "Performances",
-    "question": "Une masse plus élevée entraîne généralement :",
-    "answers": [
-      "Une distance de décollage plus courte",
-      "Une distance de décollage plus longue",
-      "Aucun effet",
-      "Une vitesse de décrochage plus faible"
-    ],
-    "correct": 1,
-    "explanation": "Plus l'avion est lourd, plus la distance de décollage augmente."
-  },
-  {
-    "category": "Aérodynamique",
-    "question": "Le décrochage survient lorsque :",
-    "answers": [
-      "La vitesse est trop élevée",
-      "L'angle d'attaque est trop grand",
-      "Le moteur s'arrête",
-      "Le train est sorti"
-    ],
-    "correct": 1,
-    "explanation": "Le décrochage est provoqué par un angle d'attaque excessif."
-  },
-  {
-    "category": "Aérodynamique",
-    "question": "La portance est principalement produite par :",
-    "answers": [
-      "Les roues",
-      "Les ailes",
-      "Le moteur",
-      "La dérive"
-    ],
-    "correct": 1,
-    "explanation": "Les ailes génèrent la majeure partie de la portance."
-  },
-  {
-    "category": "Aérodynamique",
-    "question": "Les ailerons contrôlent :",
-    "answers": [
-      "Le lacet",
-      "Le roulis",
-      "Le tangage",
-      "La puissance"
-    ],
-    "correct": 1,
-    "explanation": "Les ailerons permettent le contrôle du roulis."
-  },
+  
   {
     "category": "Mécanique de vol",
     "question": "Laquelle des lois suivantes n'a pas été découverte par Isaac Newton ?",
@@ -1463,7 +1089,7 @@
     "explanation": "La batterie a pour utilité de fournir le courant nécessaire au démarrage du moteur (via le démarreur) et d'alimenter les systèmes électriques avant que le moteur ne tourne et que l'alternateur ne prenne le relais. Elle sert également de réserve en cas de panne de l'alternateur."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quel type de système est défini ci-dessous ? 'Un système utilisant un fluide sous pression afin d'effectuer un travail mécanique.'",
     "answers": [
       "À pression positive",
@@ -1475,7 +1101,7 @@
     "explanation": "Un système hydraulique est un système qui utilise un fluide sous pression (généralement de l'huile) pour effectuer un travail mécanique. Ce principe est utilisé dans les avions pour actionner les trains d'atterrissage, les volets, les freins et d'autres commandes."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Lequel des contrôles suivants peut être animé par un système électrique ?",
     "answers": [
       "Volets",
@@ -1487,7 +1113,7 @@
     "explanation": "Tous ces contrôles peuvent être animés par un système électrique. Les volets peuvent être actionnés électriquement, les compensateurs (trim tabs) peuvent être commandés par des moteurs électriques, et le pas de l'hélice peut être modifié électriquement sur certains avions équipés d'hélices à commande électrique."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Sur les petits avions de la catégorie générale, les commandes de vol sont habituellement entraînées par un système _______ .",
     "answers": [
       "mécanique",
@@ -1499,7 +1125,7 @@
     "explanation": "Sur les petits avions de la catégorie générale, les commandes de vol sont habituellement entraînées par un système mécanique (câbles, poulies, biellettes). Les systèmes hydrauliques et électriques sont généralement réservés aux avions plus gros et plus complexes."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "L'arbre à came permet de _______ .",
     "answers": [
       "transmettre l'énergie de la combustion au vilebrequin.",
@@ -1511,7 +1137,7 @@
     "explanation": "L'arbre à came (ou arbre à cames) a pour fonction de coordonner l'ouverture et la fermeture des soupapes d'admission et d'échappement. Il est entraîné par le vilebrequin et ses cames actionnent les culbuteurs ou les poussoirs qui commandent les soupapes."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Placez les 4 temps d'un moteur à combustion interne dans l'ordre. 1 - Combustion, 2 - Admission, 3 - Échappement, 4 - Compression.",
     "answers": [
       "2 - 1 - 4 - 3",
@@ -1523,7 +1149,7 @@
     "explanation": "L'ordre correct des 4 temps d'un moteur à combustion interne est : Admission (2), Compression (4), Combustion (1), Échappement (3). Cet ordre est mémorisé par l'acronyme 'ACCE' : Admission, Compression, Combustion, Échappement."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Lors de la phase de compression, la soupape d'admission est _______ et la soupape d'échappement est _______ .",
     "answers": [
       "fermée, fermée",
@@ -1535,7 +1161,7 @@
     "explanation": "Lors de la phase de compression, les deux soupapes (admission et échappement) sont fermées. Cela permet de comprimer le mélange air-carburant dans le cylindre, créant ainsi une pression et une température élevées avant l'allumage."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Lors de la phase d'admission, le piston _______ .",
     "answers": [
       "remonte",
@@ -1547,7 +1173,7 @@
     "explanation": "Lors de la phase d'admission, le piston descend (de son point mort haut vers le point mort bas). Ce mouvement crée une dépression dans le cylindre qui aspire le mélange air-carburant par la soupape d'admission ouverte."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Laquelle des réponses ci-dessous ne représente pas un avantage du moteur à deux temps ?",
     "answers": [
       "peu de pièces en mouvement",
@@ -1559,7 +1185,7 @@
     "explanation": "La consommation relativement faible n'est pas un avantage du moteur à deux temps. En réalité, les moteurs à deux temps sont généralement moins économes en carburant que les moteurs à quatre temps. Leurs avantages sont : peu de pièces en mouvement, possibilité de surrégime et poids réduit."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Dans un circuit à double allumage, chaque cylindre possède ________ alimenté(es) par _______ .",
     "answers": [
       "2 bougies, 2 magnétos",
@@ -1571,7 +1197,7 @@
     "explanation": "Dans un circuit à double allumage, chaque cylindre possède 2 bougies d'allumage, alimentées par 2 magnétos séparées. Chaque magnéto alimente une bougie par cylindre, assurant une redondance en cas de panne d'un système."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Lequel des choix suivants est faux au sujet des magnétos ?",
     "answers": [
       "Les magnétos sont entraînées par le moteur.",
@@ -1583,7 +1209,7 @@
     "explanation": "L'affirmation 'Les magnétos font partie du système électrique de l'avion' est fausse. Les magnétos sont des systèmes d'allumage indépendants qui fonctionnent sans batterie. Elles sont entraînées mécaniquement par le moteur et génèrent leur propre courant pour l'allumage, indépendamment du système électrique de l'avion."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Dans un circuit à double allumage, si un magnéto tombe en panne, que se passera-t-il ?",
     "answers": [
       "Arrêt complet du moteur.",
@@ -1595,7 +1221,7 @@
     "explanation": "Si un magnéto tombe en panne dans un circuit à double allumage, le moteur continuera à fonctionner mais avec une légère perte de puissance (environ 50 à 100 RPM). La sécurité est assurée par l'autre magnéto qui continue d'alimenter une bougie par cylindre."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Comment le turbocompresseur permet d'augmenter la puissance du moteur à haute altitude ?",
     "answers": [
       "Réchauffe l'air à haute altitude afin de le ramener à la température standard (15°C).",
@@ -1607,7 +1233,7 @@
     "explanation": "Le turbocompresseur utilise les gaz d'échappement pour entraîner une turbine qui fait tourner un compresseur. Ce compresseur comprime l'air avant son admission dans le moteur, augmentant ainsi sa densité. À haute altitude, où l'air est moins dense, cela permet de maintenir la puissance du moteur."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quel moyen peut être utilisé pour refroidir le moteur ?",
     "answers": [
       "Liquide",
@@ -1619,7 +1245,7 @@
     "explanation": "Tous ces moyens peuvent être utilisés pour refroidir le moteur : refroidissement par liquide (liquide de refroidissement circulant dans un circuit), refroidissement par huile (l'huile évacue la chaleur via un radiateur) et refroidissement par air (aliettes de refroidissement sur les cylindres)."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Pourquoi installe-t-on des volets de capot sur certains modèles d'avion ?",
     "answers": [
       "Permet de retenir l'air frais dans le capot moteur.",
@@ -1631,7 +1257,7 @@
     "explanation": "Les volets de capot (ou cowl flaps) permettent à la fois une meilleure circulation de l'air autour du moteur (en augmentant le flux d'air) et de garder le moteur chaud en montée (en réduisant le flux d'air). Ils permettent de réguler la température du moteur en vol."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quel type de moteur est maintenant le plus utilisé en petite aviation ?",
     "answers": [
       "Moteur radial.",
@@ -1644,7 +1270,7 @@
   },
 
     {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quelle est la tâche principale du carburateur ?",
     "answers": [
       "Contrôler la température du mélange.",
@@ -1656,7 +1282,7 @@
     "explanation": "La tâche principale du carburateur est de contrôler le mélange air-essence. Il dose la quantité de carburant en fonction de la quantité d'air aspirée par le moteur, créant ainsi un mélange combustible dans les proportions appropriées pour assurer une combustion efficace."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quels sont les risques lorsque le mélange Air/Essence dans le carburateur est trop riche ?",
     "answers": [
       "Encrassement des bougies, ratés moteur et vibration.",
@@ -1668,7 +1294,7 @@
     "explanation": "Un mélange trop riche (trop d'essence par rapport à l'air) entraîne : un gaspillage de carburant (l'excès d'essence n'est pas brûlé), un encrassement des bougies (dépôts de carbone) et une puissance non nominale (le moteur ne délivre pas sa puissance maximale)."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quels sont les risques lorsque le mélange Air/Essence dans le carburateur est trop pauvre ?",
     "answers": [
       "Ratés moteur et vibration, perte de puissance et risques de surchauffe.",
@@ -1680,7 +1306,7 @@
     "explanation": "Un mélange trop pauvre (trop d'air par rapport à l'essence) entraîne : des ratés moteur et des vibrations (combustion irrégulière), une perte de puissance (moins d'énergie libérée) et des risques de surchauffe (la combustion est plus chaude, pouvant endommager le moteur)."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quel est le meilleur ratio air/essence dans le carburateur pour obtenir la meilleure puissance ?",
     "answers": [
       "8:1",
@@ -1692,7 +1318,7 @@
     "explanation": "Le meilleur ratio air/essence pour obtenir la meilleure puissance est d'environ 15:1 (15 parts d'air pour 1 part d'essence). Le ratio stoechiométrique idéal pour une combustion complète est d'environ 14.7:1, mais le ratio pour la puissance maximale est légèrement plus riche, autour de 12-15:1."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Quel énoncé suivant est faux concernant les conditions les plus propices au givrage du carburateur ?",
     "answers": [
       "Humidité relativement élevée.",
@@ -1704,7 +1330,7 @@
     "explanation": "L'énoncé 'Température entre 5°C et -30°C' est faux. La température la plus propice au givrage du carburateur se situe généralement entre -5°C et +15°C. En effet, la chute de pression dans le carburateur provoque un refroidissement supplémentaire qui peut faire givrer même à des températures positives."
   },
   {
-    "category": "Cellule",
+    "category": "Cellules, moteurs et systèmes (PPL)",
     "question": "Lorsque vous tirez le réchauffe carburateur, quel effet cela aura-t-il directement sur le mélange ?",
     "answers": [
       "Le mélange deviendra plus pauvre.",
@@ -1714,8 +1340,2357 @@
     ],
     "correct": 0,
     "explanation": "Lorsque vous tirez le réchauffe carburateur (carburetor heat), l'air chaud prélevé autour du moteur est moins dense que l'air froid. Cela a pour effet d'appauvrir le mélange (plus d'air chaud moins dense, donc moins d'oxygène pour la même quantité d'essence). C'est pourquoi il est recommandé d'enrichir légèrement le mélange lors de l'utilisation du réchauffe carburateur."
+  },
+    {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle abréviation utilise-t-on pour exprimer la règle de vol à vue ?",
+    "answers": [
+      "IFR",
+      "IMC",
+      "VFR OTT",
+      "VFR"
+    ],
+    "correct": 3,
+    "explanation": "VFR (Visual Flight Rules) est l'abréviation utilisée pour exprimer la règle de vol à vue. IFR (Instrument Flight Rules) est la règle de vol aux instruments, IMC (Instrument Meteorological Conditions) désigne les conditions météo de vol aux instruments, et VFR OTT (Over The Top) est une variante du VFR au-dessus des nuages."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle est la définition qui décrit le mieux la période du jour ?",
+    "answers": [
+      "Réponse B et C.",
+      "La période qui se situe entre la fin du crépuscule civil du soir et le début du crépuscule civil du matin.",
+      "La période qui se situe entre le début du crépuscule civil du matin et la fin du crépuscule civil du soir.",
+      "Il commence lorsque le soleil se situe 6° au-dessus de l'horizon et se termine lorsqu'il se situe 6° au-dessus de l'horizon."
+    ],
+    "correct": 2,
+    "explanation": "La période du jour (daylight) est définie comme la période qui se situe entre le début du crépuscule civil du matin et la fin du crépuscule civil du soir. C'est la période pendant laquelle le centre du soleil est à moins de 6° sous l'horizon."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle est la définition d'un aérodrome ?",
+    "answers": [
+      "Toute étendue de terre ou d'eau pour les activités de départ, de manœuvres et d'entretiens.",
+      "Tout aérodrome enregistré par TC.",
+      "Aucune de ces réponses.",
+      "Tout aérodrome qui est certifié et publié dans le CFS."
+    ],
+    "correct": 0,
+    "explanation": "Un aérodrome est défini comme toute étendue de terre ou d'eau (incluant bâtiments, installations et équipements) utilisée ou destinée à être utilisée, en totalité ou en partie, pour les activités de départ, d'arrivée, de manœuvres et d'entretiens des aéronefs."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Comment appelle-t-on la partie d'un aérodrome destinée aux mouvements des aéronefs à la surface, y compris l'aire de manœuvre et les aires de trafic ?",
+    "answers": [
+      "Aires de mouvements.",
+      "Réponse A et C.",
+      "Aire de manœuvre.",
+      "Aire de trafic."
+    ],
+    "correct": 0,
+    "explanation": "La partie de l'aérodrome destinée aux mouvements des aéronefs à la surface est appelée les aires de mouvements (movement areas). Elle comprend à la fois l'aire de manœuvre (pistes et voies de circulation) et les aires de trafic (parking, aires de chargement)."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Vous devez obligatoirement soumettre vos documents aux fins d'inspection selon les conditions précisées dans la demande faite par un :",
+    "answers": [
+      "Agent d'immigration.",
+      "Agent de la paix.",
+      "Ministre (Transports Canada).",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "Selon le RAC (Règlement de l'aviation canadien), vous devez obligatoirement soumettre vos documents aux fins d'inspection selon les conditions précisées dans la demande faite par un agent d'immigration, un agent de la paix ou le Ministre de Transports Canada. Toutes ces autorités ont le pouvoir de demander l'inspection des documents."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Le propriétaire enregistré d'un aéronef canadien doit, dans les _________ suivant le transfert de la responsabilité légale de l'aéronef, en aviser par écrit le ministre.",
+    "answers": [
+      "7 jours",
+      "14 jours",
+      "30 jours",
+      "Le plus tôt possible"
+    ],
+    "correct": 0,
+    "explanation": "Le propriétaire enregistré d'un aéronef canadien doit, dans les 7 jours suivant le transfert de la responsabilité légale de l'aéronef, en aviser par écrit le ministre de Transports Canada."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle est l'expiration d'un aéronef avec un certificat intérimaire à la suite d'un transfert ?",
+    "answers": [
+      "Expire le dernier jour de la période de 2 mois suivant la date du transfert.",
+      "Expire le dernier jour de la période de 3 mois suivant la date du transfert.",
+      "Expire le dernier jour de la période de 1 mois suivant la date du transfert.",
+      "Expire lorsque vous recevez le nouveau certificat d'immatriculation officiel."
+    ],
+    "correct": 0,
+    "explanation": "Un certificat intérimaire délivré à la suite d'un transfert expire le dernier jour de la période de 2 mois suivant la date du transfert. Pendant cette période, le nouveau propriétaire doit recevoir le certificat d'immatriculation officiel."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel énoncé suivant est vrai concernant les balises lumineuses sur un aéroport ?",
+    "answers": [
+      "L'indicateur de direction du vent doit être d'une couleur voyante avec une forme tronconique, éclairé lorsque l'aérodrome est utilisé la nuit et visible d'un aéronef en vol à une altitude de 1000 pieds AGL.",
+      "L'indicateur de direction du vent doit être d'une couleur voyante avec une forme tronconique, éclairé lorsque l'aérodrome est utilisé la nuit et visible d'un aéronef en vol à une altitude de 1000 pieds ASL.",
+      "L'indicateur de direction du vent doit être d'une couleur voyante avec une forme tronconique, éclairé lorsque l'aérodrome est utilisé la nuit et visible d'un aéronef qui vole à une distance de 2 milles marins.",
+      "L'indicateur de direction du vent doit être d'une couleur voyante avec une forme tronconique, éclairé lorsque l'aérodrome est utilisé la nuit et visible d'un aéronef en vol à une distance de 1000 pieds horizontal."
+    ],
+    "correct": 0,
+    "explanation": "L'indicateur de direction du vent doit être d'une couleur voyante avec une forme tronconique, éclairé lorsque l'aérodrome est utilisé la nuit et visible d'un aéronef en vol à une altitude de 1000 pieds AGL (Above Ground Level). La visibilité doit être d'au moins 2 milles marins."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "La nuit, les parties inutilisables de l'aire de mouvement doivent être délimitées au moyen de feux fixes _______, les voies de circulation au moyen de feux fixes _______ et la piste au moyen de feux fixes _______ chaque côté sur toute sa longueur.",
+    "answers": [
+      "Verts, Bleus, Blancs",
+      "Bleus, Blancs, Rouge",
+      "Rouges, Bleus, Blancs",
+      "Blancs, Rouges, Bleus"
+    ],
+    "correct": 2,
+    "explanation": "La nuit, les parties inutilisables de l'aire de mouvement sont délimitées par des feux rouges, les voies de circulation par des feux bleus, et la piste par des feux blancs de chaque côté sur toute sa longueur."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Trouvez l'énoncé qui est faux concernant la mise à jour des connaissances :",
+    "answers": [
+      "Dans les cinq années qui précèdent le vol, le commandant doit agir en qualité de commandant de bord d'un aéronef.",
+      "Lorsque des passagers se trouvent à bord de l'aéronef, le titulaire doit effectuer dans les 5 mois qui précèdent le vol au moins 6 posé-décollés.",
+      "Le commandant de bord doit terminer avec succès un programme de formation périodique conformément aux normes de délivrance des licences du personnel dans les 24 mois qui précèdent le vol.",
+      "Pour satisfaire le programme de formation périodique, le titulaire peut décider de faire un vol de révision avec un instructeur de vol."
+    ],
+    "correct": 0,
+    "explanation": "L'énoncé faux est : 'Dans les cinq années qui précèdent le vol, le commandant doit agir en qualité de commandant de bord d'un aéronef.' En réalité, le commandant doit avoir effectué 5 heures de vol comme commandant de bord dans les 5 ans précédant le vol, mais pas nécessairement agir en qualité de commandant de bord pendant toute cette période."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quels avantages la licence de pilote privé (PPL) peut-elle vous offrir ?",
+    "answers": [
+      "Agir en qualité de commandant de bord ou copilote d'un avion de la classe et du type pour lesquels la licence est annotée de qualifications et agir en qualité de commandant de bord ou copilote d'un avion ultra-léger.",
+      "Agir en qualité de commandant de bord ou copilote d'un avion de jour et de nuit de la classe et du type pour lesquels la licence est annotée de qualifications.",
+      "Agir en qualité de commandant de bord ou de copilote d'un aéronef sans passager pour son entraînement ou un test en vol si l'entraînement est dispensé sous la direction et la surveillance d'un instructeur de vol qui possède les qualifications requises et si le test est donné conformément par un pilote examinateur.",
+      "Réponses A et C."
+    ],
+    "correct": 3,
+    "explanation": "La licence PPL permet d'agir comme commandant de bord ou copilote d'un avion de la classe et du type pour lesquels elle est annotée (incluant les ULM) et d'agir comme commandant de bord ou copilote d'un aéronef sans passager pour l'entraînement sous la supervision d'un instructeur de vol qualifié ou pour un test en vol avec un examinateur."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel énoncé suivant est faux concernant le renouvellement et la validité d'un médical classe 3 ?",
+    "answers": [
+      "Une personne âgée de moins de 40 ans doit renouveler son médical classe 3 à tous les 5 ans.",
+      "Un pilote âgé de 42 ans a renouvelé son médical classe 3 le 21 Janvier 2021, alors sa date limite pour son prochain renouvellement serait pour le 21 Janvier 2023.",
+      "Lorsqu'un médical classe 1 est échu, il devient classe 3.",
+      "Un jeune pilote âgé de 20 ans a renouvelé son médical classe 3 le 12 Novembre 2020, alors sa date limite pour son prochain renouvellement serait pour le 1 Décembre 2025."
+    ],
+    "correct": 3,
+    "explanation": "L'énoncé faux est : 'Un jeune pilote âgé de 20 ans a renouvelé son médical classe 3 le 12 Novembre 2020, alors sa date limite pour son prochain renouvellement serait pour le 1 Décembre 2025.' En réalité, pour une personne de moins de 40 ans, le médical classe 3 est valide 5 ans à compter de la date de l'examen, donc jusqu'au 12 Novembre 2025."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle classe médicale est requise pour une licence de pilote privé ?",
+    "answers": [
+      "Classe 3",
+      "Classe 2",
+      "Classe 1",
+      "Classe 1 ou 3"
+    ],
+    "correct": 0,
+    "explanation": "La licence de pilote privé (PPL) requiert un certificat médical de classe 3. La classe 1 est requise pour les pilotes de ligne (ATPL) et la classe 2 pour les pilotes professionnels (CPL)."
+  },
+
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "L'espace aérien de classe B est :",
+    "answers": [
+      "Un espace aérien non contrôlé entre 12 500 pieds ASL et 17 999 pieds ASL.",
+      "Un espace aérien contrôlé entre 12 500 pieds AGL et 18 000 pieds AGL.",
+      "Un espace aérien contrôlé entre 12 500 pieds ASL et 17 999 pieds ASL.",
+      "Un espace aérien non contrôlé entre la surface et 12 500 pieds AGL."
+    ],
+    "correct": 2,
+    "explanation": "La classe B est un espace aérien contrôlé situé entre 12 500 pieds ASL et 17 999 pieds ASL. C'est un espace réservé principalement aux vols IFR, bien que les vols VFR y soient autorisés sous certaines conditions."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel énoncé suivant est faux concernant l'espace aérien de classe C ?",
+    "answers": [
+      "Un transpondeur mode C est obligatoire pour évoluer dans l'espace aérien.",
+      "Le vol IFR et VFR sont autorisés.",
+      "Vous devez établir un contact bilatéral avant de pénétrer dans l'espace aérien.",
+      "Devient une classe E lorsqu'elle est fermée."
+    ],
+    "correct": 2,
+    "explanation": "L'énoncé faux est : 'Vous devez établir un contact bilatéral avant de pénétrer dans l'espace aérien.' En réalité, pour la classe C, un contact bilatéral n'est pas requis avant la pénétration. Les vols VFR doivent établir une communication bilatérale avec le contrôle avant d'entrer, mais les vols IFR sont déjà sous contrôle."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel(s) type(s) d'espace(s) aérien peut-on retrouver dans l'espace aérien non contrôlé ?",
+    "answers": [
+      "Dans l'espace aérien inférieur.",
+      "Dans l'espace aérien inférieur, routes aériennes et service consultatif.",
+      "Dans les voies aériennes.",
+      "A et C."
+    ],
+    "correct": 0,
+    "explanation": "L'espace aérien non contrôlé se retrouve principalement dans l'espace aérien inférieur (basse altitude). Les classes F et G sont considérées comme non contrôlées et se situent généralement dans les basses altitudes, en dehors des zones de contrôle."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel(s) type(s) d'espace(s) aérien peut-on retrouver dans l'espace aérien contrôlé ?",
+    "answers": [
+      "Aucune de ces réponses.",
+      "Les zones de contrôle, les voies aériennes et les régions de contrôle terminal.",
+      "Les zones de contrôle et les régions de contrôle terminal.",
+      "Les routes et les voies aériennes."
+    ],
+    "correct": 1,
+    "explanation": "L'espace aérien contrôlé comprend les zones de contrôle (autour des aérodromes), les voies aériennes (entre les aérodromes) et les régions de contrôle terminal (TCA - Terminal Control Areas). Tous ces espaces sont contrôlés par le contrôle aérien."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle(s) classe(s) d'espace aérien sont non contrôlées ?",
+    "answers": [
+      "Classes G et E.",
+      "Classes A, B, C, D, E, F.",
+      "Classes F et G.",
+      "Classe G."
+    ],
+    "correct": 2,
+    "explanation": "Les classes F et G sont considérées comme des espaces aériens non contrôlés. La classe E est contrôlée (bien que les services soient limités). Les classes A, B, C et D sont toutes contrôlées."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel énoncé suivant est vrai concernant l'abréviation CYA sur une carte aéronautique VFR ?",
+    "answers": [
+      "Il indique une classe F réglementée.",
+      "Il indique une classe F consultative.",
+      "Il indique un espace aérien réglementé, dangereux ou consultatif.",
+      "Il indique une zone dangereuse à éviter."
+    ],
+    "correct": 0,
+    "explanation": "CYA sur une carte aéronautique VFR indique une classe F réglementée. Ces zones sont des espaces aériens où des activités particulières peuvent avoir lieu (entraînement militaire, parachutisme, etc.) et où des règles spécifiques s'appliquent."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Vous êtes obligé d'avoir un transpondeur mode C pour pénétrer et évoluer dans l'espace aérien de classe :",
+    "answers": [
+      "Classe A seulement.",
+      "A, B, C et D si spécifié.",
+      "Vous avez besoin d'un transpondeur mode C seulement si vous prévoyez atterrir.",
+      "A, B, C, D et E si spécifié."
+    ],
+    "correct": 1,
+    "explanation": "Un transpondeur mode C est obligatoire pour pénétrer et évoluer dans les classes A, B, C et D lorsque spécifié. Dans certaines zones de classe D, le transpondeur peut être requis si indiqué sur les cartes ou dans les publications aéronautiques."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Vous planifiez un vol voyage de 150 nm. Pendant la préparation de votre vol, vous remarquez en lisant les NOTAM qu'il y a un feu de forêt sur votre route. Vous ne devez pas être à une altitude inférieure de ________ et garder une distance de ________ de la zone sinistrée.",
+    "answers": [
+      "5000 pieds AGL, 3 NM",
+      "3000 pieds AGL, 5 NM",
+      "3000 pieds ASL, 5 NM",
+      "5000 pieds ASL, 3 NM"
+    ],
+    "correct": 1,
+    "explanation": "Lors d'un incendie de forêt, les pilotes ne doivent pas voler à une altitude inférieure à 3000 pieds AGL (au-dessus du sol) et doivent garder une distance horizontale d'au moins 5 NM de la zone sinistrée. Ces règles permettent d'éviter les risques liés à la fumée, à la chaleur et aux opérations des avions pompiers."
+  },
+
+    {
+    "category": "Droit aérien (RAC)",
+    "question": "Combien de temps une personne doit-elle attendre après une ingestion d'une boisson alcoolisée avant d'agir en qualité de membre d'équipage d'un aéronef ?",
+    "answers": [
+      "12 heures",
+      "8 heures",
+      "24 heures",
+      "48 heures"
+    ],
+    "correct": 1,
+    "explanation": "Une personne doit attendre 8 heures après avoir consommé une boisson alcoolisée avant d'agir en qualité de membre d'équipage d'un aéronef. C'est la règle du '8 heures entre la bouteille et le manche' (bottle to throttle)."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Il est interdit de faire démarrer le moteur d'un aéronef ou de laisser le moteur en marche à moins que _________.",
+    "answers": [
+      "L'aéronef ne soit occupé par une personne en mesure de maîtriser l'aéronef.",
+      "Des mesures n'aient été prises pour empêcher l'aéronef de se déplacer.",
+      "L'aéronef n'est pas laissé sans surveillance.",
+      "Toutes ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "Toutes ces conditions doivent être remplies : l'aéronef doit être occupé par une personne capable de le maîtriser, des mesures doivent empêcher son déplacement, et il ne doit pas être laissé sans surveillance."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel(s) énoncé(s) suivant est vrai concernant le givrage sur un aéronef ?",
+    "answers": [
+      "Il est interdit d'effectuer le décollage d'un aéronef si du givrage, de la glace ou de la neige adhèrent à toutes surfaces critiques.",
+      "Il est interdit d'effectuer le décollage d'un aéronef lorsque les conditions sont telles qu'il est raisonnable de prévoir que du givre, de la glace ou de la neige pourraient adhérer à l'aéronef.",
+      "Il est autorisé de décoller avec du givrage sur les surfaces critiques à condition qu'il n'y ait pas plus que la largeur d'une feuille de papier.",
+      "Réponses A et B."
+    ],
+    "correct": 3,
+    "explanation": "Les deux énoncés A et B sont vrais. Il est interdit de décoller avec du givrage sur les surfaces critiques ET il est interdit de décoller lorsque les conditions laissent prévoir du givrage. L'option C est fausse : aucun givrage n'est toléré."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle est l'altitude et la distance minimale à respecter au-dessus d'une zone bâtie ou d'un rassemblement de personnes ?",
+    "answers": [
+      "1000 pieds ASL au-dessus de l'obstacle le plus élevé et 2000 pieds horizontalement.",
+      "500 pieds AGL au-dessus de l'obstacle le plus élevé et 2000 pieds horizontalement.",
+      "2000 pieds AGL au-dessus de l'obstacle le plus élevé et 1000 pieds horizontalement.",
+      "1000 pieds AGL au-dessus de l'obstacle le plus élevé et 2000 pieds horizontalement."
+    ],
+    "correct": 3,
+    "explanation": "Au-dessus d'une zone bâtie ou d'un rassemblement de personnes, l'altitude minimale est de 1000 pieds AGL au-dessus de l'obstacle le plus élevé dans un rayon horizontal de 2000 pieds."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle est l'altitude à respecter au-dessus d'une zone non-bâtie ?",
+    "answers": [
+      "500 pieds ASL",
+      "500 pieds AGL",
+      "1000 pieds ASL",
+      "1000 pieds AGL"
+    ],
+    "correct": 1,
+    "explanation": "Au-dessus d'une zone non-bâtie, l'altitude minimale est de 500 pieds AGL (Above Ground Level). Cette règle s'applique en dehors des zones bâties et des rassemblements de personnes."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle est l'ordre de priorité de passage des aéronefs suivants ?",
+    "answers": [
+      "Dirigeable, Ballons, Planeur et avion.",
+      "Avion, dirigeable, planeur et ballons.",
+      "Ballons, dirigeable, planeur et avion.",
+      "Ballons, planeur, dirigeable et avion."
+    ],
+    "correct": 2,
+    "explanation": "L'ordre de priorité de passage est : Ballons (les moins manœuvrables), Dirigeables, Planeurs et Avions. Les ballons ont la priorité car ils sont les moins manœuvrables."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quels énoncés suivants sont vrais concernant l'évitement d'abordage ?",
+    "answers": [
+      "Un aéronef qui est dépassé doit céder le passage à l'autre aéronef.",
+      "Un aéronef qui approche d'un aérodrome pour atterrir doit céder le passage aux aéronefs qui s'approchent pour atterrir à une altitude inférieure.",
+      "Lorsque deux aéronefs s'approchent de front, chaque aéronef doit modifier le cap vers la gauche pour éviter l'abordage.",
+      "Réponses A et B."
+    ],
+    "correct": 2,
+    "explanation": "Lorsque deux aéronefs s'approchent de front, chaque aéronef doit modifier son cap vers la droite (et non vers la gauche). Les règles d'évitement d'abordage sont : l'aéronef dépassé cède le passage, l'aéronef en approche finale cède le passage aux aéronefs à plus basse altitude, et les aéronefs de front doivent se décaler vers la droite."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Il est interdit d'utiliser un aéronef pour effectuer une acrobatie aérienne au-dessus d'une zone bâtie ou d'un rassemblement de personnes lorsque la visibilité en vol est ___________.",
+    "answers": [
+      "Inférieure à 5 SM et un plafond inférieur à 2000 pieds AGL.",
+      "Inférieure à 3 SM et un plafond inférieur à 3000 pieds AGL.",
+      "Inférieure à 3 SM et un plafond inférieur à 2000 pieds AGL.",
+      "Inférieure à 5 SM et un plafond inférieur à 3000 pieds AGL."
+    ],
+    "correct": 2,
+    "explanation": "Il est interdit d'effectuer des acrobaties aériennes au-dessus d'une zone bâtie ou d'un rassemblement de personnes lorsque la visibilité en vol est inférieure à 3 SM et le plafond inférieur à 2000 pieds AGL."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quels énoncés suivants est faux concernant l'altitude de croisière ?",
+    "answers": [
+      "Cette règle s'applique seulement lors d'un vol à une altitude de plus de 3000 pieds AGL.",
+      "L'altitude de croisière appropriée d'un aéronef en vol de croisière est établie en fonction de la route vraie dans l'hémisphère nord.",
+      "L'altitude de croisière appropriée d'un aéronef en vol de croisière est établie en fonction des routes magnétiques dans l'hémisphère nord.",
+      "L'altitude de croisière appropriée d'un aéronef en vol de croisière est établie en fonction des routes magnétiques dans l'hémisphère sud."
+    ],
+    "correct": 0,
+    "explanation": "L'énoncé faux est : 'Cette règle s'applique seulement lors d'un vol à une altitude de plus de 3000 pieds AGL.' En réalité, la règle d'altitude de croisière s'applique lors d'un vol à une altitude de plus de 3000 pieds AGL OU plus de 1000 pieds AGL dans certaines régions désignées."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Vous prévoyez un vol VFR du point A au point B et vous calculez que votre route magnétique est 180°. Quelle altitude pourriez-vous choisir si on ne prend pas les conditions météorologiques en considération ?",
+    "answers": [
+      "6500 pieds",
+      "5500 pieds",
+      "8000 pieds",
+      "4000 pieds"
+    ],
+    "correct": 0,
+    "explanation": "Pour une route magnétique de 180° (cap vers le sud), en vol VFR, l'altitude de croisière appropriée est impaire + 500 pieds. Les altitudes impaires+500 sont : 3500, 5500, 7500, etc. Donc 5500 pieds serait l'altitude appropriée. 6500 pieds n'est pas une altitude VFR standard."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quand devez-vous recaler l'altimètre ?",
+    "answers": [
+      "Avant de décoller et d'atterrir.",
+      "Avant de décoller, après la mise en palier et avant de commencer la descente en vue de l'atterrissage.",
+      "Avant de décoller, avant d'atteindre le niveau de vol prévu et avant l'atterrissage.",
+      "Avant de décoller, en vol et avant de commencer la descente en vue de l'atterrissage."
+    ],
+    "correct": 3,
+    "explanation": "L'altimètre doit être recalé avant le décollage, en vol (régulièrement pour maintenir le calage à jour) et avant de commencer la descente en vue de l'atterrissage pour obtenir le calage local."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Vous prévoyez un vol à partir de l'espace aérien intérieur du sud vers l'espace aérien intérieur du nord. Vous devez :",
+    "answers": [
+      "Caler l'altimètre sur l'aéroport le plus proche tout au long de votre route, car la transition entre régions s'applique seulement aux aéronefs qui évoluent à une altitude supérieure à 18 000 pieds.",
+      "Caler l'altimètre sur le calage altimétrique de la station la plus proche avant l'entrée de l'aéronef dans la région d'utilisation de la pression standard.",
+      "Caler l'altimètre à 29.92 Hg avant l'entrée de l'aéronef dans la région d'utilisation de la pression standard.",
+      "Caler l'altimètre à 29.92 Hg après l'entrée de l'aéronef dans la région d'utilisation de la pression standard."
+    ],
+    "correct": 2,
+    "explanation": "Lors d'un vol entre les régions intérieures sud et nord, vous devez caler l'altimètre à 29.92 Hg avant d'entrer dans la région d'utilisation de la pression standard. Chaque région a son propre calage altimétrique de référence."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel énoncé suivant est vrai concernant les dispositifs de flottaison ?",
+    "answers": [
+      "Si l'avion est à une distance supérieure à 100 nm du rivage, il doit transporter à bord un gilet de sauvetage pour chaque personne à bord.",
+      "Si l'avion est à une distance supérieure à 50 nm du rivage ou une distance qui peut être parcourue en 30 min à une vitesse vraie, il doit transporter à bord un radeau pouvant contenir l'ensemble des personnes à bord.",
+      "Si l'avion est à une distance supérieure à 25 nm du rivage, il doit transporter à bord un gilet de sauvetage pour chaque personne à bord.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 1,
+    "explanation": "Si l'avion est à une distance supérieure à 50 NM du rivage ou une distance qui peut être parcourue en 30 minutes à vitesse de croisière, il doit transporter un radeau de sauvetage de capacité suffisante pour toutes les personnes à bord."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quand devez-vous obligatoirement déposer un plan de vol ou un itinéraire de vol VFR ?",
+    "answers": [
+      "Vous n'êtes pas obligé de déposer un plan de vol ou un itinéraire de vol, car c'est seulement réservé pour les vols en IMC.",
+      "Vous devez déposer un plan de vol ou un itinéraire de vol lorsque vous prévoyez faire un vol entre le Canada et un état étranger ou un vol dans l'ADIZ.",
+      "Vous devez obligatoirement déposer un plan de vol ou un itinéraire de vol lorsque vous vous éloignez de plus de 25 nm de l'aérodrome de départ.",
+      "Réponses B et C."
+    ],
+    "correct": 1,
+    "explanation": "Un plan de vol ou un itinéraire de vol VFR est obligatoire pour les vols entre le Canada et un état étranger, ainsi que pour les vols dans l'ADIZ (Air Defense Identification Zone)."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Lorsque vous changez ________________, vous devez aviser dans les plus brefs délais une unité de contrôle, une FISE, une FSS ou la personne de confiance de la modification prévue.",
+    "answers": [
+      "Le trajet, la durée du vol et l'altitude.",
+      "Le trajet, la durée et l'aérodrome de destination.",
+      "La durée et l'altitude.",
+      "Le trajet et la durée du vol."
+    ],
+    "correct": 0,
+    "explanation": "Lorsque vous changez le trajet, la durée du vol ou l'altitude, vous devez aviser dans les plus brefs délais une unité de contrôle, une FISE, une FSS ou la personne de confiance de la modification prévue."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quels énoncés suivants est vrai concernant les exigences relatives au carburant le jour ?",
+    "answers": [
+      "Il doit rester une quantité suffisante en carburant pour continuer le vol pendant 45 minutes à la vitesse de croisière après l'arrivée à destination.",
+      "Il doit rester une quantité suffisante en carburant pour continuer le vol pendant 30 minutes à la vitesse de croisière après l'arrivée à destination.",
+      "Il n'y a pas d'exigences relatives au carburant le jour.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 1,
+    "explanation": "Pour les vols de jour, il doit rester une quantité suffisante de carburant pour continuer le vol pendant 30 minutes à la vitesse de croisière après l'arrivée à destination. La nuit, cette réserve est de 45 minutes."
+  },
+    {
+    "category": "Droit aérien (RAC)",
+    "question": "Quand devez-vous donner un compte rendu pour un départ dans une zone MF ?",
+    "answers": [
+      "Avant de circuler, avant le décollage, après le décollage et lorsque vous quittez la zone MF.",
+      "Avant de circuler, avant de s'engager sur la piste, avant le décollage et lorsque vous quittez la zone MF.",
+      "Avant le décollage et la sortie de zone.",
+      "Avant de circuler, avant de s'engager sur la piste, avant le décollage, après le décollage et lorsque vous quittez la zone MF."
+    ],
+    "correct": 3,
+    "explanation": "Pour un départ dans une zone MF (Mandatory Frequency), les comptes rendus doivent être effectués : avant de circuler, avant de s'engager sur la piste, avant le décollage, après le décollage et lorsque vous quittez la zone MF."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quand devez-vous donner un compte rendu pour un atterrissage dans une zone MF ?",
+    "answers": [
+      "Avant l'entrée avec vos intentions, au moment d'intégrer le circuit, en finale et à l'écart de la piste.",
+      "Avant l'entrée avec vos intentions, au moment d'intégrer le circuit, en finale et sur la piste.",
+      "5 NM avant l'entrée avec vos intentions, au moment d'intégrer le circuit, en finale et à l'écart de la piste.",
+      "5 minutes avant l'entrée avec vos intentions, au moment d'intégrer le circuit, en finale et à l'écart de la piste."
+    ],
+    "correct": 2,
+    "explanation": "Pour un atterrissage dans une zone MF, les comptes rendus doivent être effectués : 5 NM avant l'entrée avec vos intentions, au moment d'intégrer le circuit, en finale et à l'écart de la piste."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Où devez-vous donner un compte rendu pendant des posé-décollés dans une zone MF ?",
+    "answers": [
+      "Lorsque l'unicom vous le demande.",
+      "En finale seulement.",
+      "En montée et en vent arrière.",
+      "En vent arrière, en finale et lorsque vous quittez la surface d'atterrissage."
+    ],
+    "correct": 3,
+    "explanation": "Pendant des posé-décollés (touch and go) dans une zone MF, les comptes rendus doivent être effectués en vent arrière, en finale et lorsque vous quittez la surface d'atterrissage."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Pendant un vol voyage, vous devez traverser une zone MF, alors vous contactez l'unicom _______________________.",
+    "answers": [
+      "10 minutes avant de pénétrer dans la zone et à la sortie de la zone.",
+      "5 minutes avant de pénétrer dans la zone et à la sortie de la zone.",
+      "10 NM avant de pénétrer dans la zone et à la sortie de la zone.",
+      "5 NM avant de pénétrer dans la zone et à la sortie de la zone."
+    ],
+    "correct": 1,
+    "explanation": "Pour traverser une zone MF, vous devez contacter l'unicom 5 minutes avant de pénétrer dans la zone et à la sortie de la zone. Cette procédure permet d'informer les autres usagers de votre présence."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Dans une zone ATF, quelle fréquence doit être utilisée si aucune n'est assignée ?",
+    "answers": [
+      "122.7",
+      "122.6",
+      "123.2",
+      "126.7"
+    ],
+    "correct": 3,
+    "explanation": "Dans une zone ATF (Aerodrome Traffic Frequency), si aucune fréquence n'est assignée, la fréquence par défaut à utiliser est 126.7 MHz, qui est la fréquence d'autosurveillance universelle."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Sauf autorisation contraire de l'unité de contrôle, il est interdit d'utiliser un aéronef en dessous de ____________ d'un aérodrome.",
+    "answers": [
+      "2000 pieds ASL",
+      "1000 pieds ASL",
+      "1000 pieds AGL",
+      "2000 pieds AGL"
+    ],
+    "correct": 3,
+    "explanation": "Sauf autorisation contraire de l'unité de contrôle, il est interdit d'utiliser un aéronef en dessous de 2000 pieds AGL d'un aérodrome. Cette règle permet d'éviter les risques de collision avec les aéronefs en approche ou en départ."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelles sont les conditions météorologiques de vol à vue minimales pour un vol VFR dans un espace aérien contrôlé ?",
+    "answers": [
+      "1 SM de visibilité, 1 SM à l'horizontale des nuages et 500 pieds à la verticale des nuages.",
+      "1 SM de visibilité, 2000 pieds à l'horizontale des nuages et 500 pieds à la verticale des nuages.",
+      "3 SM de visibilité, 1 SM à l'horizontale des nuages et 500 pieds à la verticale des nuages.",
+      "3 SM de visibilité, 2000 pieds à l'horizontale des nuages et 500 pieds à la verticale des nuages."
+    ],
+    "correct": 2,
+    "explanation": "Dans un espace aérien contrôlé, les conditions VFR minimales sont : visibilité de 3 SM, distance horizontale des nuages de 1 SM et distance verticale des nuages de 500 pieds."
+  }
+
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelles sont les conditions météorologiques pour effectuer un vol VFR OTT ?",
+    "answers": [
+      "Distance verticale des nuages d'au moins 1000 pieds, une distance entre deux couches d'au moins 5000 pieds, une visibilité de plus de 5 SM, sans orage ni précipitations.",
+      "Distance verticale des nuages d'au moins 5000 pieds, une distance entre deux couches d'au moins 1000 pieds, une visibilité de plus de 5 SM, sans orage ni précipitations.",
+      "Distance verticale des nuages d'au moins 1000 pieds, une distance entre deux couches d'au moins 5000 pieds, une visibilité de plus de 5 SM.",
+      "Distance verticale des nuages d'au moins 1000 pieds, une distance entre deux couches d'au moins 5000 pieds, une visibilité de plus de 6 SM."
+    ],
+    "correct": 0,
+    "explanation": "Pour un vol VFR OTT (Over The Top), les conditions sont : distance verticale des nuages d'au moins 1000 pieds, distance entre deux couches d'au moins 5000 pieds, visibilité de plus de 5 SM, et absence d'orages ou de précipitations."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quel énoncé suivant est faux concernant les conditions de vol VFR spécial ?",
+    "answers": [
+      "Vous devez rester hors des nuages et avec des repères visuels à la surface en tout temps.",
+      "L'aéronef doit être muni d'un équipement radiocommunications.",
+      "Le vol VFR spécial est autorisé de nuit pour les départs à condition qu'il y ait plus de 1 SM de visibilité.",
+      "Un aéronef peut être utilisé en vol VFR spécial à l'intérieur d'une zone de contrôle à condition qu'il y ait plus de 1 SM de visibilité."
+    ],
+    "correct": 3,
+    "explanation": "L'énoncé faux est : 'Un aéronef peut être utilisé en vol VFR spécial à l'intérieur d'une zone de contrôle à condition qu'il y ait plus de 1 SM de visibilité.' En réalité, dans une zone de contrôle, le VFR spécial est autorisé s'il y a plus de 1 SM de visibilité, mais seulement de jour."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelle est la procédure à suivre lors d'une panne de communication radio dans un espace aérien contrôlé ?",
+    "answers": [
+      "Atterrir à l'aérodrome prévu et l'ATC pointera des signaux lumineux pour vous guider.",
+      "Quittez l'espace aérien par le trajet le plus court, affichez 7700 et informez l'unité de contrôle dès que possible.",
+      "Affichez le code 7500 sur le transpondeur et quittez l'espace aérien.",
+      "Quittez l'espace aérien par le trajet le plus court, affichez 7600 et informez l'unité de contrôle dès que possible."
+    ],
+    "correct": 3,
+    "explanation": "Lors d'une panne de communication radio (code 7600), vous devez quitter l'espace aérien contrôlé par le trajet le plus court, afficher le code 7600 sur le transpondeur, et informer l'unité de contrôle dès que possible."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quels énoncés suivants est faux concernant l'ADIZ ?",
+    "answers": [
+      "Le pilote doit donner un compte rendu toutes les 5 minutes.",
+      "Si l'heure ou le point d'entrée réel diffère de plus de 5 minutes ou 20 NM, le pilote doit en aviser l'unité de contrôle dès que possible.",
+      "L'ADIZ est une zone d'identification de la défense aérienne.",
+      "Un plan de vol doit être déposé afin d'y entrer."
+    ],
+    "correct": 0,
+    "explanation": "L'énoncé faux est : 'Le pilote doit donner un compte rendu toutes les 5 minutes.' En réalité, le pilote doit donner un compte rendu à l'entrée et à la sortie de l'ADIZ, ainsi qu'à 15 minutes avant l'heure prévue de passage, mais pas toutes les 5 minutes."
+  },
+    {
+    "category": "Droit aérien (RAC)",
+    "question": "Quelles sont les conditions météorologiques de vol à vue minimales pour un vol VFR dans l'espace aérien non contrôlé à 1000 pieds AGL et moins ?",
+    "answers": [
+      "Visibilité 2 SM le jour et rester en dehors des nuages.",
+      "Visibilité 1 SM le jour et rester en dehors des nuages.",
+      "Visibilité 2 NM le jour et rester 500 pieds verticale des nuages.",
+      "Visibilité 3 NM la nuit et rester en dehors des nuages."
+    ],
+    "correct": 0,
+    "explanation": "Dans un espace aérien non contrôlé à 1000 pieds AGL et moins, les conditions minimales VFR sont : visibilité de 2 SM le jour et rester en dehors des nuages (sans distance verticale ou horizontale spécifiée)."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Quels équipements sont requis pour effectuer un vol VFR de jour ?",
+    "answers": [
+      "Un altimètre, anémomètre, tachymètre, indicateur de pression d'huile, indicateur de température d'huile et un indicateur de niveau de carburant.",
+      "Un altimètre, anémomètre, horizon artificiel, tachymètre, indicateur de pression d'huile, indicateur de température d'huile et un indicateur de niveau de carburant.",
+      "Un altimètre, anémomètre, compas magnétique, indicateur de pression d'huile, indicateur de température d'huile et un indicateur de niveau de carburant.",
+      "Un altimètre, anémomètre, compas magnétique, tachymètre, indicateur de pression d'huile, indicateur de température d'huile et un indicateur de niveau de carburant."
+    ],
+    "correct": 3,
+    "explanation": "Pour un vol VFR de jour, les équipements requis sont : un altimètre, un anémomètre, un compas magnétique, un tachymètre, un indicateur de pression d'huile, un indicateur de température d'huile et un indicateur de niveau de carburant."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Le commandant de bord d'un aéronef doit donner l'ordre de boucler la ceinture de sécurité _________.",
+    "answers": [
+      "Pendant le décollage et l'atterrissage et chaque fois que le commandant de bord le juge nécessaire.",
+      "Pendant le décollage et l'atterrissage.",
+      "Pendant le mouvement de l'aéronef à la surface, pendant le décollage et l'atterrissage et chaque fois que le commandant de bord le juge nécessaire.",
+      "Pendant le mouvement de l'aéronef à la surface, pendant le décollage et l'atterrissage."
+    ],
+    "correct": 2,
+    "explanation": "Le commandant de bord doit donner l'ordre de boucler la ceinture de sécurité pendant le mouvement de l'aéronef à la surface, pendant le décollage et l'atterrissage, et chaque fois qu'il le juge nécessaire pour la sécurité."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Laquelle de ces affirmations est vraie pour un vol à 11 000 pieds ?",
+    "answers": [
+      "L'aéronef n'est pas obligé d'avoir de l'oxygène à bord, quelle que soit la durée du vol.",
+      "L'aéronef peut évoluer à cette altitude, sans oxygène, à condition qu'il ne dépasse pas 30 minutes de vol entre 10 000 pieds et 13 000 pieds.",
+      "L'aéronef peut évoluer à cette altitude, sans oxygène, à condition qu'il ne dépasse pas 1 heure de vol entre 10 000 pieds et 13 000 pieds.",
+      "Chaque personne à bord doit porter un masque à oxygène pour la durée du vol."
+    ],
+    "correct": 1,
+    "explanation": "À 11 000 pieds, l'aéronef peut évoluer sans oxygène à condition que la durée du vol entre 10 000 pieds et 13 000 pieds ne dépasse pas 30 minutes. Au-delà de 13 000 pieds, l'oxygène est obligatoire pour toutes les personnes à bord."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Lequel des énoncés suivants est vrai concernant le transpondeur mode C ?",
+    "answers": [
+      "L'aéronef doit être muni d'un transpondeur mode C pour évoluer dans l'espace aérien classe A, B, C et D.",
+      "L'aéronef n'est pas obligé d'être muni d'un transpondeur mode C pour évoluer dans l'espace aérien classe E.",
+      "L'aéronef doit être muni d'un transpondeur mode C pour évoluer dans l'espace aérien classe A, B, C, D et E si requis.",
+      "L'aéronef doit être muni d'un transpondeur mode C pour évoluer dans l'espace aérien classe A, B, C, D et E."
+    ],
+    "correct": 2,
+    "explanation": "L'aéronef doit être muni d'un transpondeur mode C pour évoluer dans les classes A, B, C, D et E si requis (c'est-à-dire lorsque spécifié par la réglementation ou les NOTAM)."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Est-ce que l'ELT peut être déclenché pour une vérification ?",
+    "answers": [
+      "Oui.",
+      "Non.",
+      "Oui, il peut être vérifié durant moins de 5 secondes au cours des 5 premières minutes de l'heure UTC.",
+      "Oui, cependant vous devez aviser l'ATC."
+    ],
+    "correct": 2,
+    "explanation": "L'ELT (Emergency Locator Transmitter) peut être vérifié durant moins de 5 secondes, mais uniquement au cours des 5 premières minutes de chaque heure UTC. Cette restriction permet d'éviter les fausses alertes de détresse."
+  },
+  {
+    "category": "Météo",
+    "question": "Quelles sont les trois principales propriétés physiques de l'atmosphère ?",
+    "answers": [
+      "Mobilité, réchauffement et refroidissement.",
+      "Expansibilité, compressibilité et refroidissement.",
+      "Expansibilité, compressibilité et réchauffement.",
+      "Mobilité, expansibilité et compressibilité."
+    ],
+    "correct": 3,
+    "explanation": "Les trois principales propriétés physiques de l'atmosphère sont la mobilité (l'air peut se déplacer), l'expansibilité (l'air peut se dilater) et la compressibilité (l'air peut être comprimé). Ces propriétés expliquent les phénomènes météorologiques et les variations de pression."
+  },
+  {
+    "category": "Météo",
+    "question": "L'atmosphère entourant la Terre se divise en quatre couches distinctes qui s'étendent en altitude sur plusieurs centaines de milles. En ordre ascendant, quelles sont-elles ?",
+    "answers": [
+      "Thermosphère, mésosphère, troposphère et stratosphère.",
+      "Thermosphère, mésosphère, stratosphère et troposphère.",
+      "Troposphère, stratosphère, thermosphère et mésosphère.",
+      "Troposphère, stratosphère, mésosphère et thermosphère."
+    ],
+    "correct": 3,
+    "explanation": "L'ordre ascendant des couches de l'atmosphère est : Troposphère (0-11 km), Stratosphère (11-50 km), Mésosphère (50-85 km) et Thermosphère (85-600 km). Chaque couche a des caractéristiques de température et de pression différentes."
+  },
+  {
+    "category": "Météo",
+    "question": "Quel énoncé est faux concernant les valeurs standard de l'OACI ?",
+    "answers": [
+      "La pression diminue 1 po Hg par 1000 pieds.",
+      "La température au niveau moyen de la mer est 15°F.",
+      "Le gradient vertical de température est 1.98°C par 1000 pieds.",
+      "La pression au niveau moyen de la mer est 1013,25 hPa."
+    ],
+    "correct": 1,
+    "explanation": "L'énoncé faux est : 'La température au niveau moyen de la mer est 15°F.' En réalité, la température standard au niveau moyen de la mer est de 15°C (59°F). Les autres énoncés sont corrects : 1 po Hg/1000 pieds, gradient de 1.98°C/1000 pieds et pression de 1013.25 hPa."
+  },
+  {
+    "category": "Météo",
+    "question": "Quel énoncé suivant est vrai ?",
+    "answers": [
+      "Plus près de la surface, plus la pression est forte.",
+      "Plus éloigné de la surface, plus la température augmente.",
+      "Plus éloigné de la surface, plus la température diminue.",
+      "Réponses A et C."
+    ],
+    "correct": 3,
+    "explanation": "Les deux énoncés A et C sont vrais : la pression est plus forte près de la surface (colonnes d'air plus épaisses) et la température diminue avec l'altitude dans la troposphère (environ 1.98°C par 1000 pieds). L'énoncé B est faux car la température diminue généralement avec l'altitude."
+  },
+    {
+    "category": "Météo",
+    "question": "Vous êtes à l'aéroport de Victoriaville à une altitude de 487 pieds au niveau de la mer et l'unicom vous informe que la pression altimétrique est 30.02. Quelle est l'altitude pression de l'aéroport ?",
+    "answers": [
+      "387 pieds ASL.",
+      "587 pieds AGL.",
+      "315 pieds AGL.",
+      "535 pieds ASL."
+    ],
+    "correct": 0,
+    "explanation": "L'altitude pression se calcule en utilisant la règle : 1 po Hg = 1000 pieds. La pression standard est 29.92 po Hg. Différence : 30.02 - 29.92 = 0.10 po Hg. 0.10 × 1000 = 100 pieds. L'altitude pression est donc : 487 - 100 = 387 pieds ASL."
+  },
+  {
+    "category": "Météo",
+    "question": "Pour donner suite à la question 1, quelle est l'altitude densité si la température au sol est de 20°C ?",
+    "answers": [
+      "1074 pieds ASL.",
+      "937 pieds ASL.",
+      "750 pieds ASL.",
+      "185 pieds ASL."
+    ],
+    "correct": 0,
+    "explanation": "Pour calculer l'altitude densité : Altitude pression = 387 pieds. Température standard à 387 pieds : 15°C - (1.98°C × 0.387) = 14.23°C. Écart de température : 20 - 14.23 = 5.77°C. Correction : 5.77 × 120 = 692 pieds. Altitude densité : 387 + 692 = 1079 pieds ASL (environ 1074 pieds)."
+  },
+  {
+    "category": "Météo",
+    "question": "Lorsque vous volez d'une région de haute pression vers une région plus basse, l'altimètre va _________ et l'aéronef se trouvera _______ que la réalité.",
+    "answers": [
+      "sous-estimer, plus bas.",
+      "surestimer, plus haut.",
+      "sous-estimer, plus haut.",
+      "surestimer, plus bas."
+    ],
+    "correct": 0,
+    "explanation": "Lorsque vous volez d'une région de haute pression vers une région de basse pression, l'altimètre va sous-estimer l'altitude (l'aiguille indiquera une altitude plus basse) et l'avion se trouvera plus bas que ce que l'altimètre indique. C'est le principe 'de haute vers basse, attention à la caisse' (High to Low, look out below)."
+  },
+  {
+    "category": "Météo",
+    "question": "Vous décollez de l'aéroport de Québec avec une température de 25°C et vous vous dirigez vers l'aéroport de Chibougamau où la température est de 18°C. L'altimètre va :",
+    "answers": [
+      "Il va surestimer et ensuite sous-estimer.",
+      "Surestimer.",
+      "Il n'aura pas d'erreur.",
+      "Sous-estimer."
+    ],
+    "correct": 3,
+    "explanation": "Lorsque vous volez d'une région plus chaude (Québec à 25°C) vers une région plus froide (Chibougamau à 18°C), l'altimètre va sous-estimer l'altitude. L'air froid est plus dense et la pression diminue plus rapidement avec l'altitude, ce qui fait que l'altimètre indique une altitude plus haute que la réalité, donc l'avion est plus bas que ce qu'indique l'instrument."
+  },
+
+  {
+    "category": "Météo",
+    "question": "Les isobares sont tracées à intervalles de _____ et plus elles sont rapprochées, plus le gradient est ________.",
+    "answers": [
+      "4 hPa, fort.",
+      "10 hPa, fort.",
+      "5 hPa, faible.",
+      "2 hPa, faible."
+    ],
+    "correct": 0,
+    "explanation": "Les isobares sont tracées à intervalles de 4 hPa (hectopascals) sur les cartes météorologiques. Plus les isobares sont rapprochées, plus le gradient de pression est fort, ce qui signifie que les vents seront plus violents. Un gradient fort indique une variation rapide de pression sur une courte distance."
+  },
+  {
+    "category": "Météo",
+    "question": "La basse pression tourne ___________, tandis que la haute pression tourne ___________.",
+    "answers": [
+      "Anti-horaire, anti-horaire.",
+      "Anti-horaire, dans le sens horaire.",
+      "Dans le sens horaire, anti-horaire.",
+      "Dans le sens horaire, dans le sens horaire."
+    ],
+    "correct": 1,
+    "explanation": "Dans l'hémisphère nord, en raison de l'effet Coriolis, les basses pressions (dépressions) tournent dans le sens anti-horaire (sens inverse des aiguilles d'une montre), tandis que les hautes pressions (anticyclones) tournent dans le sens horaire (sens des aiguilles d'une montre)."
+  },
+  {
+    "category": "Météo",
+    "question": "Une région de basse pression est :",
+    "answers": [
+      "Une région où la pression est relativement basse avec la pression la plus basse au centre.",
+      "Une région dans laquelle le vent tourne dans le sens des aiguilles d'une montre.",
+      "Également appelée un anticyclone.",
+      "Une région où la pression est relativement basse avec la pression la plus élevée au centre."
+    ],
+    "correct": 0,
+    "explanation": "Une région de basse pression (dépression) est une région où la pression est relativement basse par rapport à son environnement, avec la pression la plus basse au centre. Les vents tournent dans le sens anti-horaire dans l'hémisphère nord. Un anticyclone est une région de haute pression."
+  },
+  {
+    "category": "Météo",
+    "question": "La loi de Buys Ballot affirme qu'un observateur situé dans l'hémisphère nord qui se place dos au vent :",
+    "answers": [
+      "A la dépression à sa gauche et l'anticyclone à sa droite.",
+      "A la dépression à sa droite et l'anticyclone à sa gauche.",
+      "A la dépression dans son dos et l'anticyclone devant lui.",
+      "A la dépression devant lui et l'anticyclone dans son dos."
+    ],
+    "correct": 0,
+    "explanation": "La loi de Buys Ballot stipule que dans l'hémisphère nord, si un observateur se place dos au vent, la dépression (basse pression) se trouve à sa gauche et l'anticyclone (haute pression) à sa droite. Cette règle est inversée dans l'hémisphère sud."
+  },
+  {
+    "category": "Météo",
+    "question": "La nuit, la terre diffuse la chaleur emmagasinée pendant le jour. Ce phénomène se nomme :",
+    "answers": [
+      "Rayonnement.",
+      "Chaleur latente.",
+      "Convection.",
+      "Advection."
+    ],
+    "correct": 0,
+    "explanation": "Le rayonnement est le phénomène par lequel la terre diffuse la chaleur emmagasinée pendant le jour. Pendant la nuit, la surface terrestre refroidit par rayonnement infrarouge, ce qui peut créer des inversions de température et du brouillard."
+  },
+  {
+    "category": "Météo",
+    "question": "Les couches inférieures de l'air qui se déplacent d'une partie froide vers une partie chaude se nomment :",
+    "answers": [
+      "Advection.",
+      "Conduction.",
+      "Rayonnement.",
+      "Subsidence."
+    ],
+    "correct": 0,
+    "explanation": "L'advection est le mouvement horizontal de l'air, transportant des propriétés comme la température ou l'humidité. Lorsque des couches d'air se déplacent d'une région froide vers une région chaude, on parle d'advection froide, ce qui peut influencer les conditions météorologiques locales."
+  },
+  {
+    "category": "Météo",
+    "question": "Parfois, l'air chaud peut se trouver à une altitude supérieure, un tel renversement des conditions normales est appelé :",
+    "answers": [
+      "Inversion.",
+      "Gradient thermique.",
+      "Conduction.",
+      "Rayonnement."
+    ],
+    "correct": 0,
+    "explanation": "Une inversion de température se produit lorsque l'air chaud se trouve au-dessus de l'air froid, inversant la normale où la température diminue avec l'altitude. Ce phénomène peut emprisonner les polluants et créer des conditions de stabilité atmosphérique."
+  },
+  {
+    "category": "Météo",
+    "question": "Le changement de température dû uniquement à l'expansion et à la compression est :",
+    "answers": [
+      "Processus adiabatique.",
+      "Convection.",
+      "Le gradient thermique vertical.",
+      "Advection."
+    ],
+    "correct": 0,
+    "explanation": "Le processus adiabatique est le changement de température d'une masse d'air causé uniquement par son expansion (refroidissement) ou sa compression (réchauffement), sans échange de chaleur avec l'environnement. Le taux adiabatique sec est de 3°C/1000 pieds."
+  },
+  
+  {
+    "category": "Météo",
+    "question": "Lorsque l'humidité relative a atteint 100% dans un volume d'air donné, il aura :",
+    "answers": [
+      "Saturation.",
+      "Condensation.",
+      "De la pluie.",
+      "Humidité."
+    ],
+    "correct": 0,
+    "explanation": "Lorsque l'humidité relative atteint 100%, l'air est saturé. Cela signifie qu'il contient la quantité maximale de vapeur d'eau qu'il peut contenir à cette température. La condensation (formation de nuages) se produit généralement lorsque l'air dépasse la saturation."
+  },
+  {
+    "category": "Météo",
+    "question": "La quantité d'eau qu'un volume d'air donné peut contenir à une pression donnée dépend :",
+    "answers": [
+      "De la température.",
+      "De la stabilité.",
+      "De l'humidité relative.",
+      "Du gradient thermique vertical."
+    ],
+    "correct": 0,
+    "explanation": "La quantité maximale de vapeur d'eau que l'air peut contenir dépend principalement de sa température. L'air chaud peut contenir beaucoup plus de vapeur d'eau que l'air froid. La capacité de l'air à retenir l'eau double environ tous les 10°C."
+  },
+  {
+    "category": "Météo",
+    "question": "Lorsqu'une masse d'air donnée est refroidie et qu'on n'y ajoute aucune vapeur d'eau, son :",
+    "answers": [
+      "Volume reste le même et l'humidité relative augmente.",
+      "Volume diminue et l'humidité relative augmente.",
+      "Volume diminue et l'humidité relative diminue.",
+      "Volume augmente et l'humidité relative diminue."
+    ],
+    "correct": 1,
+    "explanation": "Lorsque l'air est refroidi sans ajout de vapeur d'eau, son volume diminue (l'air froid est plus dense). L'humidité relative augmente car l'air froid a une capacité moindre à contenir de la vapeur d'eau, donc le même contenu en eau représente un pourcentage plus élevé de la capacité maximale."
+  },
+  {
+    "category": "Météo",
+    "question": "Le point de rosée est :",
+    "answers": [
+      "Aucune de ces réponses sont exactes.",
+      "La température à laquelle l'air non saturé doit être refroidi à pression constante pour provoquer la saturation.",
+      "L'état de l'atmosphère contenant la quantité maximale de vapeur d'eau.",
+      "Une comparaison de la quantité d'eau contenue dans l'air avec la quantité que cet air peut contenir s'il était saturé."
+    ],
+    "correct": 1,
+    "explanation": "Le point de rosée est la température à laquelle l'air non saturé doit être refroidi à pression constante pour atteindre la saturation (100% d'humidité relative). Plus le point de rosée est proche de la température réelle, plus l'air est humide et plus le risque de condensation est élevé."
+  },
+  {
+    "category": "Météo",
+    "question": "Quel énoncé suivant est faux concernant les caractéristiques de l'air stable ?",
+    "answers": [
+      "Toutes ces réponses.",
+      "Bonne visibilité.",
+      "Nuages de types cumuliformes.",
+      "Précipitation intermittente."
+    ],
+    "correct": 2,
+    "explanation": "L'énoncé faux est 'Nuages de types cumuliformes'. Les nuages cumuliformes (comme les cumulus) sont caractéristiques de l'air instable, pas de l'air stable. L'air stable est caractérisé par des nuages stratiformes (nappes), une bonne visibilité et des précipitations continues ou intermittentes."
+  },
+  {
+    "category": "Météo",
+    "question": "Lorsque vous volez dans de l'air instable, vous pouvez vous attendre à :",
+    "answers": [
+      "Voir des nuages stratiformes.",
+      "Traverser des précipitations continues.",
+      "Traverser des précipitations intermittentes et ensuite traverser des précipitations continues.",
+      "Traverser des précipitations intermittentes."
+    ],
+    "correct": 3,
+    "explanation": "Dans de l'air instable, on peut s'attendre à des précipitations intermittentes sous forme d'averses, souvent associées à des nuages de type cumuliforme. Les précipitations continues sont typiques de l'air stable, qui produit des nuages stratiformes."
+  },
+  {
+    "category": "Météo",
+    "question": "Lorsque de l'air froid se déplace au-dessus de l'air chaud, il aura :",
+    "answers": [
+      "Stabilité.",
+      "Courants ascendants.",
+      "Instabilité.",
+      "Réponses B et C."
+    ],
+    "correct": 2,
+    "explanation": "Lorsque l'air froid se déplace au-dessus de l'air chaud, cela crée de l'instabilité. L'air chaud et moins dense a tendance à monter à travers l'air froid, créant des courants ascendants. Contrairement à l'inversion où l'air chaud est au-dessus de l'air froid (stable), ici c'est l'inverse qui crée l'instabilité."
+  }, 
+
+    {
+    "category": "Météo",
+    "question": "Afin qu'un nuage se forme, il nous faut :",
+    "answers": [
+      "De l'air humide et des noyaux de condensation.",
+      "De l'air humide soulevé par un agent de soulèvement, et des noyaux de condensation.",
+      "De l'humidité relativement élevée, des noyaux de condensation et que l'air se refroidisse.",
+      "De l'humidité relativement élevée soulevée par un courant ascendant."
+    ],
+    "correct": 1,
+    "explanation": "Pour qu'un nuage se forme, trois éléments sont nécessaires : de l'air humide, un agent de soulèvement (qui fait monter l'air et le refroidit adiabatiquement) et des noyaux de condensation (particules autour desquelles la vapeur d'eau se condense)."
+  },
+  {
+    "category": "Météo",
+    "question": "À quelle altitude peut-on s'attendre à croiser des altocumulus ?",
+    "answers": [
+      "Entre 1 500 et 45 000 pieds.",
+      "Entre 16 500 et 45 000 pieds.",
+      "Entre la surface et 6 500 pieds.",
+      "Entre 6 500 et 23 000 pieds."
+    ],
+    "correct": 3,
+    "explanation": "Les altocumulus sont des nuages de moyenne altitude, situés entre 6 500 et 23 000 pieds. Ce sont des nuages blancs ou gris, souvent en bancs ou en couches, formés de petits éléments arrondis. Ils peuvent annoncer l'approche d'un front."
+  },
+  {
+    "category": "Météo",
+    "question": "À quelle altitude peut-on s'attendre à croiser des stratus ?",
+    "answers": [
+      "Entre la surface et 6 500 pieds.",
+      "Entre 1 500 et 45 000 pieds.",
+      "Entre 16 500 et 45 000 pieds.",
+      "Entre 6 500 et 23 000 pieds."
+    ],
+    "correct": 0,
+    "explanation": "Les stratus sont des nuages de basse altitude, situés entre la surface et 6 500 pieds. Ce sont des nuages uniformes, gris, en nappe, qui peuvent couvrir tout le ciel et produire du brouillard ou des précipitations légères."
+  },
+  {
+    "category": "Météo",
+    "question": "À quelle altitude les premiers nuages convectifs devraient se former, lorsque la température est de 14°C et le point de rosée est de 22°C ?",
+    "answers": [
+      "3000 pieds.",
+      "2800 pieds.",
+      "Proche du sol.",
+      "3200 pieds."
+    ],
+    "correct": 2,
+    "explanation": "Lorsque la température (14°C) est inférieure au point de rosée (22°C), l'air est déjà saturé. Cela signifie que l'humidité est tellement élevée que les conditions de saturation sont atteintes dès le sol. Les nuages convectifs se formeront donc proche du sol, créant probablement du brouillard ou des nuages très bas."
+  },
+  {
+    "category": "Météo",
+    "question": "À quelle altitude les premiers nuages convectifs devraient se former, lorsque la température et le point de rosée sont de 4°C ?",
+    "answers": [
+      "400 pieds.",
+      "Proche du sol.",
+      "700 pieds.",
+      "1000 pieds."
+    ],
+    "correct": 1,
+    "explanation": "Lorsque la température et le point de rosée sont égaux (4°C = 4°C), cela signifie que l'air est déjà saturé. L'humidité relative est à 100%. Les premiers nuages convectifs se formeront donc très près du sol, voire proche du sol, car la saturation est atteinte immédiatement."
+  },
+
+    {
+    "category": "Météo",
+    "question": "Quel type de nuage est associé à une couche basse et uniforme de nuage gris foncé et donne de la pluie continue ?",
+    "answers": [
+      "Altocumulus.",
+      "Stratus.",
+      "Nimbostratus.",
+      "Altostratus."
+    ],
+    "correct": 2,
+    "explanation": "Le nimbostratus est un nuage de basse altitude (surface à 6 500 pieds) de couleur gris foncé, formant une couche uniforme qui donne des précipitations continues (pluie ou neige). Contrairement au stratus qui donne des précipitations légères, le nimbostratus est associé à des précipitations plus soutenues."
+  },
+  {
+    "category": "Météo",
+    "question": "Le brouillard qui apparaît par nuit claire en présence d'un vent léger est :",
+    "answers": [
+      "Le brouillard de vapeur.",
+      "Le brouillard d'advection.",
+      "Le brouillard de rayonnement.",
+      "Le brouillard de pente."
+    ],
+    "correct": 2,
+    "explanation": "Le brouillard de rayonnement (ou brouillard nocturne) se forme par nuit claire, avec un vent léger. Pendant la nuit, la surface terrestre refroidit par rayonnement, refroidissant l'air près du sol jusqu'au point de rosée. Les nuits claires et calmes sont les plus propices à ce type de brouillard."
+  },
+  {
+    "category": "Météo",
+    "question": "Le brouillard frontal est occasionné par :",
+    "answers": [
+      "La pluie tombant de l'air chaud s'évapore et vient saturer l'air plus froid qui se trouve en dessous.",
+      "Les rivières ou les petits lacs, lorsque l'eau est plus chaude que l'air.",
+      "Les masses d'air chaud et humide qui se déplacent vers une surface relativement froide.",
+      "De l'air humide qui est forcé de monter une pente."
+    ],
+    "correct": 0,
+    "explanation": "Le brouillard frontal se forme lorsque la pluie tombant de l'air chaud au-dessus d'un front chaud s'évapore dans l'air froid situé en dessous, saturant cet air jusqu'à former du brouillard. Ce phénomène est aussi appelé 'brouillard de front chaud'."
+  },
+  {
+    "category": "Météo",
+    "question": "La dissipation du brouillard est censée résulter :",
+    "answers": [
+      "Du rayonnement terrestre à mesure que la lumière du soleil perce au travers de la couche de brouillard ou du stratus.",
+      "De la libération de la chaleur par l'intermédiaire de la chaleur latente de vaporisation.",
+      "De la subsidence.",
+      "D'une augmentation de la vélocité du vent qui déporte le brouillard au loin."
+    ],
+    "correct": 0,
+    "explanation": "La dissipation du brouillard résulte du rayonnement solaire qui chauffe la surface terrestre. À mesure que la lumière du soleil perce la couche de brouillard, le sol se réchauffe, ce qui réchauffe l'air adjacent et fait évaporer les gouttelettes d'eau, dissipant ainsi le brouillard. C'est pourquoi le brouillard se dissipe généralement en fin de matinée."
+  },
+  {
+    "category": "Météo",
+    "question": "Les nuages lenticulaires sont généralement associés à :",
+    "answers": [
+      "Une onde de relief.",
+      "De la turbulence mécanique.",
+      "De la turbulence convective.",
+      "Une inversion."
+    ],
+    "correct": 0,
+    "explanation": "Les nuages lenticulaires (en forme de lentille) sont associés à des ondes de relief (ondes orographiques). Ils se forment lorsque l'air stable est forcé de monter au-dessus d'un obstacle (montagne) et descend de l'autre côté, créant des ondes stationnaires dans lesquelles ces nuages se forment."
+  },
+  {
+    "category": "Météo",
+    "question": "Un changement soudain et violent dans la vitesse et la direction du vent risque de taxer fortement les performances de l'avion. Ce changement porte le nom de :",
+    "answers": [
+      "Variation diurne.",
+      "Cisaillement.",
+      "Turbulence en air clair.",
+      "Tourbillons en bout d'aile."
+    ],
+    "correct": 1,
+    "explanation": "Le cisaillement du vent (wind shear) est un changement soudain et violent de la vitesse et/ou de la direction du vent. Il peut se produire à différentes altitudes et constitue un danger important pour les avions, particulièrement près du sol lors du décollage et de l'atterrissage."
+  },
+  {
+    "category": "Météo",
+    "question": "La turbulence mécanique est causée par :",
+    "answers": [
+      "Le frottement entre l'air et le sol.",
+      "La convection.",
+      "Le soulèvement orographique.",
+      "Les variations diurnes de vent."
+    ],
+    "correct": 0,
+    "explanation": "La turbulence mécanique est causée par le frottement de l'air contre le sol et les obstacles (arbres, bâtiments, relief). Ce frottement crée des tourbillons et de la turbulence dans les couches basses de l'atmosphère. Elle augmente avec la vitesse du vent et la rugosité du terrain."
+  },
+  {
+    "category": "Météo",
+    "question": "La turbulence convective peut être évitée en volant :",
+    "answers": [
+      "En dessous des nuages convectifs.",
+      "Aucune de ces réponses.",
+      "Au-dessus des nuages convectifs.",
+      "Dans les nuages convectifs."
+    ],
+    "correct": 2,
+    "explanation": "La turbulence convective peut être évitée en volant au-dessus des nuages convectifs. Les courants ascendants et descendants sont les plus forts à l'intérieur et en dessous des nuages de convection (cumulus, cumulonimbus). Voler au-dessus permet d'éviter ces zones turbulentes."
+  },
+  {
+    "category": "Météo",
+    "question": "Le vent est :",
+    "answers": [
+      "Causé par le réchauffement et le refroidissement de la surface.",
+      "Causé par la rotation de la terre.",
+      "L'air qui se déplace des zones de basse pression vers les zones de haute pression.",
+      "L'air qui se déplace des zones de haute pression vers les zones de basse pression."
+    ],
+    "correct": 3,
+    "explanation": "Le vent est l'air qui se déplace des zones de haute pression vers les zones de basse pression. Ce déplacement est causé par la différence de pression atmosphérique (gradient de pression). Plus le gradient est fort, plus le vent est violent."
+  },
+  {
+    "category": "Météo",
+    "question": "Un gradient de pression fort indique _______ et les isobares seront _______.",
+    "answers": [
+      "Des vents légers, éloignés.",
+      "Des vents forts, rapprochés.",
+      "Une pression à la hausse, éloignés.",
+      "De l'air calme, rapprochés."
+    ],
+    "correct": 1,
+    "explanation": "Un gradient de pression fort indique des vents forts. Les isobares sont alors rapprochées sur la carte météo, car la pression varie rapidement sur une courte distance. Plus les isobares sont serrées, plus le vent est intense."
+  },
+  {
+    "category": "Météo",
+    "question": "La rotation de la Terre exerce une force constante qui fait dévier l'air vers la droite dans l'hémisphère nord, causée par :",
+    "answers": [
+      "La force centripète.",
+      "La force de Coriolis.",
+      "La force centrifuge.",
+      "La force de Buys Ballot."
+    ],
+    "correct": 1,
+    "explanation": "La force de Coriolis est une force apparente due à la rotation de la Terre. Dans l'hémisphère nord, elle dévie les mouvements vers la droite (et vers la gauche dans l'hémisphère sud). C'est cette force qui donne aux dépressions leur rotation anti-horaire."
+  },
+  {
+    "category": "Météo",
+    "question": "Il arrive parfois que le vent suive des rangées de collines ou des chaînes de montagne et le vent s'y précipite à une vitesse considérable. C'est ce qu'on appelle :",
+    "answers": [
+      "Effet de collines.",
+      "Effet d'entonnoir.",
+      "Effet anabatique.",
+      "Effet catabatique."
+    ],
+    "correct": 1,
+    "explanation": "L'effet d'entonnoir se produit lorsque le vent est canalisé par des rangées de collines ou des chaînes de montagnes. Le vent s'accélère en passant dans ces 'entonnoirs' naturels, ce qui peut créer des vitesses de vent considérablement plus élevées que dans les zones environnantes."
+  },
+  {
+    "category": "Météo",
+    "question": "Après le décollage, un pilote constate que le vent tourne vers la droite et augmente. C'est ce qu'on appelle :",
+    "answers": [
+      "Lévogyre.",
+      "Effet de surface.",
+      "Effet du vent.",
+      "Dextrogyre."
+    ],
+    "correct": 3,
+    "explanation": "Un vent qui tourne vers la droite et augmente en intensité avec l'altitude est appelé dextrogyre (veering wind). Dans l'hémisphère nord, le vent tourne vers la droite avec l'altitude en raison du gradient de pression et de la force de Coriolis. L'inverse (tourne vers la gauche) est appelé lévogyre (backing wind)."
+  },
+  {
+    "category": "Météo",
+    "question": "Les principales masses d'air de l'Amérique du Nord sont :",
+    "answers": [
+      "cA, cP, mA et mP.",
+      "cP, mA, mP et mT.",
+      "cA, cP, mP et mT.",
+      "cA, cP, mA, mP et mT."
+    ],
+    "correct": 2,
+    "explanation": "Les principales masses d'air de l'Amérique du Nord sont : cA (continental Arctique - froid et sec), cP (continental Polaire - froid et sec), mP (maritime Polaire - froid et humide) et mT (maritime Tropicale - chaud et humide). La masse mA (maritime Arctique) est moins courante."
+  },
+  {
+    "category": "Météo",
+    "question": "Dans une masse d'air maritime tropicale :",
+    "answers": [
+      "L'air sera chaud, humide et stable.",
+      "L'air sera froid, humide et instable.",
+      "L'air sera froid, sec et très stable.",
+      "L'air sera chaud, humide et très instable."
+    ],
+    "correct": 0,
+    "explanation": "Une masse d'air maritime tropicale (mT) est caractérisée par de l'air chaud et humide, et elle est généralement stable. Elle provient des régions tropicales océaniques comme le Golfe du Mexique et apporte des conditions chaudes et humides avec une bonne visibilité."
+  },
+  {
+    "category": "Météo",
+    "question": "Qu'est-ce qu'un front ?",
+    "answers": [
+      "Une masse très épaisse de nuage stratiforme qui recouvre une vaste étendue de terrain.",
+      "Une ligne d'orage.",
+      "Une étroite zone de transition entre un cyclone et un anticyclone.",
+      "Une étroite zone de transition entre deux masses d'air."
+    ],
+    "correct": 3,
+    "explanation": "Un front est une étroite zone de transition entre deux masses d'air de caractéristiques différentes (température, humidité, densité). Les fronts sont associés à des changements météorologiques significatifs et sont classés en fronts chauds, fronts froids et fronts occlus."
+  },
+  {
+    "category": "Météo",
+    "question": "Un front qui prend de l'intensité porte le nom de :",
+    "answers": [
+      "Ligne de grain.",
+      "Front occlus.",
+      "Frontogenèse.",
+      "Frontolyse."
+    ],
+    "correct": 2,
+    "explanation": "La frontogenèse est le processus de formation ou d'intensification d'un front. À l'inverse, la frontolyse est le processus de dissipation d'un front. Un front en développement s'appelle donc un processus de frontogenèse."
+  },
+  {
+    "category": "Météo",
+    "question": "Les nuages et les précipitations qui se développent souvent au front froid sont causés par :",
+    "answers": [
+      "La convergence.",
+      "L'air chaud qui se dilate alors qu'il est forcé de monter par-dessus l'air froid qui avance.",
+      "L'air froid qui monte au-dessus de l'air chaud.",
+      "L'air froid qui se réchauffe à son passage au-dessus du sol chaud."
+    ],
+    "correct": 1,
+    "explanation": "Au front froid, l'air froid avance et force l'air chaud à monter rapidement. L'air chaud, en s'élevant, se dilate et se refroidit adiabatiquement, provoquant la condensation et la formation de nuages (cumulonimbus) et de précipitations souvent sous forme d'averses violentes."
+  },
+  {
+    "category": "Météo",
+    "question": "Après le passage d'un front froid, la température va :",
+    "answers": [
+      "Augmenter, la pression va augmenter et le vent va reculer.",
+      "Diminuer, la pression va augmenter et le vent va virer.",
+      "Augmenter, la pression va diminuer et le vent va reculer.",
+      "Diminuer, la pression va diminuer et le vent va virer."
+    ],
+    "correct": 1,
+    "explanation": "Après le passage d'un front froid, la température diminue (air plus froid), la pression augmente (air plus dense derrière le front) et le vent vire (tourne vers la droite dans l'hémisphère nord). Le ciel se dégage généralement, laissant place à un temps plus sec et plus froid."
+  },
+  {
+    "category": "Météo",
+    "question": "Après le passage d'un front chaud, la température et le point de rosée vont :",
+    "answers": [
+      "Augmenter.",
+      "Diminuer.",
+      "Rester les mêmes.",
+      "Le point de rosée ne change jamais après le passage d'un front."
+    ],
+    "correct": 0,
+    "explanation": "Après le passage d'un front chaud, la température augmente (air plus chaud) et le point de rosée augmente également (air plus humide). L'air derrière le front chaud provient de régions plus chaudes et contient plus d'humidité que l'air qu'il remplace."
+  },
+  {
+    "category": "Météo",
+    "question": "Un pilote approchant de la surface frontale d'un front chaud en hiver devra s'attendre à de la neige et ensuite :",
+    "answers": [
+      "De la pluie verglaçante et de la pluie.",
+      "Des granules de glace, de la pluie verglaçante et de la pluie.",
+      "De la pluie, des granules de glace et de la pluie verglaçante.",
+      "De la pluie verglaçante, des granules de glace et de la pluie."
+    ],
+    "correct": 0,
+    "explanation": "En hiver, un pilote approchant un front chaud rencontrera d'abord de la neige (dans l'air froid), puis de la pluie verglaçante (dans la zone de transition où l'air est juste au-dessus du point de congélation), puis finalement de la pluie (dans l'air chaud derrière le front). C'est une séquence classique des précipitations d'un front chaud en hiver."
+  },
+  {
+    "category": "Météo",
+    "question": "Les gouttelettes d'eau peuvent rester liquides jusqu'à une température de :",
+    "answers": [
+      "-25°C.",
+      "-50°C.",
+      "-20°C.",
+      "-40°C."
+    ],
+    "correct": 3,
+    "explanation": "Les gouttelettes d'eau surfondues peuvent rester à l'état liquide jusqu'à des températures aussi basses que -40°C. C'est ce phénomène qui cause le givrage, car ces gouttelettes gèlent instantanément au contact de l'avion."
+  },
+  {
+    "category": "Météo",
+    "question": "Il arrive parfois que des gouttelettes d'eau surfondues gèlent à l'impact sur le revêtement de l'aile dû à la température très basse. C'est ce qu'on appelle :",
+    "answers": [
+      "Le givre d'impact.",
+      "Le givre surfondu.",
+      "Le givre blanc.",
+      "Le givre transparent."
+    ],
+    "correct": 3,
+    "explanation": "Le givre transparent (ou givre de glace) se forme lorsque des gouttelettes d'eau surfondues de taille moyenne frappent l'avion et gèlent à l'impact. Il est dense, lisse et dur, et peut considérablement augmenter le poids et réduire la portance de l'avion."
+  },
+  {
+    "category": "Météo",
+    "question": "La formation de gelée blanche sur un avion est causée par :",
+    "answers": [
+      "La vapeur d'eau qui se transforme directement en cristaux de glace sur l'avion.",
+      "La pluie verglaçante qui entre en contact avec l'avion.",
+      "Les gouttelettes d'eau surfondues qui gèlent à l'impact.",
+      "La vapeur d'eau qui d'abord se condense, puis gèle sur l'avion."
+    ],
+    "correct": 0,
+    "explanation": "La gelée blanche (ou givre blanc, hoar frost) se forme par sublimation : la vapeur d'eau se transforme directement en cristaux de glace sur la surface de l'avion, sans passer par la phase liquide. Elle se forme généralement par temps clair et froid, lorsque l'avion est au sol."
+  },
+  {
+    "category": "Météo",
+    "question": "Quel énoncé suivant est vrai concernant le taux de prise, la quantité d'eau interceptée par un appareil ?",
+    "answers": [
+      "Plus l'aéronef se déplace lentement, plus le taux de captation est augmenté.",
+      "Ce taux varie en fonction de la quantité d'eau gelée à l'intérieur du nuage, la vitesse de l'avion ainsi que le profil de l'aile.",
+      "Ce taux varie en fonction de la quantité d'eau à l'état liquide à l'intérieur du nuage, la dimension des gouttelettes d'eau, la vitesse de l'avion ainsi que le profil de l'aile.",
+      "Plus l'aile est épaisse, plus le taux de prise est élevé."
+    ],
+    "correct": 2,
+    "explanation": "Le taux de prise (taux de captation) varie en fonction de plusieurs facteurs : la quantité d'eau liquide dans le nuage (LWC), la dimension des gouttelettes (MVD), la vitesse de l'avion et le profil de l'aile. Plus l'avion est rapide, plus il intercepte de gouttelettes."
+  },
+  {
+    "category": "Météo",
+    "question": "Quelles sont les conditions favorisant la formation d'un orage ?",
+    "answers": [
+      "Un front froid qui avance rapidement et de l'humidité.",
+      "De l'air instable, un agent de soulèvement et une grande quantité d'humidité.",
+      "Un agent de soulèvement et une grande quantité d'humidité.",
+      "De l'air stable, un agent de soulèvement et une grande quantité d'humidité."
+    ],
+    "correct": 1,
+    "explanation": "Pour qu'un orage se forme, trois conditions sont nécessaires : de l'air instable (qui permet aux courants ascendants de se développer), un agent de soulèvement (front, relief, convection) et une grande quantité d'humidité (source de vapeur d'eau)."
+  },
+  {
+    "category": "Météo",
+    "question": "À mesure qu'un orage approche de sa maturité, de forts courants descendants se développent et l'air froid qui s'échappe par la base du nuage se répand sur le sol bien en avant de l'orage même. C'est ce qu'on appelle :",
+    "answers": [
+      "Le virga.",
+      "La turbulence d'orage.",
+      "Un front de rafales.",
+      "Une microrafale."
+    ],
+    "correct": 2,
+    "explanation": "Un front de rafales (gust front) est la zone de transition entre l'air froid descendant de l'orage et l'air chaud environnant. Il se caractérise par des vents violents, une chute brutale de température et une hausse de pression, et peut précéder l'orage de plusieurs kilomètres."
+  },
+  {
+    "category": "Météo",
+    "question": "Lorsque vous avez l'obligation de contourner un orage, de quel côté le feriez-vous ?",
+    "answers": [
+      "Côté droite, car c'est une haute pression.",
+      "Côté gauche, car c'est une haute pression.",
+      "Côté gauche, car c'est une basse pression.",
+      "Côté droite, car c'est une basse pression."
+    ],
+    "correct": 1,
+    "explanation": "Dans l'hémisphère nord, il est recommandé de contourner un orage par le côté gauche (côté de la haute pression). Les vents tournant dans le sens horaire autour de l'anticyclone, cette route offre généralement des conditions plus favorables et moins de turbulence."
+  },
+  {
+    "category": "Météo",
+    "question": "Quel(s) énoncé(s) est/sont vrai(s) concernant les lignes de grain ?",
+    "answers": [
+      "Cette ligne est souvent accompagnée d'averses ou d'orages.",
+      "Elle se développe souvent en arrière d'un front froid.",
+      "Elle peut également se développer dans l'air instable, le long d'une chaîne de montagnes.",
+      "Réponses A et C."
+    ],
+    "correct": 3,
+    "explanation": "Les lignes de grain (squall lines) sont des lignes d'orages ou d'averses violentes. Elles sont souvent accompagnées de précipitations intenses (A) et peuvent se développer dans l'air instable le long de chaînes de montagnes (C). Elles se développent généralement en avant d'un front froid, pas en arrière."
+  },
+
+    {
+    "category": "Droit aérien (RAC)",
+    "question": "Où peut-on trouver la fréquence de la FISE ?",
+    "answers": [
+      "Dans le CFS.",
+      "Dans l'AIM.",
+      "Sur le site de Nav Canada.",
+      "Dans le P.O.H."
+    ],
+    "correct": 0,
+    "explanation": "La fréquence de la FISE (Flight Information Service Enroute) se trouve dans le CFS (Canada Flight Supplement). Le CFS est la publication officielle qui contient toutes les informations sur les aérodromes, les fréquences radio, les procédures et les services disponibles au Canada."
+  },
+  {
+    "category": "Droit aérien (RAC)",
+    "question": "Qu'est-ce que l'ATIS ?",
+    "answers": [
+      "L'ATIS fournit des renseignements météorologiques destinés aux aéronefs en vol.",
+      "L'ATIS est le service automatique d'information de région terminale.",
+      "L'ATIS diffuse des renseignements ayant rapport avec les procédures d'arrivée et de départ sur les aéroports non contrôlés.",
+      "L'ATIS est un service offert pour déposer un plan de vol."
+    ],
+    "correct": 1,
+    "explanation": "L'ATIS (Automatic Terminal Information Service) est le service automatique d'information de région terminale. Il diffuse en continu des informations essentielles aux pilotes : météo, pistes en service, approches disponibles, NOTAM, etc. Il est disponible sur les aéroports contrôlés pour réduire la charge de travail des contrôleurs."
+  },
+  {
+    "category": "Météo",
+    "question": "METAR CYUL 091700Z 27011KT 240V300 30SM R24/4000FT/U -SHRA BR FEW025 BKN038 03/M04 A3030 RMK CF1SC7 CF TR SLP264=\n\nDans ce bulletin météorologique METAR, que signifie « 240V300 » ?",
+    "answers": [
+      "Le vent souffle 240 et la visibilité verticale est de 300 pieds.",
+      "La variation de la direction du vent est d'au moins 60°.",
+      "Les vents sont favorables pour les pistes 24 et 30.",
+      "La visibilité verticale varie entre 240 et 300 pieds."
+    ],
+    "correct": 1,
+    "explanation": "Dans un METAR, « 240V300 » indique la variation de la direction du vent. Cela signifie que la direction du vent varie entre 240° et 300° (soit une variation de 60°). Cette information est fournie lorsque la direction du vent varie de 60° ou plus."
+  },
+  {
+    "category": "Météo",
+    "question": "METAR CYUL 091700Z 27011KT 240V300 30SM R24/4000FT/U -SHRA BR FEW025 BKN038 03/M04 A3030 RMK CF1SC7 CF TR SLP264=\n\nLa hauteur du plafond le plus bas est :",
+    "answers": [
+      "À 2 500 pieds AGL.",
+      "À 2 500 pieds ASL.",
+      "À 3 800 pieds AGL.",
+      "À 3 800 pieds ASL."
+    ],
+    "correct": 0,
+    "explanation": "Le plafond le plus bas est indiqué par la couche nuageuse la plus basse. Ici, « FEW025 » indique des nuages épars à 2 500 pieds et « BKN038 » indique des nuages fragmentés à 3 800 pieds. Le plafond le plus bas est donc à 2 500 pieds. Les hauteurs de nuages dans un METAR sont toujours indiquées en pieds AGL (Above Ground Level)."
+  },
+  {
+    "category": "Météo",
+    "question": "METAR CYUL 091700Z 27011KT 240V300 30SM R24/4000FT/U -SHRA BR FEW025 BKN038 03/M04 A3030 RMK CF1SC7 CF TR SLP264=\n\nQuel énoncé est vrai concernant le RVR de ce METAR ?",
+    "answers": [
+      "Il y a une tendance à la hausse.",
+      "Le RVR est de 400 pieds.",
+      "Il y a une tendance à la baisse.",
+      "Le RVR est au-delà de la portée de l'instrument."
+    ],
+    "correct": 0,
+    "explanation": "Dans ce METAR, « R24/4000FT/U » signifie : RVR pour la piste 24, avec une portée de 4000 pieds et une tendance à la hausse (U = Upward). La portée du RVR est de 4000 pieds, pas 400 pieds, et il y a une tendance à la hausse, pas à la baisse."
+  },
+  {
+    "category": "Météo",
+    "question": "Que signifie « UUA » au début d'un message PIREP ?",
+    "answers": [
+      "Un PIREP de remplacement.",
+      "Le code régional du PIREP.",
+      "Un PIREP d'urgence.",
+      "Un PIREP normal."
+    ],
+    "correct": 2,
+    "explanation": "« UUA » au début d'un PIREP (Pilot Report) indique un PIREP d'urgence (Urgent PIREP). Il est utilisé pour signaler des conditions météorologiques dangereuses ou critiques, telles que du givrage sévère, des orages violents, des cisaillements de vent importants ou des turbulences sévères."
+  },
+  {
+    "category": "Météo",
+    "question": "À quelle fréquence un TAF est-il émis ?",
+    "answers": [
+      "Chaque heure et donne l'état du ciel 10 SM autour d'un aérodrome.",
+      "4 fois par jour et donne l'état du ciel 10 SM autour d'un aérodrome.",
+      "2 fois par jour et donne l'état du ciel 5 NM autour d'un aérodrome.",
+      "4 fois par jour et donne l'état du ciel 5 NM autour d'un aérodrome."
+    ],
+    "correct": 1,
+    "explanation": "Un TAF (Terminal Aerodrome Forecast) est émis 4 fois par jour (toutes les 6 heures) et couvre une zone dans un rayon de 10 SM (Statute Miles) autour de l'aérodrome. Il fournit des prévisions météorologiques pour une période de 24 heures (ou 30 heures dans certains cas)."
+  },
+  {
+    "category": "Météo",
+    "question": "TAF AMD CYGW 101306Z 1013/1024 03010KT 3/4SM -SN VV008 TEMPO 1013/1015 21/2SM -SN OVC012 FM101500 03015KT 1SM -SN OVC012 TEMPO 1015/1018 21/2SM -SN OVC025 FM101800 01015G25KT 2SM -SN OVC010 TEMPO 1018/1021 P6SM -SN FM102100 35015G25KT P6SM BKN012 OVC080 TEMPO 1021/1024 SCT012 RMK FCST BASED ON AUTO OBS. NXT FCST BY 101800Z=\n\nQu'est-ce que signifie « TAF AMD » au début du message TAF ?",
+    "answers": [
+      "Il indique que le TAF est annulé.",
+      "Il indique l'emplacement de la station.",
+      "C'est un TAF de remplacement.",
+      "C'est un TAF modifié."
+    ],
+    "correct": 3,
+    "explanation": "« TAF AMD » signifie TAF Amended (TAF modifié). Cela indique que ce TAF a été modifié par rapport à la version précédente. Les modifications sont apportées lorsque les conditions météorologiques prévues changent de manière significative par rapport à la prévision initiale."
+  },
+  {
+    "category": "Météo",
+    "question": "TAF AMD CYGW 101306Z 1013/1024 03010KT 3/4SM -SN VV008 TEMPO 1013/1015 21/2SM -SN OVC012 FM101500 03015KT 1SM -SN OVC012 TEMPO 1015/1018 21/2SM -SN OVC025 FM101800 01015G25KT 2SM -SN OVC010 TEMPO 1018/1021 P6SM -SN FM102100 35015G25KT P6SM BKN012 OVC080 TEMPO 1021/1024 SCT012 RMK FCST BASED ON AUTO OBS. NXT FCST BY 101800Z=\n\nQuelles sont les prévisions des vents à 17:00Z à CYGW ?",
+    "answers": [
+      "Vent 030 degré magnétique à 15 kts.",
+      "Vent 010 degré vrai à 15 kts avec rafale 25 kts.",
+      "Vent 030 degré vrai à 15 kts.",
+      "Il n'y a aucun message qui indique les vents à 17:00Z."
+    ],
+    "correct": 2,
+    "explanation": "À 17:00Z, la période de prévision est couverte par « FM101500 » qui s'applique de 15:00Z à 18:00Z. Les vents prévus sont 03015KT, soit un vent de 030 degrés (vrai) à 15 kt. Les directions de vent dans un TAF sont toujours données en degrés vrais, pas magnétiques."
+  },
+  {
+    "category": "Météo",
+    "question": "TAF AMD CYGW 101306Z 1013/1024 03010KT 3/4SM -SN VV008 TEMPO 1013/1015 21/2SM -SN OVC012 FM101500 03015KT 1SM -SN OVC012 TEMPO 1015/1018 21/2SM -SN OVC025 FM101800 01015G25KT 2SM -SN OVC010 TEMPO 1018/1021 P6SM -SN FM102100 35015G25KT P6SM BKN012 OVC080 TEMPO 1021/1024 SCT012 RMK FCST BASED ON AUTO OBS. NXT FCST BY 101800Z=\n\nQuel énoncé suivant est FAUX ?",
+    "answers": [
+      "À 20:00Z, les vents prévus seront 010 à 15 kts avec rafales 25 kts, visibilité 2 SM dans de faibles précipitations de neige.",
+      "La prochaine prévision est prévue le 10 à 18:00Z.",
+      "Le TAF a été publié le 10 à 13:06Z.",
+      "Entre le 10 à 21:00Z et le 10 à 12:00Z, le plafond est prévu à une hauteur de 8000 pieds."
+    ],
+    "correct": 3,
+    "explanation": "L'énoncé faux est : 'Entre le 10 à 21:00Z et le 10 à 12:00Z, le plafond est prévu à une hauteur de 8000 pieds.' En réalité, de 21:00Z à 24:00Z, le plafond est BKN012 (fragmenté à 1200 pieds) avec OVC080 (couvert à 8000 pieds). Les 8000 pieds indiquent une couche nuageuse supérieure, pas le plafond (le plafond est à 1200 pieds)."
+  },
+
+   {
+    "category": "Météo",
+    "question": "METAR CYUL 091700Z 27011KT 240V300 30SM R24/4000FT/U -SHRA BR FEW025 BKN038 03/M04 A3030 RMK CF1SC7 CF TR SLP264=\n\nDans ce bulletin météorologique METAR, que signifie « 240V300 » ?",
+    "answers": [
+      "Le vent souffle 240 et la visibilité verticale est de 300 pieds.",
+      "La variation de la direction du vent est d'au moins 60°.",
+      "Les vents sont favorables pour les pistes 24 et 30.",
+      "La visibilité verticale varie entre 240 et 300 pieds."
+    ],
+    "correct": 1,
+    "explanation": "Dans un METAR, « 240V300 » indique la variation de la direction du vent. Cela signifie que la direction du vent varie entre 240° et 300° (soit une variation de 60°). Cette information est fournie lorsque la direction du vent varie de 60° ou plus."
+  },
+  {
+    "category": "Météo",
+    "question": "METAR CYUL 091700Z 27011KT 240V300 30SM R24/4000FT/U -SHRA BR FEW025 BKN038 03/M04 A3030 RMK CF1SC7 CF TR SLP264=\n\nLa hauteur du plafond le plus bas est :",
+    "answers": [
+      "À 2 500 pieds AGL.",
+      "À 2 500 pieds ASL.",
+      "À 3 800 pieds AGL.",
+      "À 3 800 pieds ASL."
+    ],
+    "correct": 0,
+    "explanation": "Le plafond le plus bas est indiqué par la couche nuageuse la plus basse. Ici, « FEW025 » indique des nuages épars à 2 500 pieds et « BKN038 » indique des nuages fragmentés à 3 800 pieds. Le plafond le plus bas est donc à 2 500 pieds. Les hauteurs de nuages dans un METAR sont toujours indiquées en pieds AGL (Above Ground Level)."
+  },
+  {
+    "category": "Météo",
+    "question": "METAR CYUL 091700Z 27011KT 240V300 30SM R24/4000FT/U -SHRA BR FEW025 BKN038 03/M04 A3030 RMK CF1SC7 CF TR SLP264=\n\nQuel énoncé est vrai concernant le RVR de ce METAR ?",
+    "answers": [
+      "Il y a une tendance à la hausse.",
+      "Le RVR est de 400 pieds.",
+      "Il y a une tendance à la baisse.",
+      "Le RVR est au-delà de la portée de l'instrument."
+    ],
+    "correct": 0,
+    "explanation": "Dans ce METAR, « R24/4000FT/U » signifie : RVR pour la piste 24, avec une portée de 4000 pieds et une tendance à la hausse (U = Upward). La portée du RVR est de 4000 pieds, pas 400 pieds, et il y a une tendance à la hausse, pas à la baisse."
+  },
+  {
+    "category": "Météo",
+    "question": "Que signifie « UUA » au début d'un message PIREP ?",
+    "answers": [
+      "Un PIREP de remplacement.",
+      "Le code régional du PIREP.",
+      "Un PIREP d'urgence.",
+      "Un PIREP normal."
+    ],
+    "correct": 2,
+    "explanation": "« UUA » au début d'un PIREP (Pilot Report) indique un PIREP d'urgence (Urgent PIREP). Il est utilisé pour signaler des conditions météorologiques dangereuses ou critiques, telles que du givrage sévère, des orages violents, des cisaillements de vent importants ou des turbulences sévères."
+  },
+  {
+    "category": "Météo",
+    "question": "À quelle fréquence un TAF est-il émis ?",
+    "answers": [
+      "Chaque heure et donne l'état du ciel 10 SM autour d'un aérodrome.",
+      "4 fois par jour et donne l'état du ciel 10 SM autour d'un aérodrome.",
+      "2 fois par jour et donne l'état du ciel 5 NM autour d'un aérodrome.",
+      "4 fois par jour et donne l'état du ciel 5 NM autour d'un aérodrome."
+    ],
+    "correct": 1,
+    "explanation": "Un TAF (Terminal Aerodrome Forecast) est émis 4 fois par jour (toutes les 6 heures) et couvre une zone dans un rayon de 10 SM (Statute Miles) autour de l'aérodrome. Il fournit des prévisions météorologiques pour une période de 24 heures (ou 30 heures dans certains cas)."
+  },
+  {
+    "category": "Météo",
+    "question": "TAF AMD CYGW 101306Z 1013/1024 03010KT 3/4SM -SN VV008 TEMPO 1013/1015 21/2SM -SN OVC012 FM101500 03015KT 1SM -SN OVC012 TEMPO 1015/1018 21/2SM -SN OVC025 FM101800 01015G25KT 2SM -SN OVC010 TEMPO 1018/1021 P6SM -SN FM102100 35015G25KT P6SM BKN012 OVC080 TEMPO 1021/1024 SCT012 RMK FCST BASED ON AUTO OBS. NXT FCST BY 101800Z=\n\nQu'est-ce que signifie « TAF AMD » au début du message TAF ?",
+    "answers": [
+      "Il indique que le TAF est annulé.",
+      "Il indique l'emplacement de la station.",
+      "C'est un TAF de remplacement.",
+      "C'est un TAF modifié."
+    ],
+    "correct": 3,
+    "explanation": "« TAF AMD » signifie TAF Amended (TAF modifié). Cela indique que ce TAF a été modifié par rapport à la version précédente. Les modifications sont apportées lorsque les conditions météorologiques prévues changent de manière significative par rapport à la prévision initiale."
+  },
+  {
+    "category": "Météo",
+    "question": "TAF AMD CYGW 101306Z 1013/1024 03010KT 3/4SM -SN VV008 TEMPO 1013/1015 21/2SM -SN OVC012 FM101500 03015KT 1SM -SN OVC012 TEMPO 1015/1018 21/2SM -SN OVC025 FM101800 01015G25KT 2SM -SN OVC010 TEMPO 1018/1021 P6SM -SN FM102100 35015G25KT P6SM BKN012 OVC080 TEMPO 1021/1024 SCT012 RMK FCST BASED ON AUTO OBS. NXT FCST BY 101800Z=\n\nQuelles sont les prévisions des vents à 17:00Z à CYGW ?",
+    "answers": [
+      "Vent 030 degré magnétique à 15 kts.",
+      "Vent 010 degré vrai à 15 kts avec rafale 25 kts.",
+      "Vent 030 degré vrai à 15 kts.",
+      "Il n'y a aucun message qui indique les vents à 17:00Z."
+    ],
+    "correct": 2,
+    "explanation": "À 17:00Z, la période de prévision est couverte par « FM101500 » qui s'applique de 15:00Z à 18:00Z. Les vents prévus sont 03015KT, soit un vent de 030 degrés (vrai) à 15 kt. Les directions de vent dans un TAF sont toujours données en degrés vrais, pas magnétiques."
+  },
+  {
+    "category": "Météo",
+    "question": "TAF AMD CYGW 101306Z 1013/1024 03010KT 3/4SM -SN VV008 TEMPO 1013/1015 21/2SM -SN OVC012 FM101500 03015KT 1SM -SN OVC012 TEMPO 1015/1018 21/2SM -SN OVC025 FM101800 01015G25KT 2SM -SN OVC010 TEMPO 1018/1021 P6SM -SN FM102100 35015G25KT P6SM BKN012 OVC080 TEMPO 1021/1024 SCT012 RMK FCST BASED ON AUTO OBS. NXT FCST BY 101800Z=\n\nQuel énoncé suivant est FAUX ?",
+    "answers": [
+      "À 20:00Z, les vents prévus seront 010 à 15 kts avec rafales 25 kts, visibilité 2 SM dans de faibles précipitations de neige.",
+      "La prochaine prévision est prévue le 10 à 18:00Z.",
+      "Le TAF a été publié le 10 à 13:06Z.",
+      "Entre le 10 à 21:00Z et le 10 à 12:00Z, le plafond est prévu à une hauteur de 8000 pieds."
+    ],
+    "correct": 3,
+    "explanation": "L'énoncé faux est : 'Entre le 10 à 21:00Z et le 10 à 12:00Z, le plafond est prévu à une hauteur de 8000 pieds.' En réalité, de 21:00Z à 24:00Z, le plafond est BKN012 (fragmenté à 1200 pieds) avec OVC080 (couvert à 8000 pieds). Les 8000 pieds indiquent une couche nuageuse supérieure, pas le plafond (le plafond est à 1200 pieds)."
+  },
+    {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Quels sont les dangers associés à un orage ?",
+    "answers": [
+      "Faible visibilité, forts courants verticaux, grêle, pluie forte.",
+      "Grêle, pluie forte, pas de givrage, plafonds bas.",
+      "Tornade, givrage, forts courants verticaux, bonne visibilité.",
+      "Éclairs, faible courants verticaux, grêle, pluie forte."
+    ],
+    "correct": 0,
+    "explanation": "Les orages présentent de multiples dangers pour l'aviation : faible visibilité (pluie intense), forts courants verticaux (turbulence sévère, rafales), grêle (pouvant endommager l'avion) et pluie forte (réduction de visibilité, hydroplanage). Le givrage est également un danger important dans les orages."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Pourquoi devrions-nous contourner un orage vers la droite ?",
+    "answers": [
+      "Afin de profiter des vents dans le sens horaire.",
+      "Les vents de dos nous aideront à le contourner plus rapidement.",
+      "Afin d'éviter la grêle présente au sud de la dépression.",
+      "Parce que les orages se déplacent toujours vers le nord-est."
+    ],
+    "correct": 0,
+    "explanation": "Dans l'hémisphère nord, il est recommandé de contourner un orage par la droite (côté de la haute pression) car les vents tournent dans le sens horaire autour de l'anticyclone. Cela offre généralement des conditions plus favorables avec des vents qui aident à contourner l'orage."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Quelle est la distance entre chaque feu blanc le long des pistes ?",
+    "answers": [
+      "200 pieds.",
+      "100 pieds.",
+      "150 pieds.",
+      "50 pieds."
+    ],
+    "correct": 0,
+    "explanation": "Les feux blancs de bord de piste (edge lights) sont espacés d'environ 200 pieds (60 mètres) sur toute la longueur de la piste. Cette distance est normalisée pour assurer une visibilité constante et guider les pilotes lors des opérations de nuit."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Pouvons-nous utiliser la portion d'une piste avec seuil décalé pour l'atterrissage ?",
+    "answers": [
+      "Seuls les aéronefs de moins de 12 500 livres sont autorisés.",
+      "Non pour l'atterrissage, oui pour le décollage.",
+      "Il faut l'autorisation de l'exploitant.",
+      "Aucune restriction pour tous les aéronefs."
+    ],
+    "correct": 1,
+    "explanation": "Un seuil décalé (displaced threshold) est une portion de piste qui ne peut pas être utilisée pour l'atterrissage mais qui peut être utilisée pour le décollage et le roulage. Les marques de seuil décalé sont déplacées vers l'avant, indiquant le début de la zone d'atterrissage."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Une piste ou une portion de celle-ci est délimitée de quelle façon ?",
+    "answers": [
+      "On peint des X en blanc sur la partie inutilisable.",
+      "On installe des barrières de sécurité pour restreindre l'accès.",
+      "On peint des X sur la portion inutilisable.",
+      "On peint des X en jaune sur la piste."
+    ],
+    "correct": 0,
+    "explanation": "Les portions inutilisables d'une piste ou d'une voie de circulation sont marquées par des X blancs peints sur la surface. Ces marquages indiquent clairement que la zone n'est pas utilisable pour les opérations aériennes."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Au sujet des lumières de piste :",
+    "answers": [
+      "Blanc de chaque côté de la piste, bleu et orange de chaque côté des voies de circulation.",
+      "Blanc sur presque toute la longueur de piste de chaque côté.",
+      "Blanc de chaque côté de la piste, bleu de chaque côté des voies de circulation et orange aux croisements des pistes et voies de circulation.",
+      "Rouge à l'extrémité dans le sens de l'atterrissage, blanc de chaque côté de la piste, bleu de chaque côté des voies de circulation."
+    ],
+    "correct": 2,
+    "explanation": "Les lumières de piste sont blanches de chaque côté de la piste sur toute sa longueur. Les voies de circulation sont délimitées par des feux bleus de chaque côté. Les croisements entre pistes et voies de circulation sont marqués par des feux orange (ou ambre)."
+  },
+
+    {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Définir la masse à vide :",
+    "answers": [
+      "Représente le poids de l'avion incluant l'équipement optionnel embarqué à bord, l'huile et l'essence inutilisable.",
+      "Représente le poids de l'avion incluant le poids de l'huile et de l'essence inutilisable.",
+      "Représente le poids de l'avion incluant l'équipement optionnel, le poids de l'huile inutilisable et le poids de l'essence inutilisable.",
+      "Représente le poids de l'avion incluant l'équipement optionnel, l'huile et l'essence inutilisable."
+    ],
+    "correct": 0,
+    "explanation": "La masse à vide (Basic Empty Weight) représente le poids de l'avion incluant l'équipement standard, l'équipement optionnel installé, l'huile moteur et l'essence inutilisable. C'est la base de référence pour tous les calculs de masse et centrage."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Quel devis de masse et centrage utiliserez-vous pour faire vos calculs ?",
+    "answers": [
+      "Celui que vous soumettra le préposé de vol.",
+      "Celui qui représente la dernière modification inscrite au carnet de route de l'avion.",
+      "Celui qui est dans le livre d'opération de l'avion.",
+      "Celui qui est dans les documents de l'avion."
+    ],
+    "correct": 1,
+    "explanation": "Le devis de masse et centrage à utiliser est celui qui représente la dernière modification inscrite au carnet de route de l'avion. C'est le document le plus récent et à jour, reflétant la configuration actuelle de l'avion."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Où trouve-t-on l'information relative au poids maximal autorisé sur la rampe ?",
+    "answers": [
+      "Dans le carnet de route de l'avion.",
+      "Dans le manuel d'opération de l'avion.",
+      "Dans une spécification annotée dans les documents de l'avion.",
+      "Dans les documents de l'avion."
+    ],
+    "correct": 2,
+    "explanation": "L'information relative au poids maximal autorisé sur la rampe (ramp weight) se trouve dans une spécification annotée dans les documents de l'avion, généralement dans les limites opérationnelles du POH ou dans les certificats de type."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Quel sera l'effet d'un centre de gravité arrière sur un aéronef ?",
+    "answers": [
+      "Moins stable, économique, vitesse de décrochage plus basse, performances diminuées.",
+      "Instable, économique, vitesse de décrochage plus élevée, performances accrues.",
+      "Stable, économique, vitesse de décrochage plus basse, performances accrues.",
+      "Moins stable, économique, vitesse de décrochage plus basse, performances accrues."
+    ],
+    "correct": 0,
+    "explanation": "Un centre de gravité arrière rend l'avion moins stable (moins de marge de manœuvre), plus économique (moins de traînée induite), avec une vitesse de décrochage plus basse. Cependant, les performances sont diminuées car l'avion est plus difficile à contrôler."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Les passagers suivants s'apprêtent à monter à bord de votre avion au mois de janvier. 2 hommes costaux, 2 femmes, une fille de 14 ans, 1 bébé. Aucun des passagers ne transporte de bagage. Quel sera le poids total des passagers que vous inscrivez sur le devis de masse et centrage ?",
+    "answers": [
+      "810 livres.",
+      "780 livres.",
+      "988 livres.",
+      "958 livres."
+    ],
+    "correct": 2,
+    "explanation": "En janvier (période hivernale), les poids standards utilisés sont : hommes costaux = 210 lb chacun (×2 = 420 lb), femmes = 180 lb chacune (×2 = 360 lb), fille de 14 ans = 140 lb, bébé = 68 lb. Total : 420 + 360 + 140 + 68 = 988 lb."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Des passagers montent à bord de l'avion, vous demandez à l'un d'entre eux combien il pèse. Qu'inscrirez-vous sur la feuille de chargement ?",
+    "answers": [
+      "194 livres.",
+      "188 livres.",
+      "180 livres.",
+      "167 livres."
+    ],
+    "correct": 1,
+    "explanation": "Si un passager vous donne son poids (ici il a dit 188 lb), vous inscrivez son poids réel sur la feuille de chargement. Lorsque vous connaissez le poids exact, vous ne devez pas utiliser les poids standards. Vous inscrivez donc 188 lb."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Si vous voulez effectuer une décélération, quelle sera la bonne réponse ?",
+    "answers": [
+      "L'assiette et la puissance vont augmenter.",
+      "L'assiette et la puissance vont diminuer.",
+      "L'assiette va augmenter et la puissance va diminuer.",
+      "L'assiette va diminuer et la puissance va augmenter."
+    ],
+    "correct": 2,
+    "explanation": "Pour effectuer une décélération en vol, il faut augmenter l'assiette (cabrer l'avion) pour créer plus de traînée et réduire la puissance (moteur) pour diminuer la poussée. Cette combinaison permet de réduire la vitesse de l'avion de manière contrôlée."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Lequel des énoncés suivants est vrai en ce qui concerne les descentes en plané ?",
+    "answers": [
+      "La distance de plané maximale se rencontre au meilleur angle d'attaque portance/traînée.",
+      "La distance maximale s'obtient à la vitesse d'autonomie maximale.",
+      "Un aéronef planera plus loin s'il est légèrement chargé.",
+      "Un vent debout diminue le taux de descente, moteur coupé."
+    ],
+    "correct": 0,
+    "explanation": "La distance de plané maximale (meilleure finesse) s'obtient au meilleur rapport portance/traînée (L/D max). C'est l'angle d'attaque qui permet de parcourir la plus grande distance horizontale pour une altitude donnée, moteur coupé."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Le meilleur taux de montée dépend de :",
+    "answers": [
+      "L'excédent de portance disponible.",
+      "L'excédent de traction disponible.",
+      "La température et l'humidité.",
+      "Toutes ces réponses."
+    ],
+    "correct": 1,
+    "explanation": "Le meilleur taux de montée (Vy) dépend de l'excédent de traction disponible (la puissance excédentaire). C'est la différence entre la puissance disponible et la puissance nécessaire pour maintenir le vol en palier. La température et l'humidité affectent les performances, mais l'excédent de traction est le facteur principal."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "Deux aéronefs de poids identiques effectuent un virage à 30 degrés d'inclinaison. La vitesse de l'aéronef A est le double de celle de l'aéronef B. Par conséquent, le rayon de virage de A sera :",
+    "answers": [
+      "le quadruple de celui de B.",
+      "le quart de celui de B.",
+      "la moitié de celui de B.",
+      "le double de celui de B."
+    ],
+    "correct": 0,
+    "explanation": "Le rayon de virage est proportionnel au carré de la vitesse (R ∝ V²). Si la vitesse de l'aéronef A est le double de celle de B (2² = 4), alors le rayon de virage de A sera 4 fois (le quadruple) de celui de B pour le même angle d'inclinaison."
+  },
+  {
+    "category": "Opérations aériennes (PPL)",
+    "question": "La différence la plus remarquable entre le recouvrement d'une descente en spirale et le recouvrement d'une vrille est :",
+    "answers": [
+      "La plus grande perte d'altitude dans la vrille.",
+      "Qu'il faut exercer davantage de pression sur le palonnier dans la vrille.",
+      "La plus grande vitesse durant la descente en spirale.",
+      "Dans une descente en spirale, la rotation de l'avion s'arrête à l'aide des ailerons."
+    ],
+    "correct": 3,
+    "explanation": "La différence principale est que dans une descente en spirale, la rotation de l'avion s'arrête à l'aide des ailerons (le mouvement est contrôlé). Dans une vrille, l'avion est en décrochage et la rotation ne peut être arrêtée qu'en utilisant les gouvernes de manière spécifique pour rétablir l'écoulement sur les ailes."
+  },
+
+    {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quelle est la définition de l'hypoxie ?",
+    "answers": [
+      "L'hypoxie est une insuffisance d'oxygène qui provoque un ralentissement des fonctions du cerveau et des autres tissus.",
+      "L'hypoxie est une respiration rapide, ample et supérieure aux besoins métaboliques causant un déséquilibre en oxygène et en gaz carbonique.",
+      "L'hypoxie est la quantité d'oxygène dans le sang correcte, mais celui-ci n'en transporte pas assez jusqu'aux cellules.",
+      "L'hypoxie est la surabondance de monoxyde de carbone dans le sang."
+    ],
+    "correct": 0,
+    "explanation": "L'hypoxie est une insuffisance d'oxygène au niveau des tissus du corps, ce qui provoque un ralentissement des fonctions du cerveau et des autres organes. Elle est particulièrement dangereuse en aviation car les symptômes peuvent être insidieux et passer inaperçus."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quelle est la définition de l'hyperventilation ?",
+    "answers": [
+      "L'hyperventilation désigne une respiration lente, petite et inférieure aux besoins métaboliques causant un déséquilibre en oxygène et en gaz carbonique.",
+      "L'hyperventilation est la quantité d'oxygène dans le sang correcte mais celui-ci n'en transporte pas assez jusqu'aux cellules.",
+      "L'hyperventilation désigne une respiration rapide, ample et supérieure aux besoins métaboliques causant un déséquilibre en oxygène et en gaz carbonique.",
+      "L'hyperventilation est la conséquence normale de la prise d'altitude."
+    ],
+    "correct": 2,
+    "explanation": "L'hyperventilation est une respiration rapide et profonde, supérieure aux besoins métaboliques. Elle provoque une élimination excessive de CO₂, entraînant un déséquilibre qui peut causer des étourdissements, des picotements et une perte de conscience, souvent confondue avec l'hypoxie en altitude."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quel(s) énoncé(s) suivant(s) est/sont faux concernant les symptômes de l'hypoxie ?",
+    "answers": [
+      "L'euphorie, diminution de la vision et perte de conscience.",
+      "Irritabilité, ralentissement des réflexes et perte de conscience.",
+      "L'euphorie, diminution de la vision et l'incapacité à se concentrer.",
+      "Réponses B et C."
+    ],
+    "correct": 0,
+    "explanation": "L'énoncé A est faux car la perte de conscience n'est pas un symptôme initial de l'hypoxie, c'est un stade avancé. Les symptômes précoces incluent l'euphorie, la diminution de la vision et l'incapacité à se concentrer. L'irritabilité et le ralentissement des réflexes sont également des symptômes."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Lorsque vous faites de la plongée sous-marine avec palier de décompression, vous devez ______________.",
+    "answers": [
+      "Vous abstenir de voler pendant 24 heures jusqu'à des altitudes de 6000 pieds ASL.",
+      "Vous abstenir de voler pendant 12 heures jusqu'à des altitudes de 8000 pieds ASL.",
+      "Vous abstenir de voler pendant 12 heures jusqu'à des altitudes de 6000 pieds ASL.",
+      "Vous abstenir de voler pendant 24 heures jusqu'à des altitudes de 8000 pieds ASL."
+    ],
+    "correct": 0,
+    "explanation": "Après une plongée sous-marine avec palier de décompression, il faut attendre 24 heures avant de voler jusqu'à des altitudes de 6000 pieds ASL. Cela permet d'éliminer l'azote dissous dans le sang et d'éviter le mal de décompression en altitude."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quel énoncé est vrai concernant l'anesthésie ?",
+    "answers": [
+      "Après une anesthésie locale, vous devez attendre au moins 24 heures avant de piloter.",
+      "Après une anesthésie générale, vous devez attendre au moins 48 heures avant de piloter.",
+      "Après une anesthésie locale, vous devez attendre l'accord du médecin avant de piloter.",
+      "Réponses A et B."
+    ],
+    "correct": 2,
+    "explanation": "Après une anesthésie locale, vous devez attendre l'accord du médecin avant de piloter, car même une anesthésie locale peut affecter la coordination et le jugement. La règle générale est d'attendre au moins 24 heures après une anesthésie générale."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quel est le délai d'attente après un don de sang ?",
+    "answers": [
+      "24 heures.",
+      "48 heures.",
+      "36 heures.",
+      "12 heures."
+    ],
+    "correct": 0,
+    "explanation": "Après un don de sang, il faut attendre au moins 24 heures avant de piloter. Le corps a besoin de ce temps pour rétablir son volume sanguin normal et éviter les risques de faiblesse, d'étourdissement ou de perte de conscience en vol."
+  }, 
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quelle est la technique de balayage visuel pour scruter le ciel ?",
+    "answers": [
+      "Concentrer son regard sur un point situé sur l'horizon, ensuite à partir de ce point balayer tous les secteurs du ciel en arrêtant son regard tous les ± 30° et au besoin concentrer son regard sur un repère pour éviter la myopie du champ visuel vide.",
+      "Concentrer son regard sur un point situé sur l'horizon, ensuite à partir de ce point balayer tous les secteurs du ciel en arrêtant son regard tous les ± 20° et au besoin concentrer son regard sur un repère pour éviter la myopie du champ visuel vide.",
+      "Concentrer son regard sur un point situé sur l'horizon, ensuite à partir de ce point balayer tous les secteurs du ciel en arrêtant son regard tous les ± 10° et au besoin concentrer son regard sur un repère pour éviter la myopie du champ visuel vide.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 2,
+    "explanation": "La technique de balayage visuel recommandée consiste à concentrer son regard sur un point situé sur l'horizon, puis à partir de ce point balayer tous les secteurs du ciel en arrêtant son regard tous les ± 10°. Il faut également concentrer son regard sur un repère pour éviter la myopie du champ visuel vide (empty field myopia), un phénomène où l'œil se met au repos à l'infini et ne détecte plus les objets."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Lors d'une approche identique, une piste plus large qu'à l'habitude nous semblera plus proche, alors nous aurons ...... ?",
+    "answers": [
+      "L'illusion d'être trop haut et nous ferons une approche trop basse.",
+      "L'illusion d'être trop bas et nous ferons une approche trop haute.",
+      "L'illusion d'être trop haut et nous ferons une approche trop haute.",
+      "L'illusion d'être trop bas et nous ferons une approche trop basse."
+    ],
+    "correct": 0,
+    "explanation": "Une piste plus large qu'à l'habitude nous semblera plus proche, ce qui crée l'illusion d'être trop haut. En réaction, le pilote aura tendance à piquer pour descendre, ce qui résultera en une approche trop basse. C'est une illusion visuelle classique en approche."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Lors d'une approche identique, une piste plus étroite qu'à l'habitude nous semblera plus loin, alors nous aurons ...... ?",
+    "answers": [
+      "L'illusion d'être trop haut et nous ferons une approche trop basse.",
+      "L'illusion d'être trop bas et nous ferons une approche trop basse.",
+      "L'illusion d'être trop haut et nous ferons une approche trop haute.",
+      "L'illusion d'être trop bas et nous ferons une approche trop haute."
+    ],
+    "correct": 3,
+    "explanation": "Une piste plus étroite qu'à l'habitude nous semblera plus loin, ce qui crée l'illusion d'être trop bas. En réaction, le pilote aura tendance à cabrer pour remonter, ce qui résultera en une approche trop haute. C'est l'inverse de l'illusion causée par une piste large."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Lorsque la piste est en pente ascendante ou descendante, notre cerveau a de la difficulté à interpréter la hauteur de l'avion à l'approche. Quel énoncé est vrai ?",
+    "answers": [
+      "Sur une piste avec une pente descendante, nous aurons l'illusion d'être trop haut à l'approche et trop bas sur une piste ascendante.",
+      "Sur une piste avec une pente ascendante, nous aurons l'illusion d'être trop bas à l'approche et trop haut sur une piste descendante.",
+      "Sur une piste avec une pente descendante, nous aurons l'illusion d'être trop bas à l'approche et trop haut sur une piste ascendante.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 0,
+    "explanation": "Sur une piste en pente descendante (vers l'aval), l'avion semble trop haut à l'approche (le pilote pense être plus haut qu'il ne l'est). Sur une piste en pente ascendante (vers l'amont), l'avion semble trop bas (le pilote pense être plus bas qu'il ne l'est), ce qui peut amener à une approche trop haute."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quel énoncé suivant est faux concernant les illusions sensorielles ?",
+    "answers": [
+      "Les risques de ce genre d'illusion se feront sentir en vol dans des conditions de vol aux instruments (IMC).",
+      "Sans repère visuel à l'extérieur, une accélération donnera l'illusion de montée (assiette cabrée).",
+      "Sans repère visuel à l'extérieur, une décélération donnera l'illusion de montée et une accélération donnera l'illusion de descente.",
+      "Sans repère visuel à l'extérieur, une décélération donnera l'illusion de descendre (assiette piquée)."
+    ],
+    "correct": 2,
+    "explanation": "L'énoncé faux est : 'Sans repère visuel à l'extérieur, une décélération donnera l'illusion de montée et une accélération donnera l'illusion de descente.' En réalité, sans repère visuel, une accélération donne l'illusion de montée (assiette cabrée) et une décélération donne l'illusion de descente (assiette piquée)."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Un mouvement brusque de la tête qui entraîne un déplacement rapide du liquide dans les canaux semi-circulaires, ce qui provoque une désorientation et une confusion complète, est appelé :",
+    "answers": [
+      "Illusions sensorielles Coriolis.",
+      "Illusion d'accélération.",
+      "Illusion de virage.",
+      "Illusion d'optique."
+    ],
+    "correct": 0,
+    "explanation": "L'illusion de Coriolis se produit lorsqu'un mouvement brusque de la tête (ex. pour regarder une carte ou un instrument) provoque un déplacement rapide du liquide dans les canaux semi-circulaires de l'oreille interne. Cela crée une désorientation et une confusion complète, particulièrement dangereuse en vol sans visibilité."
+  }, 
+
+    {
+    "category": "Facteurs humains (PPL)",
+    "question": "Combien de semaines une femme enceinte peut-elle continuer à piloter ?",
+    "answers": [
+      "30e semaine de grossesse si aucune restriction particulière n'est émise par le médecin.",
+      "28e semaine de grossesse si aucune restriction particulière n'est émise par le médecin.",
+      "32e semaine de grossesse si aucune restriction particulière n'est émise par le médecin.",
+      "25e semaine de grossesse si aucune restriction particulière n'est émise par le médecin."
+    ],
+    "correct": 0,
+    "explanation": "Une femme enceinte peut continuer à piloter jusqu'à la 30e semaine de grossesse, à condition qu'aucune restriction particulière ne soit émise par son médecin. Après ce délai, les risques liés à la pression en altitude et aux mouvements brusques augmentent."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quelle(s) phrase(s) suivant(s) est/sont fausse(s) concernant les médicaments avec ou sans ordonnance ?",
+    "answers": [
+      "Il est primordial de faire savoir à votre médecin que vous êtes pilote et de connaître les effets secondaires du médicament.",
+      "Si vous souhaitez continuer à piloter en prenant votre médicament, vous devez consulter votre médecin de l'aviation.",
+      "S'il n'est pas possible d'avoir l'avis d'un médecin de l'aviation, prenez 1 médicament à la fois et il est recommandé d'attendre 24 heures après l'ingestion avant de voler.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 3,
+    "explanation": "L'énoncé 'Aucune de ces réponses' est faux car les trois énoncés précédents sont vrais. Il est essentiel d'informer son médecin qu'on est pilote, de consulter un médecin de l'aviation, et en dernier recours, d'attendre 24 heures après la prise d'un médicament avant de voler."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Complétez la phrase suivante : Un verre au sol aura l'effet de 2 verres à _________.",
+    "answers": [
+      "12 000 pieds.",
+      "8 000 pieds.",
+      "10 000 pieds.",
+      "6 000 pieds."
+    ],
+    "correct": 0,
+    "explanation": "Un verre d'alcool consommé au sol aura l'effet de 2 verres à 12 000 pieds d'altitude. L'effet de l'alcool est amplifié en altitude en raison de la réduction de la pression partielle d'oxygène, ce qui augmente les risques d'hypoxie et de perte de jugement."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quels sont les effets occasionnés par le stress ?",
+    "answers": [
+      "Des effets émotionnels seulement.",
+      "Des effets émotionnels et des effets sur le corps.",
+      "Des effets sur le corps et des effets mentaux.",
+      "Des effets sur le corps, des effets émotionnels et des effets mentaux."
+    ],
+    "correct": 3,
+    "explanation": "Le stress provoque des effets sur le corps (tension musculaire, augmentation du rythme cardiaque), des effets émotionnels (anxiété, irritabilité) et des effets mentaux (difficulté de concentration, perte de jugement). Il affecte donc la personne dans sa globalité."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Quels sont les facteurs qui influencent la prise de décision ?",
+    "answers": [
+      "La vigilance, distraction, pression des pairs, connaissances insuffisantes, le stress et refus des conséquences.",
+      "Manque de nutrition, distraction, pression des pairs, connaissances insuffisantes, l'anxiété et refus des conséquences.",
+      "Manque de nutrition, distraction, pression des pairs, connaissances insuffisantes, l'angoisse et refus des conséquences.",
+      "Manque de vigilance, distraction, pression des pairs, connaissances insuffisantes, le stress et refus des conséquences."
+    ],
+    "correct": 0,
+    "explanation": "Les facteurs qui influencent la prise de décision sont : la vigilance (manque d'attention), la distraction, la pression des pairs (influence sociale), les connaissances insuffisantes, le stress et le refus des conséquences (déni des risques)."
+  },
+  {
+    "category": "Facteurs humains (PPL)",
+    "question": "Lorsqu'une personne a l'impression que rien ne peut arriver et qui entraîne une baisse de la garde du pilote, cette attitude dangereuse s'appelle ?",
+    "answers": [
+      "Invulnérabilité.",
+      "Machisme.",
+      "Refus de l'autorité.",
+      "Résignation."
+    ],
+    "correct": 0,
+    "explanation": "L'invulnérabilité est une attitude dangereuse où le pilote pense que rien ne peut lui arriver, ce qui entraîne une baisse de la vigilance et une prise de risques inconsidérée. C'est l'une des 5 attitudes dangereuses identifiées dans la formation des pilotes."
+  },
+  {
+    "category": "Navigation",
+    "question": "Combien y a-t-il de degrés dans un fuseau horaire ?",
+    "answers": [
+      "10 degrés.",
+      "30 degrés.",
+      "15 degrés.",
+      "60 degrés."
+    ],
+    "correct": 2,
+    "explanation": "Il y a 15 degrés de longitude par fuseau horaire. La Terre fait une rotation complète de 360° en 24 heures, donc chaque fuseau horaire couvre 360 ÷ 24 = 15° de longitude."
+  },
+  {
+    "category": "Navigation",
+    "question": "Quelles sont les coordonnées géographiques de l'aéroport de Charlevoix ?",
+    "answers": [
+      "N47°35' / W70°13'.",
+      "N47°50' / W70°13'.",
+      "N47°35' / W71°13'.",
+      "N47°50' / W70°13'."
+    ],
+    "correct": 0,
+    "explanation": "L'aéroport de Charlevoix (CYML) est situé aux coordonnées N47°35' / W70°13'. C'est un aéroport situé dans la région de Charlevoix au Québec."
+  },
+  {
+    "category": "Navigation",
+    "question": "Qu'est-ce qui est vrai concernant une loxodromie ?",
+    "answers": [
+      "Une loxodromie est la distance la plus courte entre deux points.",
+      "Tous les méridiens de latitude sont des loxodromies.",
+      "En naviguant avec une route dite loxodromique, on doit changer de cap à intervalle fréquent.",
+      "Ce n'est pas la distance la plus courte."
+    ],
+    "correct": 3,
+    "explanation": "Une loxodromie est une ligne qui coupe tous les méridiens sous le même angle. Ce n'est pas la distance la plus courte entre deux points (c'est l'orthodromie). Elle est utilisée en navigation car elle permet de maintenir un cap constant. L'énoncé 'Ce n'est pas la distance la plus courte' est le seul vrai."
+  },
+  {
+    "category": "Navigation",
+    "question": "Vous êtes dans les environs de Rivière-du-Loup. Aux avions volant à cet endroit, le nord magnétique semble être _________ du nord vrai.",
+    "answers": [
+      "À l'ouest.",
+      "Au nord.",
+      "Au sud.",
+      "À l'est."
+    ],
+    "correct": 0,
+    "explanation": "Dans les environs de Rivière-du-Loup (Québec), la déclinaison magnétique est vers l'ouest. Le nord magnétique se trouve donc à l'ouest du nord vrai. La déclinaison magnétique dans l'est du Canada est généralement ouest (environ 10-15°)."
+  },
+  {
+    "category": "Navigation",
+    "question": "Pour un cap vrai de 270°, une déclinaison de 12° Est et une déviation de +2°, quel est le cap compas ?",
+    "answers": [
+      "260°.",
+      "284°.",
+      "272°.",
+      "Aucune de ces réponses."
+    ],
+    "correct": 0,
+    "explanation": "Formule : Cap compas = Cap vrai - Déclinaison Ouest + Déclinaison Est - Déviation Ouest + Déviation Est. Ici : 270° - 12° (Est) + 2° = 260°. La règle mnémotechnique : 'Variation Ouest, Cap Compas le plus grand' (West is best, East is least)."
+  },
+  {
+    "category": "Navigation",
+    "question": "Quelle est la distance entre les deux coordonnées géographiques suivantes ? N46°00' et N47°00' (même longitude).",
+    "answers": [
+      "60 NM.",
+      "60 SM.",
+      "10 SM.",
+      "10 NM."
+    ],
+    "correct": 0,
+    "explanation": "1 degré de latitude équivaut à 60 milles marins (NM). La différence entre N46°00' et N47°00' est de 1° de latitude. Donc la distance est de 1 × 60 = 60 NM."
+  },
+  {
+    "category": "Navigation",
+    "question": "Si votre vitesse indiquée à 10 500 pieds est de 150 noeuds (KTS), quelle serait approximativement votre vitesse vraie ?",
+    "answers": [
+      "135 noeuds.",
+      "182 noeuds.",
+      "190 noeuds.",
+      "175 noeuds."
+    ],
+    "correct": 1,
+    "explanation": "Pour calculer la vitesse vraie (TAS) à partir de la vitesse indiquée (IAS), on ajoute environ 2% par 1000 pieds d'altitude. À 10 500 pieds : 10.5 × 2% = 21%. 150 + (150 × 21%) = 150 + 31.5 = 181.5 ≈ 182 KTS."
+  }, 
+
+    {
+    "category": "Navigation",
+    "question": "Sur quel type de carte une ligne droite représente-t-elle une route de grand cercle (orthodromie) ?",
+    "answers": [
+      "VTA.",
+      "Conique conforme de Lambert.",
+      "Lambert modifiée.",
+      "Mercator."
+    ],
+    "correct": 3,
+    "explanation": "Sur une projection de Mercator, une ligne droite représente une loxodromie (cap constant), pas une orthodromie. Sur une projection conique conforme de Lambert, une ligne droite représente approximativement une orthodromie (route de grand cercle) pour les latitudes moyennes. Les cartes VTA et VNC utilisent cette projection."
+  },
+  {
+    "category": "Navigation",
+    "question": "Que désignent les teintes hypsométriques sur la carte ?",
+    "answers": [
+      "L'élévation du terrain par rapport au sol.",
+      "L'élévation du terrain par rapport à la mer.",
+      "La hauteur de l'obstacle le plus élevé par rapport au sol.",
+      "La hauteur de l'obstacle le plus élevé par rapport à la mer."
+    ],
+    "correct": 1,
+    "explanation": "Les teintes hypsométriques sur une carte indiquent l'élévation du terrain par rapport au niveau moyen de la mer (ASL). Les différentes couleurs (vert, jaune, brun, etc.) représentent les différentes tranches d'altitude du relief."
+  },
+  {
+    "category": "Navigation",
+    "question": "Sur une carte VNC, une minute de latitude correspond à une longueur de :",
+    "answers": [
+      "Un mile terrestre.",
+      "1,5 kilomètre nautique.",
+      "Aucune de ces réponses.",
+      "Un mile nautique."
+    ],
+    "correct": 3,
+    "explanation": "Sur une carte VNC, une minute de latitude correspond à un mile nautique (NM). C'est la définition même du mile nautique : 1 minute de latitude = 1 NM. Cette relation est utilisée pour mesurer les distances sur les cartes aéronautiques."
+  },
+  {
+    "category": "Navigation",
+    "question": "Quelle est la projection de la carte aéronautique AIR 5002 ?",
+    "answers": [
+      "Une projection transversale de Mercator.",
+      "Une projection de Mercator.",
+      "Une projection conique conforme de Lambert.",
+      "Une projection transversale conforme de Lambert."
+    ],
+    "correct": 2,
+    "explanation": "La carte AIR 5002 (Aeronautical Information Publication) utilise une projection conique conforme de Lambert, comme la plupart des cartes aéronautiques VFR au Canada. Cette projection est adaptée aux latitudes moyennes et préserve les angles."
+  },
+  {
+    "category": "Navigation",
+    "question": "Choisissez la bonne réponse : 1- Les cartes VTA ont une échelle de 1/200 000. 2- Les cartes VNC ont une échelle de 1/500 000. 3- Les cartes VNC reposent sur la projection conique conforme de Lambert. 4- Les points de cheminement et de compte rendu VFR se retrouvent uniquement sur les VTA. 5- Les cartes VNC sont principalement pour les vols sous 12 500 pieds ASL. 6- Les cartes VNC permettent facilement d'identifier les zones de contrôle et les limites de l'espace aérien. 7- Les cartes VTA permettent facilement d'identifier les zones de contrôle et les limites de l'espace aérien. 8- Toutes les cartes aéronautiques VFR ne devraient pas être utilisées pour le vol à basse altitude et de faible visibilité car des obstacles pourraient ne pas y être représentés.",
+    "answers": [
+      "1, 3, 5, 7, 8.",
+      "1, 3, 4, 6, 7.",
+      "2, 4, 5, 7, 8.",
+      "2, 3, 4, 6, 8."
+    ],
+    "correct": 0,
+    "explanation": "Les affirmations correctes sont : 1- VTA échelle 1/200 000 (VRAI), 3- VNC projection conique conforme de Lambert (VRAI), 5- VNC pour vols sous 12 500' ASL (VRAI), 7- VTA permettent d'identifier zones de contrôle (VRAI), 8- Les cartes VFR ne devraient pas être utilisées pour vol à basse altitude et faible visibilité (VRAI)."
+  },
+  {
+    "category": "Navigation",
+    "question": "Selon les données sur la carte, CYSG :",
+    "answers": [
+      "Est un aérodrome avec une ATF.",
+      "A une piste de 5000 pieds.",
+      "A un service de douanes.",
+      "A un système d'éclairage automatique non télécommandé."
+    ],
+    "correct": 3,
+    "explanation": "CYSG (Saint-Georges) est un aérodrome avec un système d'éclairage automatique non télécommandé (ARCAL). Les données de la carte indiquent le type de balisage disponible pour l'aérodrome."
+  },
+  {
+    "category": "Navigation",
+    "question": "Il n'y a pas d'échelle au bas de la carte VNC. Quelle est la meilleure façon de déterminer les distances sur cette carte ?",
+    "answers": [
+      "Acheter une nouvelle carte.",
+      "Utiliser l'échelle sur une autre carte ou une règle de distance OACI.",
+      "Les méridiens de longitude, espacés de 60 miles, peuvent servir d'échelle.",
+      "Les parallèles de latitude, espacés de 60 milles marins, peuvent servir d'échelle."
+    ],
+    "correct": 3,
+    "explanation": "La meilleure façon de déterminer les distances sur une carte VNC sans échelle est d'utiliser les parallèles de latitude. 1 minute de latitude = 1 NM, donc les parallèles espacés de 60 NM peuvent servir d'échelle de référence."
+  },
+  {
+    "category": "Navigation",
+    "question": "Référez-vous à la VNC de MTL. Les teintes hypsométriques de la carte indiquent qu'entre les aérodromes de CSC3 (N45 50 37 - W72 23 51) et CSU7 (N46 37 18 - W72 37 49) l'altitude des terrains survolés se situe entre :",
+    "answers": [
+      "Le niveau de la mer et 1000 pieds.",
+      "Le niveau de la mer et 1900 pieds.",
+      "1000 pieds et 1900 pieds.",
+      "Une moyenne de 1700 pieds."
+    ],
+    "correct": 2,
+    "explanation": "Entre CSC3 et CSU7 dans la région de la VNC de Montréal, le terrain survolé se situe principalement entre 1000 et 1900 pieds ASL. Les teintes hypsométriques indiquent cette tranche d'altitude avec des couleurs correspondantes."
+  },
+  {
+    "category": "Navigation",
+    "question": "Dans les données d'information sur l'aérodrome de Trois-Rivières (VNC), que signifie le M dans les renseignements ?",
+    "answers": [
+      "Fréquence obligatoire.",
+      "Balisage lumineux de piste ARCAL de type M.",
+      "Aérodrome militaire.",
+      "Lumières de piste d'intensité medium."
+    ],
+    "correct": 1,
+    "explanation": "Le 'M' dans les données d'information sur l'aérodrome de Trois-Rivières indique un balisage lumineux de piste ARCAL (Aircraft Radio Control of Aerodrome Lighting) de type M. Cela signifie que les lumières de piste peuvent être activées par radio depuis l'avion."
+  },
+
+  {
+    "category": "Navigation",
+    "question": "Quelle est la vitesse-sol d'un avion parcourant 15 NM en 510 secondes ?",
+    "answers": [
+      "104 Kts.",
+      "101 Kts.",
+      "106 Kts.",
+      "97 Kts."
+    ],
+    "correct": 2,
+    "explanation": "Vitesse = Distance / Temps. 510 secondes = 510/60 = 8.5 minutes. 15 NM en 8.5 minutes = 15/8.5 = 1.765 NM par minute. 1.765 × 60 = 105.9 Kts ≈ 106 Kts."
+  },
+  {
+    "category": "Navigation",
+    "question": "Vous consommez 24 litres à l'heure. Si vous effectuez un vol de 2h30, quelle sera votre consommation en gallons impériaux pour la durée du vol ?",
+    "answers": [
+      "9.3 gallons.",
+      "8.3 gallons.",
+      "13.2 gallons.",
+      "12.4 gallons."
+    ],
+    "correct": 2,
+    "explanation": "Consommation totale : 24 L/h × 2.5 h = 60 litres. 1 gallon impérial = 4.546 litres. 60 / 4.546 = 13.2 gallons impériaux."
+  },
+  {
+    "category": "Navigation",
+    "question": "Si votre avion est à 2 milles marins à l'écart de sa route après avoir parcouru 40 NM, de combien de degrés avez-vous dévié de votre route planifiée ?",
+    "answers": [
+      "6°.",
+      "3°.",
+      "2°.",
+      "4°."
+    ],
+    "correct": 1,
+    "explanation": "Utilisez la formule : Sin(angle) = Écart / Distance. Sin(angle) = 2/40 = 0.05. arcsin(0.05) = 2.87° ≈ 3° de déviation."
+  },
+  {
+    "category": "Navigation",
+    "question": "Si un cap de 250° magnétique conserve une trajectoire d'éloignement de 242° magnétique, le cap pour maintenir la trajectoire réciproque pour revenir au point de départ serait de :",
+    "answers": [
+      "054° M.",
+      "062° M.",
+      "070° M.",
+      "078° M."
+    ],
+    "correct": 1,
+    "explanation": "La trajectoire d'éloignement est de 242° M. La trajectoire de retour est la réciproque : 242° + 180° = 422° - 360° = 62° M. Cependant, pour maintenir cette trajectoire compte tenu de la dérive (242° vs 250°), il faut ajuster : 62° + (250° - 242°) = 62° + 8° = 70° M."
+  },
+
+    {
+    "category": "Navigation",
+    "question": "NOTAM V0086/21 : A) CYQB B) 2101291406 C) 2104292000 E) OBST LGT U/S BUILDING 464801N 0712220W (APRX 1.03NM ENE AD) 45FT AGL, 250FT AMSL. Ce NOTAM est en vigueur le _________ et se termine le _________.",
+    "answers": [
+      "21 janvier 2021 à 14:06Z, 29 avril 2021 à 20:00Z.",
+      "29 janvier 2021 à 14:06Z, 29 avril 2021 à 20:00Z.",
+      "21 janvier 2021 à 14:06 locale, 29 avril 2021 à 20:00 locale.",
+      "21 janvier 2021 à 02:06Z, 21 avril 2021 à 20:00Z."
+    ],
+    "correct": 0,
+    "explanation": "Dans un NOTAM, la date et l'heure sont au format AAMMJJHHMM. B) 2101291406 = 29 janvier 2021 à 14:06Z (début). C) 2104292000 = 29 avril 2021 à 20:00Z (fin). La date de début est le 21 janvier 2021 à 14:06Z."
+  },
+  {
+    "category": "Navigation",
+    "question": "NOTAM V0086/21 : A) CYQB B) 2101291406 C) 2104292000 E) OBST LGT U/S BUILDING 464801N 0712220W (APRX 1.03NM ENE AD) 45FT AGL, 250FT AMSL. Qu'est-ce que signifie ce NOTAM ?",
+    "answers": [
+      "Il y a un obstacle 1.03 SM au Nord-Est de l'aéroport de CYQB.",
+      "Il y a des obstacles au nord de l'aéroport de CYQB.",
+      "Il y a un obstacle d'une hauteur de 250 pieds AGL.",
+      "Il y a un obstacle d'une hauteur de 250 pieds au niveau de la mer situé au Nord-Est de l'aéroport de CYQB non-éclairé."
+    ],
+    "correct": 3,
+    "explanation": "Ce NOTAM indique qu'un obstacle (bâtiment) de 45 pieds AGL et 250 pieds AMSL, situé à environ 1.03 NM au Nord-Est de l'aéroport CYQB, a ses feux de balisage (LGT U/S = Lights Unserviceable) hors service. L'obstacle est à 250 pieds AMSL (au-dessus du niveau de la mer)."
+  },
+  {
+    "category": "Navigation",
+    "question": "Qu'est-ce que signifie « NOTAMR » ?",
+    "answers": [
+      "Notice to Airmen.",
+      "Un NOTAM annulé.",
+      "Un NOTAM de remplacement ou modifié.",
+      "Un NOTAM normal."
+    ],
+    "correct": 2,
+    "explanation": "NOTAMR signifie NOTAM de remplacement (NOTAM Replacement). Il indique que ce NOTAM remplace un NOTAM précédent. NOTAMR est suivi du numéro du NOTAM qu'il remplace (ex: NOTAMR V1140/20)."
+  },
+  {
+    "category": "Radio Navigation",
+    "question": "Vous désirez faire une navigation à l'aide d'un VOR. Quelle réponse est fausse par rapport à cet instrument ?",
+    "answers": [
+      "Vous syntonisez la station et entendez le code morse, la station est fonctionnelle.",
+      "Vous syntonisez la station et entendez le code morse mais l'indicateur TO/FROM ne donne aucune indication, la station est non fonctionnelle.",
+      "Vous syntonisez la station et entendez le code morse mais un flag orange apparaît dans la fenêtre TO/FROM, la station est fonctionnelle.",
+      "Vous syntonisez la station et n'entendez pas le code morse mais l'indicateur TO/FROM affiche une lecture correcte, la station est fonctionnelle."
+    ],
+    "correct": 3,
+    "explanation": "La réponse D est fausse. Si vous n'entendez pas le code morse, cela signifie que la station VOR n'est pas fonctionnelle ou que vous êtes hors de portée. L'indicateur TO/FROM ne devrait pas afficher une lecture correcte si le signal n'est pas reçu."
+  },
+  {
+    "category": "Radio Navigation",
+    "question": "Quelle est la tolérance en degrés, au sol, où l'équipement est disponible, d'une station VOR ?",
+    "answers": [
+      "Quatre barres à gauche ou à droite du centre de l'indicateur d'écart de route (CDI).",
+      "Moins de quatre degrés.",
+      "Au plus quatre degrés du centre de l'indicateur d'écart de route (CDI).",
+      "Moins de six degrés."
+    ],
+    "correct": 3,
+    "explanation": "La tolérance d'un VOR au sol est de moins de 6 degrés (ou ± 6°) par rapport au centre de l'indicateur d'écart de route (CDI). Les autres options sont incorrectes car la tolérance standard est de 6 degrés."
+  },
+  {
+    "category": "Radio Navigation",
+    "question": "Quelle est la distance de réception d'un VOR à 7000 pieds AGL ?",
+    "answers": [
+      "102 NM.",
+      "103 NM.",
+      "103 SM.",
+      "101 NM."
+    ],
+    "correct": 1,
+    "explanation": "La distance de réception d'un VOR est calculée par la formule : Distance (NM) = 1.23 × √(Altitude en pieds). Pour 7000 pieds : 1.23 × √7000 = 1.23 × 83.67 = 102.9 NM ≈ 103 NM."
+  },
+  {
+    "category": "Radio Navigation",
+    "question": "Afin d'utiliser un système de navigation par GPS, combien de satellites sont nécessaires pour obtenir un positionnement 3-D ?",
+    "answers": [
+      "3.",
+      "5.",
+      "1.",
+      "4."
+    ],
+    "correct": 3,
+    "explanation": "Pour obtenir un positionnement 3-D (latitude, longitude et altitude), le GPS a besoin d'au moins 4 satellites. 3 satellites permettent un positionnement 2-D (latitude et longitude), et 4 satellites permettent d'ajouter l'altitude."
+  },
+  {
+    "category": "Radio Navigation",
+    "question": "Lequel des systèmes de navigation suivants opère en utilisant les ondes UHF ? 1- DME, 2- VOR, 3- VORTAC, 4- NDB, 5- TACAN, 6- GPS",
+    "answers": [
+      "1, 2, 3, 4, 5.",
+      "1, 3, 5.",
+      "2, 3, 5, 6.",
+      "3, 6."
+    ],
+    "correct": 1,
+    "explanation": "Les systèmes qui opèrent en UHF (Ultra High Frequency, 300-3000 MHz) sont : le DME (Distance Measuring Equipment), le VORTAC (VOR + TACAN) et le TACAN (Tactical Air Navigation). Le VOR opère en VHF, le NDB en MF/LF, et le GPS en L-band (UHF également, mais pas considéré comme UHF traditionnel)."
+  },
+  {
+    "category": "Radio Navigation",
+    "question": "Le service de radiogoniométrie VHF (VDF) utilise les bandes de fréquences de _____ à _____.",
+    "answers": [
+      "1-10 KHz.",
+      "3000-30 000 KHz.",
+      "30-300 MHz.",
+      "3-30 KHz."
+    ],
+    "correct": 2,
+    "explanation": "Le VDF (VHF Direction Finder) utilise les bandes de fréquences VHF, soit de 30 MHz à 300 MHz. C'est un service qui permet de déterminer la direction d'un avion à partir des émissions VHF."
   }
 ]
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
