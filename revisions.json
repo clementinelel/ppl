@@ -68,5 +68,145 @@
       "titre": "Anémomètre",
       "contenu": "Pression totale (Pitot) - Pression statique = Pression dynamique → vitesse"
     }
+  
+    {
+      "titre": "Altimètre - Principe",
+      "contenu": "Mesure la pression statique (prise statique) → indique l'altitude. Utilise une capsule anéroïde qui se dilate/contracte selon la pression."
+    },
+    {
+      "titre": "Altimètre - Pression standard",
+      "contenu": "Lorsque réglé sur 29.92 inHg (1013.25 hPa), l'altimètre indique l'altitude pression (Pressure Altitude)."
+    },
+    {
+      "titre": "Altimètre - Règle de correction",
+      "contenu": "1 po Hg = 1000 pieds. 'High to Low, look out below' (haute vers basse pression = sous-estimation). 'Hot to Cold, don't be bold' (chaud vers froid = sous-estimation)."
+    },
+    {
+      "titre": "Anémomètre - Principe",
+      "contenu": "Mesure la pression dynamique = Pression totale (Pitot) - Pression statique. Indique la vitesse indiquée (IAS)."
+    },
+    {
+      "titre": "Anémomètre - Indication secondaire",
+      "contenu": "Indique l'assiette en tangage : augmentation de vitesse = piqué, diminution de vitesse = cabré."
+    },
+    {
+      "titre": "Variomètre (VSI) - Principe",
+      "contenu": "Mesure le taux de montée/descente en pieds par minute (FPM). Utilise la pression statique dans la capsule et le boîtier."
+    },
+    {
+      "titre": "Variomètre (VSI) - Retard",
+      "contenu": "Retard de lecture de 6 à 9 secondes (VSI classique). Les IVSI (instantanés) utilisent des accéléromètres."
+    },
+    {
+      "titre": "Gyroscope - Propriétés",
+      "contenu": "Deux propriétés fondamentales : 1) Fixité dans l'espace (rigidité gyroscopique), 2) Précession (réaction à 90° dans le sens de rotation)."
+    },
+    {
+      "titre": "Gyroscope - Entraînement",
+      "contenu": "3 méthodes : succion (dépression), électrique (moteur), Venturi (avions anciens)."
+    },
+    {
+      "titre": "Horizon artificiel - Montage",
+      "contenu": "Monté horizontalement. Utilise le principe de fixité dans l'espace. Temps de redressement : jusqu'à 5 minutes."
+    },
+    {
+      "titre": "Horizon artificiel - Indications",
+      "contenu": "Indique l'assiette de l'avion (tangage et roulis). Ne pas utiliser pour le virage sans vérifier les instruments de virage."
+    },
+    {
+      "titre": "Conservateur de cap - Montage",
+      "contenu": "Monté horizontalement. Utilise le principe de fixité dans l'espace. À ajuster toutes les 15 minutes."
+    },
+    {
+      "titre": "Conservateur de cap - Erreurs",
+      "contenu": "Sujet à la précession et à la rotation de la Terre → recalage régulier sur le compas magnétique (en palier uniquement)."
+    },
+    {
+      "titre": "Coordonnateur de virage - Montage",
+      "contenu": "Monté verticalement (axe horizontal). Utilise le principe de précession. Mini-avion indique le taux de virage."
+    },
+    {
+      "titre": "Coordonnateur vs Indicateur de virage",
+      "contenu": "La seule différence est l'affichage : coordonnateur = mini-avion, indicateur = aiguille. Tous deux ont la bille d'inclinomètre."
+    },
+    {
+      "titre": "Virage à taux standard",
+      "contenu": "Taux 1 = 180° en 1 minute (ou 360° en 2 minutes). Taux 2 = 360° en 1 minute."
+    },
+    {
+      "titre": "Boussole - Déclinaison magnétique",
+      "contenu": "Angle entre le nord vrai (géographique) et le nord magnétique. Indiquée sur les cartes par des isogones. 'West is best, East is least'."
+    },
+    {
+      "titre": "Boussole - Déviation",
+      "contenu": "Erreur causée par les champs magnétiques parasites de l'avion (moteur, instruments, métal). Carte de déviation affichée sur la boussole."
+    },
+    {
+      "titre": "Boussole - Erreurs d'accélération",
+      "contenu": "Accélérer sur cap E/O donne illusion de virage vers le nord. Décélération sur cap E/O donne illusion de virage vers le sud."
+    },
+    {
+      "titre": "Boussole - Erreurs de virage",
+      "contenu": "Lors d'un virage, le compas sous-estime/surestime le changement de cap. Plus proche de N/S, plus l'erreur est grande."
+    },
+    {
+      "titre": "Boussole - Inclinaison",
+      "contenu": "L'aiguille se penche vers le bas en s'approchant des pôles (plongement)."
+    },
+    {
+      "titre": "Pitot - Principe",
+      "contenu": "Tube de Pitot = prise de pression totale (pression statique + dynamique). Doit être orienté face au vent relatif."
+    },
+    {
+      "titre": "Pitot - Givrage",
+      "contenu": "Chauffage du Pitot (Pitot heat) pour éviter le givrage de la prise de pression totale. Le givrage rend l'anémomètre inopérant."
+    },
+    {
+      "titre": "Prise statique - Blocage",
+      "contenu": "Blocage complet : altimètre et variomètre restent fixes (n'indiquent pas les changements d'altitude). Anémomètre sous-estime en montée, surestime en descente."
+    },
+    {
+      "titre": "Pitot - Blocage",
+      "contenu": "Blocage du Pitot : l'anémomètre agit comme un altimètre (augmente en montée, diminue en descente). La pression piégée ne change plus."
+    },
+    {
+      "titre": "Prise statique - Placement",
+      "contenu": "Située le long du fuselage, dans une zone d'écoulement non perturbé, pour capter UNIQUEMENT la pression statique (pas dynamique)."
+    },
+    {
+      "titre": "Pitot - Placement",
+      "contenu": "Sur aile, loin du fuselage pour éviter le souffle de l'hélice. Doit être en écoulement d'air non perturbé."
+    },
+    {
+      "titre": "Instruments de performance",
+      "contenu": "Altimètre, anémomètre, variomètre, horizon artificiel, coordonnateur de virage. Le conservateur de cap est un instrument de navigation."
+    },
+    {
+      "titre": "Instruments gyroscopiques",
+      "contenu": "Horizon artificiel, conservateur de cap, coordonnateur de virage / indicateur de virage."
+    },
+    {
+      "titre": "Instruments par succion",
+      "contenu": "Horizon artificiel et conservateur de cap (généralement). Le coordonnateur de virage est souvent électrique."
+    },
+    {
+      "titre": "Erreurs de pression",
+      "contenu": "Basse pression non corrigée → altimètre surestime l'altitude. Haute pression non corrigée → altimètre sous-estime l'altitude."
+    },
+    {
+      "titre": "Transition de pression",
+      "contenu": "Lorsqu'on passe d'une région de calage altimétrique à l'autre, on règle l'altimètre à 29.92 AVANT d'entrer dans la nouvelle région."
+    },
+    {
+      "titre": "RVR - Runway Visual Range",
+      "contenu": "Portée visuelle de piste, exprimée en pieds. Exemple : R24/4000FT/U = RVR piste 24 = 4000 pieds, tendance à la hausse (U)."
+    },
+    {
+      "titre": "ELT - Emergency Locator Transmitter",
+      "contenu": "Test possible durant moins de 5 secondes, dans les 5 premières minutes de chaque heure UTC."
+    },
+    {
+      "titre": "Transpondeur Mode C",
+      "contenu": "Obligatoire dans les classes A, B, C, D et E si spécifié. Transmet l'altitude pression (en codage Gillham)."
+    }
   ]
-}
