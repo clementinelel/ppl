@@ -859,6 +859,217 @@
     {
       "titre": "Effet de sol",
       "contenu": "Augmentation de portance, réduction de traînée près du sol"
+    }, {
+      "titre": "Devis de masse et centrage",
+      "contenu": "Utiliser celui qui représente la dernière modification inscrite au carnet de route de l'avion. Le plus récent reflète la configuration actuelle."
+    },
+    {
+      "titre": "Poids maximal sur la rampe",
+      "contenu": "Trouvé dans une spécification annotée dans les documents de l'avion (POH, certificat de type)."
+    },
+    {
+      "titre": "Centre de gravité (CG) arrière",
+      "contenu": "Moins stable, plus économique (moins de traînée), vitesse de décrochage plus basse, performances diminuées."
+    },
+    {
+      "titre": "Centre de gravité (CG) avant",
+      "contenu": "Plus stable, moins économique (plus de traînée), vitesse de décrochage plus élevée, performances réduites."
+    },
+    {
+      "titre": "Poids standards passagers - Été",
+      "contenu": "Homme costaux = 200 lb, Femme = 170 lb, Enfant (2-12 ans) = 80 lb, Bébé = 65 lb."
+    },
+    {
+      "titre": "Poids standards passagers - Hiver",
+      "contenu": "Homme costaux = 210 lb, Femme = 180 lb, Enfant (2-12 ans) = 90 lb, Bébé = 68 lb."
+    },
+    {
+      "titre": "Poids des bagages",
+      "contenu": "Bagage à main = 25 lb. Bagage en soute = 50 lb."
+    },
+    {
+      "titre": "Masse des passagers - Règle",
+      "contenu": "Si un passager donne son poids réel, inscrire ce poids sur la feuille de chargement (ne pas utiliser les poids standards)."
+    },
+    {
+      "titre": "Atmosphère standard (ISA)",
+      "contenu": "15°C (59°F) au niveau de la mer, 1013.25 hPa (29.92 inHg), gradient 1.98°C/1000'."
+    },
+    {
+      "titre": "Distance franchissable (Range)",
+      "contenu": "Augmente avec l'altitude pour un réglage de puissance donné. Portée maximale obtenue à environ 40-45% de puissance."
+    },
+    {
+      "titre": "Vitesse vraie maximale (VNE)",
+      "contenu": "Se rencontre aux altitudes plus élevées (air moins dense). Ne jamais dépasser VNE."
+    },
+    {
+      "titre": "Vent debout imprévu - Procédure",
+      "contenu": "Réduire la puissance (ex: 65% → 55%) pour améliorer l'efficacité énergétique. Augmenter la puissance consommerait trop de carburant."
+    },
+    {
+      "titre": "Composante de vent de travers démontrée",
+      "contenu": "Valeur démontrée par un pilote moyen lors des essais. PAS une limite absolue. La dépasser ne cause pas de bris structurel mais rend le contrôle difficile."
+    },
+    {
+      "titre": "Effet de sol",
+      "contenu": "Augmentation de la portance et réduction de la traînée induite lorsque l'avion vole près du sol (hauteur < envergure)."
+    },
+    {
+      "titre": "Décélération en vol",
+      "contenu": "Augmenter l'assiette (cabrer) pour créer de la traînée + réduire la puissance (moteur) = réduction de vitesse contrôlée."
+    },
+    {
+      "titre": "Descente en plané - Distance maximale",
+      "contenu": "Obtenue au meilleur rapport portance/traînée (L/D max). L'avion plane plus loin à ce réglage, moteur coupé."
+    },
+    {
+      "titre": "Descente en plané - Vent",
+      "contenu": "Vent debout = augmente le taux de descente, réduit la distance. Vent arrière = réduit le taux de descente, augmente la distance."
+    },
+    {
+      "titre": "Meilleur taux de montée (Vy)",
+      "contenu": "Dépend de l'excédent de traction disponible (puissance excédentaire). Affected par altitude, température et masse."
+    },
+    {
+      "titre": "Rayon de virage",
+      "contenu": "Proportionnel au carré de la vitesse (R ∝ V²). Vitesse double = rayon quadruple pour le même angle d'inclinaison."
+    },
+    {
+      "titre": "Virage à taux standard (Taux 1)",
+      "contenu": "180° en 1 minute (ou 360° en 2 minutes). Soit 3° par seconde."
+    },
+    {
+      "titre": "Descente en spirale vs Vrille",
+      "contenu": "En descente en spirale, la rotation s'arrête à l'aide des ailerons (contrôlé). En vrille, l'avion est en décrochage."
+    },
+    {
+      "titre": "Panne moteur après décollage",
+      "contenu": "Piquer pour maintenir la vitesse, trouver un terrain d'atterrissage, tenter un redémarrage si possible."
+    },
+    {
+      "titre": "Vitesse de décrochage (Vs)",
+      "contenu": "Vitesse à laquelle l'avion perd de la portance à l'angle d'attaque critique. Dépend de la configuration (volets, puissance) et du facteur de charge."
+    },
+    {
+      "titre": "Vitesse de décrochage en virage",
+      "contenu": "Augmente avec l'angle de gîte. À 60° (2g), Vs = √2 × Vs ≈ 41% plus élevée."
+    },
+    {
+      "titre": "Facteur de charge (g)",
+      "contenu": "Rapport portance/poids. Palier = 1g. Virage 60° = 2g, 70° = 3g. Affecte performances et limites structurelles."
+    },
+    {
+      "titre": "Vitesse de rotation (Vr)",
+      "contenu": "Vitesse à laquelle le pilote cabre l'avion pour décoller. Tirer sur le manche à Vr."
+    },
+    {
+      "titre": "Vitesse à ne pas dépasser (Vne)",
+      "contenu": "Velocity Never Exceed. Dépassement = dommages structurels ou perte de contrôle."
+    },
+    {
+      "titre": "Distance de décollage - Exigence",
+      "contenu": "Doit être inférieure à la longueur de piste disponible. Marge de sécurité recommandée."
+    },
+    {
+      "titre": "Distance de décollage - Définition",
+      "contenu": "Distance nécessaire pour passer de l'arrêt à 50' (FAR 23) ou 35' (FAR 25) à la vitesse de montée."
+    },
+    {
+      "titre": "Vent de face - Effet sur décollage",
+      "contenu": "Diminue la distance de décollage (augmente la portance à vitesse-sol plus faible)."
+    },
+    {
+      "titre": "Vent de travers - Effet sur décollage",
+      "contenu": "Augmente la distance de décollage. Nécessite correction de cap, réduit l'efficacité de l'aile."
+    },
+    {
+      "titre": "Vent arrière - Effet sur décollage/atterrissage",
+      "contenu": "Augmente la distance de décollage et d'atterrissage. Réduit la vitesse par rapport au sol, allonge le temps d'arrêt."
+    },
+    {
+      "titre": "Règle des 3° en approche",
+      "contenu": "Approche avec un angle de descente de 3° = descente d'environ 300' par mille nautique. Assure une approche stable."
+    },
+    {
+      "titre": "Atterrissage court",
+      "contenu": "Approche plus lente, volets maximaux, toucher à la vitesse la plus basse possible pour réduire la distance d'atterrissage."
+    },
+    {
+      "titre": "Distance de freinage",
+      "contenu": "Distance nécessaire pour arrêter l'avion après le touché. Dépend de la vitesse, des freins, des conditions de piste."
+    },
+    {
+      "titre": "Vent de face - Effet sur atterrissage",
+      "contenu": "Diminue la distance d'atterrissage. Vitesse-sol réduite → meilleur contrôle."
+    },
+    {
+      "titre": "Vent arrière - Effet sur atterrissage",
+      "contenu": "Augmente la distance d'atterrissage. Réduit l'efficacité des freins."
+    },
+    {
+      "titre": "Feu moteur en vol - Procédure",
+      "contenu": "Couper carburant, fermer admission d'air, effectuer atterrissage d'urgence. Asphyxier le feu."
+    },
+    {
+      "titre": "Évacuation d'urgence au sol",
+      "contenu": "Couper le moteur, évacuer rapidement, aider les passagers, s'éloigner de l'avion."
+    },
+    {
+      "titre": "Perte de visibilité en VFR",
+      "contenu": "Faire demi-tour vers l'aérodrome de départ, monter pour éviter les obstacles, contacter ATC."
+    },
+    {
+      "titre": "Règle des 5% (carburant)",
+      "contenu": "Prévoir 5% de carburant supplémentaire pour les imprévus (détournement, vent contraire)."
+    },
+    {
+      "titre": "Contrôle de la carburation",
+      "contenu": "Optimise la performance du moteur, prévient le givrage du carburateur, améliore l'efficacité."
+    },
+    {
+      "titre": "Mélange trop riche - Effets",
+      "contenu": "Gaspillage carburant, encrassement bougies, puissance non nominale."
+    },
+    {
+      "titre": "Mélange trop pauvre - Effets",
+      "contenu": "Ratés moteur, vibration, perte de puissance, risques de surchauffe."
+    },
+    {
+      "titre": "Meilleur ratio air/essence pour puissance",
+      "contenu": "Environ 15:1 (15 parts d'air pour 1 part d'essence). Le ratio stoechiométrique est 14.7:1."
+    },
+    {
+      "titre": "Givrage carburateur - Conditions",
+      "contenu": "Humidité élevée, température entre -5°C et +15°C, température près du point de rosée."
+    },
+    {
+      "titre": "Réchauffe carburateur - Effet",
+      "contenu": "Air chaud moins dense → mélange plus pauvre. Enrichir légèrement lors de l'utilisation."
+    },
+    {
+      "titre": "Dangers associés à un orage",
+      "contenu": "Faible visibilité, forts courants verticaux, grêle, pluie forte, givrage sévère, éclairs."
+    },
+    {
+      "titre": "Contournement d'un orage (HN)",
+      "contenu": "Contourner par la gauche (côté haute pression). Conditions plus favorables."
+    },
+    {
+      "titre": "Éclairage piste - Feux blancs",
+      "contenu": "Espacés de 200 pieds chaque côté de la piste."
+    },
+    {
+      "titre": "Seuil décalé (Displaced Threshold)",
+      "contenu": "Utilisable pour le décollage mais PAS pour l'atterrissage. Le seuil d'atterrissage est déplacé."
+    },
+    {
+      "titre": "Portion inutilisable d'une piste",
+      "contenu": "Marquée par des X blancs peints sur la surface."
+    },
+    {
+      "titre": "Lumières de piste et voies de circulation",
+      "contenu": "Piste = BLANC de chaque côté. Voies de circulation = BLEU. Croisements = ORANGE (ambre)."
     },
     {
       "titre": "Poids standards passagers",
@@ -869,6 +1080,119 @@
     {
       "titre": "Moteur 4 temps",
       "contenu": "Admission → Compression → Combustion → Échappement"
+    },
+    
+    {
+      "titre": "Fuselage - Rôle",
+      "contenu": "Contient la charge utile, les passagers et les membres d'équipage. Structure principale de l'avion."
+    },
+    {
+      "titre": "Construction monocoque - Inconvénient",
+      "contenu": "Coût de réparation élevé. La peau supporte les contraintes structurelles, rendant les réparations complexes."
+    },
+    {
+      "titre": "Aile - Structure la plus importante",
+      "contenu": "Les longerons sont les poutres principales qui supportent l'essentiel des charges de flexion."
+    },
+    {
+      "titre": "Aile - Composants",
+      "contenu": "Longerons (structure principale), Nervures (maintien du profil), Lisses (renfort). Ailerons = surfaces mobiles, pas structure."
+    },
+    {
+      "titre": "Empennage - Composants",
+      "contenu": "Stabilisateur horizontal, gouverne de profondeur, dérive (verticale), gouvernail de direction. Les volets n'en font PAS partie."
+    },
+    {
+      "titre": "Trains d'atterrissage - Traînée",
+      "contenu": "Classique (le plus de traînée) > Tricycle > Rétractable (le moins)."
+    },
+    {
+      "titre": "Système hydraulique",
+      "contenu": "Utilise un fluide sous pression pour effectuer un travail mécanique (train, volets, freins)."
+    },
+    {
+      "titre": "Commandes de vol - Petits avions",
+      "contenu": "Système mécanique (câbles, poulies, biellettes). Hydraulique/électrique pour les avions plus gros."
+    },
+    {
+      "titre": "Commandes électriques",
+      "contenu": "Peuvent actionner : volets, compensateurs, modification du pas de l'hélice."
+    },
+    {
+      "titre": "Arbre à cames",
+      "contenu": "Coordonne l'ouverture et la fermeture des soupapes d'admission et d'échappement."
+    },
+    {
+      "titre": "Moteur 4 temps - Ordre",
+      "contenu": "1. Admission, 2. Compression, 3. Combustion, 4. Échappement. (ACCE)"
+    },
+    {
+      "titre": "Phase de compression - Soupapes",
+      "contenu": "Soupape d'admission = FERMÉE, Soupape d'échappement = FERMÉE."
+    },
+    {
+      "titre": "Phase d'admission - Piston",
+      "contenu": "Le piston descend (PMH → PMB). Crée une dépression qui aspire le mélange air-carburant."
+    },
+    {
+      "titre": "Moteur 2 temps - Inconvénient",
+      "contenu": "Consommation relativement élevée. Peu de pièces, poids réduit, possibilité de surrégime."
+    },
+    {
+      "titre": "Double allumage",
+      "contenu": "2 bougies par cylindre, alimentées par 2 magnétos séparées. Sécurité et meilleure combustion."
+    },
+    {
+      "titre": "Magnétos - Faux énoncé",
+      "contenu": "Ne font PAS partie du système électrique de l'avion. Sont indépendantes, entraînées mécaniquement."
+    },
+    {
+      "titre": "Panne d'un magnéto",
+      "contenu": "Moteur continue avec légère perte de puissance (perte de régime). Sécurité assurée par l'autre magnéto."
+    },
+    {
+      "titre": "Turbocompresseur - Principe",
+      "contenu": "Utilise les gaz d'échappement pour entraîner un compresseur. Augmente la densité de l'air envoyé au moteur."
+    },
+    {
+      "titre": "Refroidissement du moteur",
+      "contenu": "Par liquide (circuit), par huile (radiateur), ou par air (aliettes sur les cylindres)."
+    },
+    {
+      "titre": "Volets de capot (Cowl Flaps)",
+      "contenu": "Régulent la température du moteur en vol. Meilleure circulation d'air ou maintien de la chaleur en montée."
+    },
+    {
+      "titre": "Moteur le plus utilisé en petite aviation",
+      "contenu": "Moteur horizontal et opposé (Boxer) - Lycoming et Continental. Bon refroidissement air, forme compacte."
+    },
+    {
+      "titre": "Carburateur - Tâche principale",
+      "contenu": "Contrôler le mélange air-essence. Dose le carburant en fonction de l'air aspiré."
+    },
+    {
+      "titre": "Mélange trop riche - Effets",
+      "contenu": "Gaspillage carburant, encrassement bougies, puissance non nominale."
+    },
+    {
+      "titre": "Mélange trop pauvre - Effets",
+      "contenu": "Ratés moteur, vibration, perte de puissance, risques de surchauffe."
+    },
+    {
+      "titre": "Meilleur ratio air/essence pour puissance",
+      "contenu": "Environ 15:1. Rapport stoechiométrique = 14.7:1."
+    },
+    {
+      "titre": "Givrage carburateur - Conditions",
+      "contenu": "Humidité élevée, température entre -5°C et +15°C, près du point de rosée."
+    },
+    {
+      "titre": "Réchauffe carburateur - Effet",
+      "contenu": "Air chaud moins dense → mélange plus pauvre. Enrichir légèrement lors de l'utilisation."
+    },
+    {
+      "titre": "Moteur radial",
+      "contenu": "Ancien type de moteur. Cylindres en étoile autour du vilebrequin. Refroidissement par air."
     }
   ],
     "Instruments de vol": [
