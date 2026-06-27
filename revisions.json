@@ -8,21 +8,397 @@
       "titre": "Types de brouillard",
       "contenu": "Rayonnement (nuit claire), Advection (air chaud sur surface froide), Frontal (pluie s'évaporant dans l'air froid)"
     },
+        {
+      "titre": "Couches de l'atmosphère (ordre ascendant)",
+      "contenu": "Troposphère (0-11 km) → Stratosphère (11-50 km) → Mésosphère (50-85 km) → Thermosphère (85-600 km)."
+    },
+    {
+      "titre": "Propriétés physiques de l'atmosphère",
+      "contenu": "Mobilité (l'air se déplace), Expansibilité (l'air se dilate), Compressibilité (l'air se comprime)."
+    },
+    {
+      "titre": "Altimètre - Règle de correction",
+      "contenu": "1 po Hg = 1000 pieds. 'High to Low, look out below' (haute → basse pression = sous-estimation). 'Hot to Cold, don't be bold' (chaud → froid = sous-estimation)."
+    },
+    {
+      "titre": "Altitude pression - Calcul",
+      "contenu": "Altitude pression = Altitude réelle + (29.92 - Pression locale) × 1000. Exemple : 487' + (29.92 - 30.02) × 1000 = 387'."
+    },
+    {
+      "titre": "Altitude densité - Calcul",
+      "contenu": "Altitude densité = Altitude pression + (120 × écart de température). Écart = Température réelle - Température standard."
+    },
+    {
+      "titre": "Isobres",
+      "contenu": "Tracées à intervalles de 4 hPa. Rapprochées = gradient fort = vents violents. Espacées = gradient faible = vents légers."
+    },
+    {
+      "titre": "Sens de rotation des pressions (HN)",
+      "contenu": "Basse pression (dépression) → anti-horaire. Haute pression (anticyclone) → sens horaire."
+    },
+    {
+      "titre": "Loi de Buys Ballot (HN)",
+      "contenu": "Dos au vent : dépression à gauche, anticyclone à droite. (Dans l'hémisphère sud, c'est l'inverse)."
+    },
+    {
+      "titre": "Rayonnement terrestre",
+      "contenu": "La terre diffuse la chaleur emmagasinée pendant le jour par rayonnement infrarouge. Crée des inversions de température la nuit."
+    },
+    {
+      "titre": "Advection",
+      "contenu": "Mouvement horizontal de l'air transportant température et humidité. Advection froide = air froid vers chaud."
+    },
+    {
+      "titre": "Inversion de température",
+      "contenu": "Air chaud au-dessus d'air froid (renversement normal). Stabilité accrue, peut piéger la pollution et créer du brouillard."
+    },
+    {
+      "titre": "Processus adiabatique",
+      "contenu": "Changement de température par expansion (refroidissement) ou compression (réchauffement) sans échange de chaleur. Sec : 3°C/1000'. Humide : 1.5°C/1000'."
+    },
+    {
+      "titre": "Humidité relative 100%",
+      "contenu": "Saturation de l'air. La capacité de l'air à contenir de l'eau dépend de la température. L'air chaud contient plus d'humidité."
+    },
+    {
+      "titre": "Point de rosée",
+      "contenu": "Température à laquelle l'air doit être refroidi pour atteindre la saturation. Écart température - point de rosée < 2°C = air très humide."
+    },
+    {
+      "titre": "Base des nuages - Calcul",
+      "contenu": "Hauteur = (Température - Point de rosée) × 400. Exemple : 22°C - 18°C = 4°C × 400 = 1600 pieds."
+    },
+    {
+      "titre": "Air stable vs Air instable",
+      "contenu": "Stable : nuages stratiformes, précipitations continues, bonne visibilité. Instable : nuages cumuliformes, averses intermittentes, turbulence."
+    },
+    {
+      "titre": "Conditions de formation d'un nuage",
+      "contenu": "3 éléments : Air humide + Agent de soulèvement + Noyaux de condensation."
+    },
+    {
+      "titre": "Classification des nuages par altitude",
+      "contenu": "Bas (0-6500') : Stratus, Stratocumulus, Nimbostratus. Moyen (6500-23000') : Altocumulus, Altostratus. Élevé (16500-45000') : Cirrus, Cirrocumulus, Cirrostratus."
+    },
+    {
+      "titre": "Nimbostratus",
+      "contenu": "Nuage bas, gris foncé, couche uniforme. Donne des précipitations continues (pluie ou neige)."
+    },
+    {
+      "titre": "Types de brouillard",
+      "contenu": "Rayonnement (nuit claire, vent léger), Advection (air chaud/humide sur surface froide), Frontal (pluie s'évaporant dans air froid), Pente (air humide forcé de monter)."
+    },
+    {
+      "titre": "Dissipation du brouillard",
+      "contenu": "Réchauffement du sol par le soleil → évaporation des gouttelettes. Se dissipe généralement en fin de matinée."
+    },
+    {
+      "titre": "Nuages lenticulaires",
+      "contenu": "Associés aux ondes de relief (orographiques). Forme de lentille, air stable, turbulence modérée à forte."
+    },
+    {
+      "titre": "Cisaillement du vent",
+      "contenu": "Changement soudain de vitesse et/ou direction du vent. Dangereux près du sol (décollage/atterrissage)."
+    },
+    {
+      "titre": "Turbulence mécanique",
+      "contenu": "Causée par le frottement de l'air sur le sol et les obstacles (arbres, bâtiments). Augmente avec la vitesse du vent."
+    },
+    {
+      "titre": "Turbulence convective",
+      "contenu": "Causée par les courants ascendants d'air chaud. Évitable en volant au-dessus des nuages convectifs."
+    },
+    {
+      "titre": "Définition du vent",
+      "contenu": "L'air se déplace des zones de haute pression vers les zones de basse pression. Désigné par la direction D'ORIGINE."
+    },
+    {
+      "titre": "Force de Coriolis",
+      "contenu": "Force apparente due à la rotation de la Terre. Dans l'HN, dévie l'air vers la droite. Donne aux dépressions leur rotation anti-horaire."
+    },
+    {
+      "titre": "Effet d'entonnoir",
+      "contenu": "Vent accéléré par des rangées de collines ou chaînes de montagnes. Crée des vitesses considérables."
+    },
+    {
+      "titre": "Dextrogyre / Lévogyre",
+      "contenu": "Dextrogyre : vent tourne vers la droite avec l'altitude (HN). Lévogyre : vent tourne vers la gauche avec l'altitude (HN)."
+    },
+    {
+      "titre": "Masses d'air d'Amérique du Nord",
+      "contenu": "cA (continental Arctique - froid/sec), cP (continental Polaire - froid/sec), mP (maritime Polaire - froid/humide), mT (maritime Tropicale - chaud/humide/stable)."
+    },
+    {
+      "titre": "Air maritime tropical (mT)",
+      "contenu": "Chaud, humide et stable. Provient du Golfe du Mexique. Apporte conditions chaudes et humides."
+    },
+    {
+      "titre": "Définition d'un front",
+      "contenu": "Zone de transition entre deux masses d'air de caractéristiques différentes (température, humidité)."
+    },
+    {
+      "titre": "Frontogenèse / Frontolyse",
+      "contenu": "Frontogenèse = formation/intensification d'un front. Frontolyse = dissipation d'un front."
+    },
+    {
+      "titre": "Front froid - Formation des nuages",
+      "contenu": "Air froid force l'air chaud à monter rapidement. Air chaud se refroidit → condensation → cumulonimbus et averses violentes."
+    },
+    {
+      "titre": "Après un front froid",
+      "contenu": "Température ↓ diminue, Pression ↑ augmente, Vent vire (tourne vers la droite). Ciel se dégage."
+    },
+    {
+      "titre": "Après un front chaud",
+      "contenu": "Température ↑ augmente, Point de rosée ↑ augmente (air plus humide)."
+    },
+    {
+      "titre": "Précipitations front chaud en hiver",
+      "contenu": "Neige → Pluie verglaçante → Pluie (en s'approchant du front)."
+    },
+    {
+      "titre": "Gouttelettes surfondues",
+      "contenu": "Restent liquides jusqu'à -40°C. Gèlent à l'impact sur l'avion → givrage."
+    },
+    {
+      "titre": "Types de givrage",
+      "contenu": "Transparent (clear ice) : gouttelettes moyennes, lisse/dense/dur. Givre de gelée (rime ice) : petites gouttelettes, blanc/opaque/rugueux. Gelée blanche (hoar frost) : sublimation de vapeur d'eau."
+    },
+    {
+      "titre": "Taux de prise (givrage)",
+      "contenu": "Varie selon : quantité d'eau liquide (LWC), taille des gouttelettes (MVD), vitesse de l'avion, profil de l'aile."
+    },
+    {
+      "titre": "Conditions de formation d'un orage",
+      "contenu": "3 éléments : Air instable + Agent de soulèvement + Grande quantité d'humidité."
+    },
+    {
+      "titre": "Front de rafales (gust front)",
+      "contenu": "Air froid descendant de l'orage se répand sur le sol en avant de l'orage. Vents violents, chute de température, hausse de pression."
+    },
+    {
+      "titre": "Contournement d'un orage (HN)",
+      "contenu": "Contourner par la gauche (côté de la haute pression). Conditions plus favorables."
+    },
+    {
+      "titre": "Lignes de grain",
+      "contenu": "Lignes d'orages ou averses violentes. Accompagnées de précipitations intenses. Se développent en avant d'un front froid."
+    },
+    {
+      "titre": "Dangers associés à un orage",
+      "contenu": "Faible visibilité, forts courants verticaux (turbulence), grêle, pluie forte, givrage sévère, éclairs."
+    },
+    {
+      "titre": "Isobres - Gradient de pression",
+      "contenu": "Gradient fort = isobares rapprochées = vents forts. Gradient faible = isobares espacées = vents légers."
+    },
+    {
+      "titre": "Vent - Désignation",
+      "contenu": "Le vent est nommé selon son ORIGINE (d'où il vient). Exemple : vent d'ouest = vient de l'ouest."
+    },
+    {
+      "titre": "Pression et température en altitude",
+      "contenu": "La pression diminue avec l'altitude (air moins dense). La température diminue en moyenne de 1.98°C/1000' dans la troposphère."
+    },
+    {
+      "titre": "Dépression vs Anticyclone",
+      "contenu": "Dépression : pression basse au centre, air monte, temps instable. Anticyclone : pression haute au centre, air descend, temps stable."
+    },
     {
       "titre": "Formation d'un orage",
       "contenu": "Air instable + agent de soulèvement + humidité"
     }
   ],
-  "Navigation": [
+   "Navigation": [
     {
       "titre": "1 minute de latitude",
-      "contenu": "1 mile nautique (NM)"
+      "contenu": "1 minute de latitude = 1 mile nautique (NM). 1 degré de latitude = 60 NM."
+    },
+    {
+      "titre": "1 minute de longitude",
+      "contenu": "1 minute de longitude = 1 NM × cos(latitude). Varie donc avec la latitude (plus petite près des pôles)."
+    },
+    {
+      "titre": "Mile nautique vs Mile terrestre",
+      "contenu": "1 NM = 1.15 SM (miles terrestres). 1 NM = 1852 mètres."
+    },
+    {
+      "titre": "Noeud (Knot)",
+      "contenu": "1 noeud (kt) = 1 NM par heure. 1 kt = 1.85 km/h."
     },
     {
       "titre": "Fuseau horaire",
-      "contenu": "15° de longitude = 1 heure"
+      "contenu": "15° de longitude = 1 heure. La Terre fait 360° en 24h → 360 ÷ 24 = 15°."
+    },
+    {
+      "titre": "Temps universel coordonné (UTC/Zulu)",
+      "contenu": "Référence horaire mondiale = UTC (anciennement GMT). Tous les temps en aviation sont en UTC (Zulu)."
+    },
+    {
+      "titre": "Conversion heure locale ↔ UTC",
+      "contenu": "UTC = Heure locale - Décalage horaire. Exemple : Montréal (UTC-5 hiver, UTC-4 été)."
+    },
+    {
+      "titre": "Loxodromie (rhumb line)",
+      "contenu": "Ligne qui coupe tous les méridiens sous le même angle. Cap constant, mais CE N'EST PAS la distance la plus courte."
+    },
+    {
+      "titre": "Orthodromie (grand cercle)",
+      "contenu": "Distance la plus courte entre deux points sur la Terre. Le cap change constamment. Utilisée pour les longues distances."
+    },
+    {
+      "titre": "Projection des cartes VFR (Canada)",
+      "contenu": "Utilise la projection conique conforme de Lambert. Une ligne droite ≈ orthodromie (approximativement)."
+    },
+    {
+      "titre": "Projection de Mercator",
+      "contenu": "Ligne droite = loxodromie (cap constant). Utilisée en navigation maritime. Distorsion augmentant vers les pôles."
+    },
+    {
+      "titre": "Cartes VNC - Échelle",
+      "contenu": "Échelle 1/500 000 (1 cm = 5 km). Pour vols régionaux sous 12 500' ASL."
+    },
+    {
+      "titre": "Cartes VTA - Échelle",
+      "contenu": "Échelle 1/250 000 (1 cm = 2.5 km). Pour vols autour des aéroports contrôlés."
+    },
+    {
+      "titre": "Cartes LO - Échelle",
+      "contenu": "Échelle 1/500 000. Cartes de navigation générale (low altitude)."
+    },
+    {
+      "titre": "Cartes HIO - Échelle",
+      "contenu": "Échelle 1/1 000 000. Cartes de planification de vol (high altitude)."
+    },
+    {
+      "titre": "Teintes hypsométriques",
+      "contenu": "Indiquent l'élévation du terrain par rapport au niveau de la mer (ASL). Couleurs : vert (bas) → brun (élevé)."
+    },
+    {
+      "titre": "Déclinaison magnétique",
+      "contenu": "Angle entre le nord vrai (géographique) et le nord magnétique. Indiquée sur les cartes par des isogones."
+    },
+    {
+      "titre": "Déviation du compas",
+      "contenu": "Erreur causée par les champs magnétiques parasites de l'avion (moteur, instruments, métal). Carte de déviation sur la boussole."
+    },
+    {
+      "titre": "Formule de conversion des caps",
+      "contenu": "Cap vrai ± Déclinaison = Cap magnétique ± Déviation = Cap compas. 'West is best, East is least'."
+    },
+    {
+      "titre": "Règle mnémotechnique 'West is best'",
+      "contenu": "Déclinaison Ouest : AJOUTER. Déclinaison Est : SOUSTRAIRE. West = best (plus grand), East = least (plus petit)."
+    },
+    {
+      "titre": "Calcul du cap compas - Exemple",
+      "contenu": "Cap vrai 270°, déclinaison 12° Est, déviation +2° : 270 - 12 + 2 = 260°."
+    },
+    {
+      "titre": "Vitesse indiquée (IAS)",
+      "contenu": "Vitesse lue sur l'anémomètre. Corrigée des erreurs instrumentales et de position."
+    },
+    {
+      "titre": "Vitesse vraie (TAS)",
+      "contenu": "Augmente d'environ 2% par 1000 pieds d'altitude. TAS = IAS + (IAS × 2% × altitude en milliers de pieds)."
+    },
+    {
+      "titre": "Vitesse-sol (GS)",
+      "contenu": "TAS corrigée du vent. GS = TAS ± vent de face/arrière."
+    },
+    {
+      "titre": "Calcul de vitesse-sol",
+      "contenu": "Vitesse = Distance / Temps. Exemple : 15 NM en 8.5 min → 106 Kts."
+    },
+    {
+      "titre": "Calcul de consommation carburant",
+      "contenu": "Consommation totale = Consommation horaire × Durée. 1 gallon impérial = 4.546 litres."
+    },
+    {
+      "titre": "Calcul de déviation (règle du 60)",
+      "contenu": "Déviation (°) = (Écart / Distance) × 60. Exemple : écart 2 NM sur 40 NM → (2/40) × 60 = 3°."
+    },
+    {
+      "titre": "Calcul de temps de vol",
+      "contenu": "Temps = Distance / Vitesse. Exemple : 120 NM à 120 Kts = 1 heure."
+    },
+    {
+      "titre": "Coordonnées géographiques",
+      "contenu": "Latitude Nord/Sud (0-90°), Longitude Est/Ouest (0-180°). Exemple : N47°35' / W70°13'."
+    },
+    {
+      "titre": "Altitude au-dessus du sol (AGL)",
+      "contenu": "AGL = Above Ground Level. Hauteur par rapport au sol. Utilisée pour les altitudes minimales."
+    },
+    {
+      "titre": "Altitude au-dessus de la mer (ASL/AMSL)",
+      "contenu": "ASL = Above Sea Level / AMSL = Above Mean Sea Level. Altitude par rapport au niveau de la mer."
+    },
+    {
+      "titre": "NOTAM - Format de date",
+      "contenu": "AAMMJJHHMM = Année Mois Jour Heure Minute. Exemple : 2101291406 = 29 janvier 2021 à 14:06Z."
+    },
+    {
+      "titre": "NOTAMR (NOTAM de remplacement)",
+      "contenu": "NOTAMR = NOTAM Replacement. Remplace un NOTAM précédent. Indiqué par 'NOTAMR V1140/20'."
+    },
+    {
+      "titre": "NOTAMN (NOTAM nouveau)",
+      "contenu": "NOTAMN = NOTAM New. Nouveau NOTAM, ne remplace aucun autre."
+    },
+    {
+      "titre": "NOTAMC (NOTAM annulé)",
+      "contenu": "NOTAMC = NOTAM Cancelled. Annule un NOTAM existant."
+    },
+    {
+      "titre": "Décodage NOTAM - Obstacle",
+      "contenu": "Exemple : 'OBST LGT U/S 464801N 0712220W 45FT AGL, 250FT AMSL' = Feux d'obstacle hors service, 45' AGL, 250' AMSL."
+    },
+    {
+      "titre": "Règle d'étagement VFR (HN)",
+      "contenu": "Route magnétique de 000° à 179° → altitudes paires + 500' (3500, 5500, 7500...). Route 180° à 359° → altitudes impaires + 500' (4500, 6500, 8500...)."
+    },
+    {
+      "titre": "Règle d'étagement IFR",
+      "contenu": "Route magnétique 000° à 179° → altitudes paires (4000, 6000, 8000...). Route 180° à 359° → altitudes impaires (5000, 7000, 9000...)."
+    },
+    {
+      "titre": "Estimer la distance sur carte",
+      "contenu": "Utiliser les parallèles de latitude (1 minute = 1 NM) comme échelle sur les cartes VNC."
+    },
+    {
+      "titre": "Distance de réception VOR",
+      "contenu": "Distance (NM) = 1.23 × √(Altitude en pieds). Exemple : 7000' AGL → 103 NM."
+    },
+    {
+      "titre": "Tolérance VOR au sol",
+      "contenu": "Moins de 6 degrés par rapport au centre de l'indicateur d'écart de route (CDI)."
+    },
+    {
+      "titre": "GPS - Nombre de satellites",
+      "contenu": "Position 2-D (lat/long) = 3 satellites. Position 3-D (lat/long/alt) = 4 satellites."
+    },
+    {
+      "titre": "Bandes de fréquences en navigation",
+      "contenu": "NDB = LF/MF (30-3000 KHz). VOR/VDF = VHF (30-300 MHz). DME/TACAN = UHF (300-3000 MHz)."
+    },
+    {
+      "titre": "Systèmes de navigation UHF",
+      "contenu": "DME, VORTAC (VOR + TACAN), TACAN. Le VOR est en VHF, le NDB en LF/MF."
+    },
+    {
+      "titre": "ARCAL - Éclairage de piste",
+      "contenu": "Aircraft Radio Control of Aerodrome Lighting. Type M = activation par radio. Indiqué par 'M' sur les cartes."
+    },
+    {
+      "titre": "ATF - Aerodrome Traffic Frequency",
+      "contenu": "Fréquence utilisée sur les aéroports non contrôlés. Par défaut : 126.7 MHz si aucune n'est assignée."
+    },
+    {
+      "titre": "MF - Mandatory Frequency",
+      "contenu": "Fréquence obligatoire. Les comptes rendus sont : avant circulation, avant piste, avant décollage, après décollage, sortie zone."
     }
-  ],
+  ]
   "Droit aérien (RAC)": [
     {
       "titre": "Altitudes minimales",
@@ -59,7 +435,7 @@
       "contenu": "Admission → Compression → Combustion → Échappement"
     }
   ],
-  "Instruments de vol": [
+    "Instruments de vol": [
     {
       "titre": "Altimètre - Principe",
       "contenu": "Mesure la pression statique (prise statique) → indique l'altitude. Utilise une capsule anéroïde qui se dilate/contracte selon la pression."
