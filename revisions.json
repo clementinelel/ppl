@@ -404,6 +404,262 @@
       "titre": "Altitudes minimales",
       "contenu": "Zone bâtie : 1000' AGL + 2000' horizontal. Zone non-bâtie : 500' AGL"
     },
+        {
+      "titre": "Règle de vol à vue (VFR)",
+      "contenu": "VFR = Visual Flight Rules. Vol effectué en se guidant par repères visuels. Conditions VFR minimales selon l'espace aérien."
+    },
+    {
+      "titre": "Règle de vol aux instruments (IFR)",
+      "contenu": "IFR = Instrument Flight Rules. Vol effectué en se guidant uniquement par les instruments. Nécessite une licence et un équipement spécifiques."
+    },
+    {
+      "titre": "Définition d'un aérodrome",
+      "contenu": "Toute étendue de terre ou d'eau utilisée pour les activités de départ, d'arrivée, de manœuvres et d'entretiens des aéronefs."
+    },
+    {
+      "titre": "Aires de mouvement",
+      "contenu": "Partie de l'aérodrome destinée aux mouvements des aéronefs à la surface. Comprend l'aire de manœuvre (pistes, voies de circulation) et les aires de trafic."
+    },
+    {
+      "titre": "Transfert de propriété d'un aéronef",
+      "contenu": "Le propriétaire doit aviser Transports Canada par écrit dans les 7 jours suivant le transfert de responsabilité légale."
+    },
+    {
+      "titre": "Certificat intérimaire après transfert",
+      "contenu": "Expire le dernier jour de la période de 2 mois suivant la date du transfert. Le nouveau certificat officiel doit arriver entre-temps."
+    },
+    {
+      "titre": "Indicateur de direction du vent",
+      "contenu": "Couleur voyante, forme tronconique. Éclairé la nuit. Visible d'un aéronef à 1000' AGL et à 2 NM de distance."
+    },
+    {
+      "titre": "Éclairage de l'aire de mouvement (nuit)",
+      "contenu": "Parties inutilisables = feux ROUGES. Voies de circulation = feux BLEUS. Piste = feux BLANCS de chaque côté sur toute la longueur."
+    },
+    {
+      "titre": "Classes d'espaces aériens contrôlés",
+      "contenu": "Classes A, B, C, D, E. Service de contrôle de la circulation aérienne fourni."
+    },
+    {
+      "titre": "Classes d'espaces aériens non contrôlés",
+      "contenu": "Classes F et G. Aucun service de contrôle fourni. Le pilote est responsable de sa propre séparation."
+    },
+    {
+      "titre": "Classe A - Espace aérien contrôlé",
+      "contenu": "Vols IFR uniquement. Pas de VFR. Hautes altitudes. Transpondeur Mode C obligatoire."
+    },
+    {
+      "titre": "Classe B - Espace aérien contrôlé",
+      "contenu": "Entre 12 500' et 17 999' ASL. Vols IFR et VFR autorisés. Transpondeur Mode C obligatoire."
+    },
+    {
+      "titre": "Classe C - Espace aérien contrôlé",
+      "contenu": "Vols IFR et VFR autorisés. Transpondeur Mode C obligatoire. Communication bilatérale requise pour les VFR (pas avant pénétration). Devient classe E lorsqu'elle est fermée."
+    },
+    {
+      "titre": "Classe D - Espace aérien contrôlé",
+      "contenu": "Vols IFR et VFR autorisés. Communication avec le contrôle requise avant la pénétration. Transpondeur Mode C si spécifié."
+    },
+    {
+      "titre": "Classe E - Espace aérien contrôlé",
+      "contenu": "Espace contrôlé mais avec services limités. Transpondeur Mode C si spécifié. Vols IFR et VFR autorisés."
+    },
+    {
+      "titre": "Classe F - Espace aérien non contrôlé",
+      "contenu": "Espace réglementé (CYR) ou consultatif (CYA). Activités spéciales (militaire, parachutisme, etc.)."
+    },
+    {
+      "titre": "Classe G - Espace aérien non contrôlé",
+      "contenu": "Espace complètement non contrôlé. Pas de service ATS. Le pilote est responsable de sa propre sécurité."
+    },
+    {
+      "titre": "CYA - Espace aérien consultatif",
+      "contenu": "Classe F consultative. Activités pouvant présenter un danger. Les pilotes sont avisés mais pas réglementés."
+    },
+    {
+      "titre": "CYR - Espace aérien réglementé",
+      "contenu": "Classe F réglementée. Activités dangereuses (tir, zones militaires). La pénétration peut être interdite ou restreinte."
+    },
+    {
+      "titre": "Zone P (Prohibited)",
+      "contenu": "Zone interdite (Prohibited Area). Survole interdit sauf autorisation spéciale."
+    },
+    {
+      "titre": "Zone R (Restricted)",
+      "contenu": "Zone réglementée (Restricted Area). Survole autorisé sous certaines conditions."
+    },
+    {
+      "titre": "Zone D (Danger)",
+      "contenu": "Zone dangereuse (Danger Area). Activités dangereuses peuvent avoir lieu. Survole à éviter."
+    },
+    {
+      "titre": "ADIZ - Zone d'identification de défense aérienne",
+      "contenu": "Air Defense Identification Zone. Plan de vol obligatoire. Comptes rendus à l'entrée/sortie et 15 min avant passage. Écart > 5 min ou 20 NM = aviser ATC."
+    },
+    {
+      "titre": "Altitude minimale - Zone bâtie",
+      "contenu": "1000 pieds AGL au-dessus de l'obstacle le plus élevé dans un rayon horizontal de 2000 pieds."
+    },
+    {
+      "titre": "Altitude minimale - Zone non-bâtie",
+      "contenu": "500 pieds AGL."
+    },
+    {
+      "titre": "Règles VFR - Espace contrôlé",
+      "contenu": "Visibilité 3 SM, distance horizontale des nuages 1 SM, distance verticale 500 pieds."
+    },
+    {
+      "titre": "Règles VFR - Espace non contrôlé (>1000' AGL)",
+      "contenu": "Visibilité 3 SM le jour, 500' vertical des nuages, 1 SM horizontal."
+    },
+    {
+      "titre": "Règles VFR - Espace non contrôlé (≤1000' AGL)",
+      "contenu": "Visibilité 2 SM le jour, rester en dehors des nuages. Nuit : 3 SM, rester en dehors des nuages."
+    },
+    {
+      "titre": "VFR OTT - Conditions",
+      "contenu": "Visibilité > 5 SM, distance verticale des nuages ≥ 1000', distance entre 2 couches ≥ 5000', sans orage ni précipitations."
+    },
+    {
+      "titre": "VFR Spécial - Conditions",
+      "contenu": "Visibilité > 1 SM, rester hors des nuages, repères visuels au sol. Équipement radio requis. Uniquement de jour dans les zones de contrôle."
+    },
+    {
+      "titre": "Priorité de passage des aéronefs",
+      "contenu": "Ballons > Dirigeables > Planeurs > Avions. Les aéronefs les moins manœuvrables ont la priorité."
+    },
+    {
+      "titre": "Évitement d'abordage",
+      "contenu": "Aéronef dépassé = cède le passage. Approche frontale = chaque avion modifie cap vers la DROITE. Approche finale = céder le passage aux aéronefs à plus basse altitude."
+    },
+    {
+      "titre": "Acrobatie aérienne",
+      "contenu": "Interdite au-dessus d'une zone bâtie ou rassemblement si visibilité < 3 SM et plafond < 2000' AGL."
+    },
+    {
+      "titre": "Règles d'étagement VFR (HN)",
+      "contenu": "Route magnétique 000°-179° = altitudes paires + 500' (3500, 5500, 7500...). Route 180°-359° = altitudes impaires + 500' (4500, 6500, 8500...)."
+    },
+    {
+      "titre": "Délai après consommation d'alcool",
+      "contenu": "8 heures minimum entre la dernière boisson alcoolisée et l'action en tant que membre d'équipage ('bottle to throttle')."
+    },
+    {
+      "titre": "Démarrage du moteur",
+      "contenu": "Interdit à moins que : l'avion soit occupé par une personne capable de le maîtriser, des mesures empêchent son déplacement, il ne soit pas laissé sans surveillance."
+    },
+    {
+      "titre": "Givrage - Règles",
+      "contenu": "Interdit de décoller si du givre/glace/neige adhère aux surfaces critiques. Interdit si les conditions laissent prévoir du givrage."
+    },
+    {
+      "titre": "Exigences carburant - Jour",
+      "contenu": "Réserve de 30 minutes à vitesse de croisière après l'arrivée à destination."
+    },
+    {
+      "titre": "Exigences carburant - Nuit",
+      "contenu": "Réserve de 45 minutes à vitesse de croisière après l'arrivée à destination."
+    },
+    {
+      "titre": "Plan de vol VFR - Obligation",
+      "contenu": "Obligatoire pour les vols entre le Canada et un pays étranger, et pour les vols dans l'ADIZ."
+    },
+    {
+      "titre": "Comptes rendus en zone MF - Départ",
+      "contenu": "Avant de circuler, avant de s'engager sur la piste, avant le décollage, après le décollage, à la sortie de la zone."
+    },
+    {
+      "titre": "Comptes rendus en zone MF - Arrivée",
+      "contenu": "5 NM avant l'entrée avec intentions, au moment d'intégrer le circuit, en finale, à l'écart de la piste."
+    },
+    {
+      "titre": "Comptes rendus en zone MF - Posé-décollés",
+      "contenu": "En vent arrière, en finale, lorsque vous quittez la surface d'atterrissage."
+    },
+    {
+      "titre": "Traversée d'une zone MF en vol",
+      "contenu": "Contacter l'unicom 5 minutes avant de pénétrer dans la zone et à la sortie de la zone."
+    },
+    {
+      "titre": "Fréquence ATF par défaut",
+      "contenu": "126.7 MHz si aucune fréquence n'est assignée à la zone ATF."
+    },
+    {
+      "titre": "Altitude minimale autour d'un aérodrome",
+      "contenu": "Interdit de voler en dessous de 2000' AGL d'un aérodrome, sauf autorisation de l'unité de contrôle."
+    },
+    {
+      "titre": "Équipements requis - Vol VFR de jour",
+      "contenu": "Altimètre, anémomètre, compas magnétique, tachymètre, indicateurs de pression/température d'huile, indicateur de niveau de carburant."
+    },
+    {
+      "titre": "Ceinture de sécurité",
+      "contenu": "Le commandant de bord doit ordonner le bouclage pendant les mouvements au sol, le décollage, l'atterrissage, et chaque fois qu'il le juge nécessaire."
+    },
+    {
+      "titre": "Oxygène - Exigences",
+      "contenu": "Entre 10 000' et 13 000' : maximum 30 minutes sans oxygène. Au-dessus de 13 000' : oxygène obligatoire pour toutes les personnes à bord."
+    },
+    {
+      "titre": "Transpondeur Mode C - Obligation",
+      "contenu": "Obligatoire dans les classes A, B, C, D et E si spécifié."
+    },
+    {
+      "titre": "ELT - Test",
+      "contenu": "Test possible durant moins de 5 secondes, dans les 5 premières minutes de chaque heure UTC."
+    },
+    {
+      "titre": "Panne de communication radio",
+      "contenu": "Quitter l'espace contrôlé par le trajet le plus court. Afficher code 7600. Informer ATC dès que possible."
+    },
+    {
+      "titre": "Feux de forêt - Règles",
+      "contenu": "Ne pas voler à moins de 3000' AGL et garder une distance de 5 NM de la zone sinistrée."
+    },
+    {
+      "titre": "Dispositifs de flottaison",
+      "contenu": "> 50 NM du rivage ou 30 min de vol : radeau de sauvetage pour toutes les personnes à bord."
+    },
+    {
+      "titre": "Transpondeur - Codes d'urgence",
+      "contenu": "7700 = Détresse générale. 7600 = Panne radio. 7500 = Détournement (détresse)."
+    },
+    {
+      "titre": "Signaux lumineux ATC",
+      "contenu": "Vert fixe = autorisé à atterrir/décoller. Rouge fixe = arrêter. Blanc clignotant = retourner au parking."
+    },
+    {
+      "titre": "Modification de plan de vol",
+      "contenu": "Aviser l'unité de contrôle en cas de changement de trajet, durée ou altitude."
+    },
+    {
+      "titre": "ATIS - Automatic Terminal Information Service",
+      "contenu": "Service automatique d'information de région terminale. Diffuse météo, pistes en service, approches disponibles, NOTAM."
+    },
+    {
+      "titre": "FISE - Flight Information Service Enroute",
+      "contenu": "Service d'information de vol en route. Fournit météo, NOTAM, informations sur le trafic. Fréquence dans le CFS."
+    },
+    {
+      "titre": "NOTAM - Définition",
+      "contenu": "Notice to Airmen. Information temporaire importante pour la sécurité des vols (obstacles, fermeture, procédures)."
+    },
+    {
+      "titre": "NOTAMR - NOTAM de remplacement",
+      "contenu": "NOTAMR = NOTAM Replacement. Remplace un NOTAM précédent. Exemple : NOTAMR V1140/20."
+    },
+    {
+      "titre": "NOTAMN - NOTAM nouveau",
+      "contenu": "NOTAMN = NOTAM New. Nouveau NOTAM, ne remplace aucun autre."
+    },
+    {
+      "titre": "NOTAMC - NOTAM annulé",
+      "contenu": "NOTAMC = NOTAM Cancelled. Annule un NOTAM existant."
+    },
+    {
+      "titre": "NOTAM - Format de date",
+      "contenu": "AAMMJJHHMM = Année Mois Jour Heure Minute. Exemple : B) 2101291406 = début 29 janvier 2021 à 14:06Z."
+    },
     {
       "titre": "Règles VFR",
       "contenu": "Visibilité 3 SM, 500' vertical des nuages, 1 SM horizontal"
