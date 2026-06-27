@@ -342,18 +342,25 @@ let revisionData = {};
 // ===== CHARGEMENT DES DONNÉES =====
 Promise.all([
     fetch("./questions.json").then(r => r.json()),
-    fetch("./revisions.json").then(r => r.json()).catch(() => ({}))
+    fetch("./revisions.json").then(r => r.json()).catch(() => {
+        console.log("⚠️ revisions.json non trouvé, utilisation de données vides");
+        return {};
+    })
 ])
 .then(([questionsData, revisionsData]) => {
+    console.log("✅ questions.json chargé :", questionsData.length, "questions");
+    console.log("✅ revisions.json chargé :", Object.keys(revisionsData).length, "catégories");
+    
     questions = questionsData;
     revisionData = revisionsData;
+    
     setupCategories();
     setupRevisionFilters();
     renderRevisionCards('all');
 })
 .catch(err => {
-    document.getElementById("question").textContent = "Erreur chargement JSON";
-    console.error(err);
+    console.error("❌ Erreur de chargement:", err);
+    document.getElementById("question").textContent = "Erreur chargement JSON : " + err.message;
 });
 
 // ===== ONGLETS =====
@@ -398,6 +405,8 @@ function setupCategories(){
 function setupRevisionFilters() {
     const container = document.getElementById('filterContainer');
     const cats = Object.keys(revisionData);
+    
+    console.log("📚 Catégories trouvées dans revisions.json:", cats);
 
     // Garder le bouton "Toutes"
     container.innerHTML = '';
@@ -436,17 +445,22 @@ function renderRevisionCards(category) {
     container.innerHTML = '';
 
     let cards = [];
+    
     if (category === 'all') {
         Object.keys(revisionData).forEach(cat => {
-            revisionData[cat].forEach(item => {
-                cards.push({ ...item, category: cat });
-            });
+            if (Array.isArray(revisionData[cat])) {
+                revisionData[cat].forEach(item => {
+                    cards.push({ ...item, category: cat });
+                });
+            }
         });
     } else {
-        if (revisionData[category]) {
+        if (revisionData[category] && Array.isArray(revisionData[category])) {
             cards = revisionData[category].map(item => ({ ...item, category }));
         }
     }
+
+    console.log("📚 Cartes à afficher:", cards.length);
 
     if (cards.length === 0) {
         container.innerHTML = '<p style="text-align:center;color:#888;padding:40px 0;">Aucune fiche de révision pour cette catégorie.</p>';
