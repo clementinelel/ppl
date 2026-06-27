@@ -8,7 +8,7 @@
       "titre": "Types de brouillard",
       "contenu": "Rayonnement (nuit claire), Advection (air chaud sur surface froide), Frontal (pluie s'évaporant dans l'air froid)"
     },
-    {
+        {
       "titre": "Couches de l'atmosphère (ordre ascendant)",
       "contenu": "Troposphère (0-11 km) → Stratosphère (11-50 km) → Mésosphère (50-85 km) → Thermosphère (85-600 km)."
     },
@@ -83,6 +83,10 @@
     {
       "titre": "Nimbostratus",
       "contenu": "Nuage bas, gris foncé, couche uniforme. Donne des précipitations continues (pluie ou neige)."
+    },
+    {
+      "titre": "Types de brouillard",
+      "contenu": "Rayonnement (nuit claire, vent léger), Advection (air chaud/humide sur surface froide), Frontal (pluie s'évaporant dans air froid), Pente (air humide forcé de monter)."
     },
     {
       "titre": "Dissipation du brouillard",
@@ -199,9 +203,13 @@
     {
       "titre": "Dépression vs Anticyclone",
       "contenu": "Dépression : pression basse au centre, air monte, temps instable. Anticyclone : pression haute au centre, air descend, temps stable."
+    },
+    {
+      "titre": "Formation d'un orage",
+      "contenu": "Air instable + agent de soulèvement + humidité"
     }
   ],
-  "Navigation": [
+   "Navigation": [
     {
       "titre": "1 minute de latitude",
       "contenu": "1 minute de latitude = 1 mile nautique (NM). 1 degré de latitude = 60 NM."
@@ -390,7 +398,7 @@
       "titre": "MF - Mandatory Frequency",
       "contenu": "Fréquence obligatoire. Les comptes rendus sont : avant circulation, avant piste, avant décollage, après décollage, sortie zone."
     }
-  ],
+  ]
   "Droit aérien (RAC)": [
     {
       "titre": "Altitudes minimales",
@@ -427,7 +435,7 @@
       "contenu": "Admission → Compression → Combustion → Échappement"
     }
   ],
-  "Instruments de vol": [
+    "Instruments de vol": [
     {
       "titre": "Altimètre - Principe",
       "contenu": "Mesure la pression statique (prise statique) → indique l'altitude. Utilise une capsule anéroïde qui se dilate/contracte selon la pression."
@@ -546,5 +554,27 @@
     },
     {
       "titre": "Instruments par succion",
-      "contenu": "Horizon artificiel et conservateur de cap (généralement). Le coordonnateur de vira"
-        },
+      "contenu": "Horizon artificiel et conservateur de cap (généralement). Le coordonnateur de virage est souvent électrique."
+    },
+    {
+      "titre": "Erreurs de pression",
+      "contenu": "Basse pression non corrigée → altimètre surestime l'altitude. Haute pression non corrigée → altimètre sous-estime l'altitude."
+    },
+    {
+      "titre": "Transition de pression",
+      "contenu": "Lorsqu'on passe d'une région de calage altimétrique à l'autre, on règle l'altimètre à 29.92 AVANT d'entrer dans la nouvelle région."
+    },
+    {
+      "titre": "RVR - Runway Visual Range",
+      "contenu": "Portée visuelle de piste, exprimée en pieds. Exemple : R24/4000FT/U = RVR piste 24 = 4000 pieds, tendance à la hausse (U)."
+    },
+    {
+      "titre": "ELT - Emergency Locator Transmitter",
+      "contenu": "Test possible durant moins de 5 secondes, dans les 5 premières minutes de chaque heure UTC."
+    },
+    {
+      "titre": "Transpondeur Mode C",
+      "contenu": "Obligatoire dans les classes A, B, C, D et E si spécifié. Transmet l'altitude pression (en codage Gillham)."
+    }
+  ]
+}
