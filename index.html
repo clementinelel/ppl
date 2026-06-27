@@ -294,7 +294,7 @@ h1{
 
 <div class="card">
 
-    <!-- MENU QUIZ -->
+    <!-- SECTION QUIZ -->
     <div id="quizSection">
         <div class="menu">
             <select id="category"></select>
@@ -343,7 +343,7 @@ let revisionData = {};
 Promise.all([
     fetch("./questions.json").then(r => r.json()),
     fetch("./revisions.json").then(r => r.json()).catch(() => {
-        console.log("⚠️ revisions.json non trouvé, utilisation de données vides");
+        console.log("⚠️ revisions.json non trouvé");
         return {};
     })
 ])
@@ -359,8 +359,8 @@ Promise.all([
     renderRevisionCards('all');
 })
 .catch(err => {
-    console.error("❌ Erreur de chargement:", err);
-    document.getElementById("question").textContent = "Erreur chargement JSON : " + err.message;
+    console.error("❌ Erreur:", err);
+    document.getElementById("question").textContent = "Erreur chargement JSON";
 });
 
 // ===== ONGLETS =====
@@ -406,9 +406,8 @@ function setupRevisionFilters() {
     const container = document.getElementById('filterContainer');
     const cats = Object.keys(revisionData);
     
-    console.log("📚 Catégories trouvées dans revisions.json:", cats);
+    console.log("📚 Catégories trouvées:", cats);
 
-    // Garder le bouton "Toutes"
     container.innerHTML = '';
     const allBtn = document.createElement('button');
     allBtn.className = 'cat-filter-btn active';
@@ -427,7 +426,6 @@ function setupRevisionFilters() {
     });
 }
 
-// ===== FILTRER LES FICHES =====
 function filterRevision(cat, activeBtn) {
     document.querySelectorAll('.cat-filter-btn').forEach(b => b.classList.remove('active'));
     if (activeBtn) activeBtn.classList.add('active');
@@ -459,8 +457,6 @@ function renderRevisionCards(category) {
             cards = revisionData[category].map(item => ({ ...item, category }));
         }
     }
-
-    console.log("📚 Cartes à afficher:", cards.length);
 
     if (cards.length === 0) {
         container.innerHTML = '<p style="text-align:center;color:#888;padding:40px 0;">Aucune fiche de révision pour cette catégorie.</p>';
