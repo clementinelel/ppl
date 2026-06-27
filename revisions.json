@@ -670,6 +670,186 @@
       "titre": "Hypoxie",
       "contenu": "Insuffisance d'oxygène → ralentissement des fonctions cérébrales"
     },
+     {
+      "titre": "Hypoxie - Symptômes",
+      "contenu": "Euphorie, diminution de la vision, incapacité à se concentrer, irritabilité, ralentissement des réflexes. En stade avancé : perte de conscience."
+    },
+    {
+      "titre": "Hypoxie - Types",
+      "contenu": "Hypoxique (manque O2 dans l'air), Anémique (sang ne transporte pas assez O2), Stagnant (mauvaise circulation), Histotoxique (cellules n'utilisent pas l'O2)."
+    },
+    {
+      "titre": "Hyperventilation - Définition",
+      "contenu": "Respiration rapide et ample, supérieure aux besoins métaboliques. Élimination excessive de CO₂ → déséquilibre."
+    },
+    {
+      "titre": "Hyperventilation - Symptômes",
+      "contenu": "Étourdissements, picotements (mains, pieds, visage), vision floue, confusion. Peut être confondue avec l'hypoxie."
+    },
+    {
+      "titre": "Hyperventilation - Remède",
+      "contenu": "Respirer dans un sac ou ralentir la respiration délibérément. Parler à voix haute pour réguler la respiration."
+    },
+    {
+      "titre": "Hypoxie vs Hyperventilation",
+      "contenu": "Hypoxie = manque d'O2. Hyperventilation = trop de respiration (perte de CO₂). En altitude, les symptômes sont similaires, donc difficiles à distinguer."
+    },
+    {
+      "titre": "Anoxie",
+      "contenu": "Absence totale d'oxygène. Stade ultime de l'hypoxie. Entraîne une perte de conscience rapide et la mort si non corrigée."
+    },
+    {
+      "titre": "Effets de l'alcool en altitude",
+      "contenu": "1 verre au sol = 2 verres à 12 000 pieds. L'effet de l'alcool est amplifié en altitude (réduction de la pression partielle d'O2)."
+    },
+    {
+      "titre": "Alcool - Délai avant de piloter",
+      "contenu": "8 heures minimum entre la dernière boisson alcoolisée et l'action en tant que membre d'équipage ('bottle to throttle')."
+    },
+    {
+      "titre": "Délais médicaux - Don de sang",
+      "contenu": "Attendre 24 heures après un don de sang avant de piloter. Le corps a besoin de temps pour rétablir son volume sanguin."
+    },
+    {
+      "titre": "Délais médicaux - Anesthésie générale",
+      "contenu": "Attendre 48 heures avant de piloter. Attendre l'avis du médecin de l'aviation."
+    },
+    {
+      "titre": "Délais médicaux - Anesthésie locale",
+      "contenu": "Attendre l'accord du médecin avant de piloter. Même une anesthésie locale peut affecter la coordination et le jugement."
+    },
+    {
+      "titre": "Délais médicaux - Plongée sous-marine (avec palier)",
+      "contenu": "Attendre 24 heures avant de voler jusqu'à 6000 pieds ASL. Pour éviter le mal de décompression."
+    },
+    {
+      "titre": "Délais médicaux - Plongée sous-marine (sans palier)",
+      "contenu": "Attendre 12 heures avant de voler jusqu'à 8000 pieds ASL."
+    },
+    {
+      "titre": "Grossesse - Pilotage",
+      "contenu": "Une femme enceinte peut piloter jusqu'à la 30e semaine de grossesse, sans restriction médicale particulière."
+    },
+    {
+      "titre": "Médicaments - Règles générales",
+      "contenu": "Informer son médecin qu'on est pilote. Consulter un médecin de l'aviation. En dernier recours : attendre 24h après la prise."
+    },
+    {
+      "titre": "Médicaments - Avec/sans ordonnance",
+      "contenu": "Ne jamais piloter sous l'influence d'un médicament sans connaître ses effets secondaires. Certains médicaments en vente libre peuvent affecter les performances."
+    },
+    {
+      "titre": "Stress - Effets",
+      "contenu": "Effets sur le corps (tension, rythme cardiaque), sur les émotions (anxiété, irritabilité) et sur l'esprit (difficulté de concentration, perte de jugement)."
+    },
+    {
+      "titre": "Stress - Gestion",
+      "contenu": "Reconnaître les signes, utiliser des techniques de relaxation, bien planifier son vol, connaître ses limites."
+    },
+    {
+      "titre": "Fatigue - Effets",
+      "contenu": "Réduit les performances, la vigilance, le temps de réaction et la capacité de prise de décision. Augmente le risque d'erreur."
+    },
+    {
+      "titre": "Fatigue - Prévention",
+      "contenu": "Bien dormir avant un vol, faire des pauses régulières, s'hydrater, éviter les repas lourds. Connaître ses limites."
+    },
+    {
+      "titre": "Attitudes dangereuses - Les 5",
+      "contenu": "1. Invulnérabilité, 2. Machisme, 3. Refus de l'autorité, 4. Impulsivité, 5. Résignation."
+    },
+    {
+      "titre": "Invulnérabilité - Attitude dangereuse",
+      "contenu": "La personne pense que rien ne peut lui arriver. Provoque une baisse de vigilance et une prise de risques inconsidérée. Antidote : 'Ça peut m'arriver à moi aussi'."
+    },
+    {
+      "titre": "Machisme - Attitude dangereuse",
+      "contenu": "'Je peux le faire, je suis le meilleur'. Amène à prendre des risques inutiles pour prouver sa valeur. Antidote : 'Prendre des risques est stupide'."
+    },
+    {
+      "titre": "Refus de l'autorité - Attitude dangereuse",
+      "contenu": "'Je n'ai pas besoin de conseils, je connais tout'. Ignore les règles et les avis des autres. Antidote : 'Les autres peuvent m'aider'."
+    },
+    {
+      "titre": "Impulsivité - Attitude dangereuse",
+      "contenu": "'Je dois faire quelque chose maintenant'. Agit sans réfléchir aux conséquences. Antidote : 'Réfléchir avant d'agir'."
+    },
+    {
+      "titre": "Résignation - Attitude dangereuse",
+      "contenu": "'Qu'est-ce que je peux y faire ?'. Se sent impuissant face aux événements. Antidote : 'Je ne suis pas impuissant'."
+    },
+    {
+      "titre": "La règle de 5 P",
+      "contenu": "Plan, Plane, Pilot, Passengers, Programming. Vérifier ces 5 aspects avant chaque vol pour une meilleure prise de décision."
+    },
+    {
+      "titre": "Prise de décision - Facteurs influençant",
+      "contenu": "Vigilance, distraction, pression des pairs, connaissances insuffisantes, stress et refus des conséquences (déni des risques)."
+    },
+    {
+      "titre": "Illusions sensorielles - Définition",
+      "contenu": "Perceptions erronées causées par les sens (vue, ouïe, équilibre). Peuvent désorienter le pilote, surtout sans visibilité extérieure (IMC)."
+    },
+    {
+      "titre": "Illusion d'accélération",
+      "contenu": "Sans repère visuel, une accélération donne l'illusion de montée (assiette cabrée). Une décélération donne l'illusion de descente (assiette piquée)."
+    },
+    {
+      "titre": "Illusion de Coriolis",
+      "contenu": "Mouvement brusque de la tête → déplacement du liquide dans les canaux semi-circulaires → désorientation et confusion complète."
+    },
+    {
+      "titre": "Illusions visuelles - Piste large",
+      "contenu": "Piste plus large → semble plus proche → illusion d'être trop haut → approche trop basse."
+    },
+    {
+      "titre": "Illusions visuelles - Piste étroite",
+      "contenu": "Piste plus étroite → semble plus loin → illusion d'être trop bas → approche trop haute."
+    },
+    {
+      "titre": "Illusions visuelles - Piste ascendante",
+      "contenu": "Piste en pente ascendante → illusion d'être trop bas → approche trop haute."
+    },
+    {
+      "titre": "Illusions visuelles - Piste descendante",
+      "contenu": "Piste en pente descendante → illusion d'être trop haut → approche trop basse."
+    },
+    {
+      "titre": "Myopie du champ visuel vide",
+      "contenu": "L'œil se met au repos à l'infini quand il n'y a pas de point de référence proche. Risque de ne pas voir un autre aéronef. Antidote : balayage visuel."
+    },
+    {
+      "titre": "Technique de balayage visuel",
+      "contenu": "Regarder l'horizon, balayer par secteurs de ±10°, faire une pause à chaque secteur, utiliser un repère pour éviter la myopie du champ vide."
+    },
+    {
+      "titre": "Vision périphérique",
+      "contenu": "Meilleure pour détecter le mouvement et les objets en lumière faible. Utiliser la vision périphérique pour la détection du trafic."
+    },
+    {
+      "titre": "Vision centrale",
+      "contenu": "Meilleure pour la perception des détails, des couleurs et de la profondeur. Utiliser pour lire les instruments et identifier les objets."
+    },
+    {
+      "titre": "Illusions de virage",
+      "contenu": "Sans repère visuel, un virage à gauche peut donner l'illusion de tourner à droite, et vice-versa. Désorientation en IMC."
+    },
+    {
+      "titre": "Sommeil et pilotage",
+      "contenu": "Un pilote fatigué a un temps de réaction ralenti, une capacité de jugement réduite et une vigilance diminuée. Nécessité de bien dormir avant un vol."
+    },
+    {
+      "titre": "Nourriture et pilotage",
+      "contenu": "Manger léger avant un vol. Éviter les repas lourds et gras qui peuvent causer de la somnolence. S'hydrater régulièrement."
+    },
+    {
+      "titre": "Gestion des ressources du cockpit (CRM)",
+      "contenu": "Utilisation efficace de toutes les ressources disponibles (équipage, instruments, contrôle aérien) pour assurer la sécurité du vol."
+    },
+    {
+      "titre": "Facteurs affectant la vision en vol",
+      "contenu": "Hypoxie, fatigue, alcool, médicaments, stress, âge. Peuvent réduire l'acuité visuelle, la vision des couleurs et la perception de la profondeur."
+    },
     {
       "titre": "Hyperventilation",
       "contenu": "Respiration rapide → élimination excessive de CO₂"
